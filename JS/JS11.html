@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JS11_Page</title>
+</head>
+<body>
+<script type="text/javascript">
+    var anObject = {};  //一个对象
+    anObject.aProperty = "Property of object";  //对象的一个属性
+    anObject.aMethod = function () {
+        alert("Method of object");  //对象的一个方法
+    };
+
+    //主要看下面
+    alert(anObject["aProperty"]);   //可以将对象当前数组以属性名作为下标来访问属性
+    anObject["aMethod"]();  //可以将对象当数组以方法名作为下标来调用方法
+
+    for(var s in anObject)  //遍历对象的所有属性和方法进行迭代化处理
+        alert(s + " is a " + typeof (anObject[s]));
+                                                    // aProperty is a string
+                                                    // aMethod is a function
+
+</script>
+</body>
+</html>

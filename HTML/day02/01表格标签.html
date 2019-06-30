@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>表格</title>
+</head>
+<body>
+
+    <h3>三行三列的表格</h3>
+    <table width="500" align="center" height="300" border="1" cellspacing="2" cellpadding="5">
+        <tr align="center" >
+            <th>CPU</th>
+            <th>显卡</th>
+            <th>内存</th>
+        </tr>
+        <tr align="center">
+            <td>i5 9600K</td>
+            <td>RTX2070</td>
+            <td>16G DDR4 3200Hz</td>
+        </tr>
+        <tr align="center">
+            <td>i7 9700K</td>
+            <td>RTX2080TI</td>
+            <td>64G DDR4 4200HZ</td>
+        </tr>
+    </table>
+
+    cellspacing属性-定义表格单元格之间的空间<br />
+    cellpadding属性-表示单元格边框与单元格内容之间的距离<br />
+
+    <table border = "1" cellpadding = "5" cellspacing = "5">
+        <tr>
+            <th>Name</th>
+            <th>Salary</th>
+        </tr>
+        <tr>
+            <td>其琛</td>
+            <td>5000</td>
+        </tr>
+        <tr>
+            <td>曼迪</td>
+            <td>7000</td>
+        </tr>
+    </table>
+
+    如果要将两个或多个列合并为一个列，将使用colspan属性<br />
+    如果要合并两行或更多行，则将使用rowspan属性。<br />
+    <table border = "1">
+        <tr>
+            <th>Column 1</th>
+            <th>Column 2</th>
+            <th>Column 3</th>
+        </tr>
+        <tr>
+            <td rowspan = "2">Row 1 Cell 1</td>
+            <td>Row 1 Cell 2</td>
+            <td>Row 1 Cell 3</td>
+        </tr>
+        <tr>
+            <td>Row 2 Cell 2</td>
+            <td>Row 2 Cell 3</td>
+        </tr>
+        <tr>
+            <td colspan = "3">Row 3 Cell 1</td>
+        </tr>
+    </table>
+    <img src="images\HTML合并单元格.jpg" />
+
+
+</body>
+</html>

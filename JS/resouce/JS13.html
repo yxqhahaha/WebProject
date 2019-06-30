@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>放下对象</title>
+</head>
+<body>
+<script type="text/javascript">
+    function whoAmI() {
+        alert("I'm " + this.name + " of " + typeof (this));
+    };
+
+    whoAmI();   //输出 ： I'm  of object  ---此时this是根对象window，其name属性为空字符串。
+
+    var billGates = {name: "Bill Gates"};
+    billGates.whoAmI = whoAmI;    //将函数whoAmI作为billGates的方法。 this是billGates
+    billGates.whoAmI(); //输出 ： I'm Bill Gates of object
+
+    var SteveJobs ={name:"Steve Jobs"};
+    SteveJobs.whoAmI = whoAmI;
+    SteveJobs.whoAmI();         //输出 ： I'm Steve Jobs of object
+
+    whoAmI.call(billGates);     //直接将billGates作为this，调用whoAmI
+    //输出 ： I'm Bill Gates of object
+
+    whoAmI.call(SteveJobs); //直接将SteveJobs作为this，调用whoAmI
+    //输出 ： I'm Steve Jobs of object
+
+    billGates.whoAmI.call(SteveJobs);   //将SteveJobs作为this，却调用billGates的方法。
+                                        // 输出 ： I'm Steve Jobs of object
+
+    SteveJobs.whoAmI.call(billGates);   //将billGates作为this,却调用SteveJobs的方法。
+                                        // I'm Bill Gates of object
+    whoAmI.whoAmI = whoAmI; //将whoAmI函数设置为自身的方法
+    whoAmI.name = "whoAmI";
+    whoAmI.whoAmI();        //I'm whoAmI of function
+
+    ({name:"nobody", whoAmI:whoAmI}).whoAmI();  //创建一个匿名对象并调用其方法
+                            //I'm nobody of object
+
+</script>
+</body>
+</html>

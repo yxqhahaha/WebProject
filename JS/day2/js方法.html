@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>js方法</title>
+</head>
+<!--    函数的参数列表不需要写 var 直接写参数名
+    定义方法有三种
+        1、使用关键字function
+            --function 方法名 (参数列表){
+                返回值可有可无
+            }
+        2、匿名函数
+            --var add2 = function(m, n ){
+                 return m + n;
+              }
+        3、用的很少 动态函数
+            --使用js的内置对象Function
+            var funcName = new Function(“参数列表”“方法体和返回值”)
+-->
+
+<body>
+
+</body>
+<script type="text/javascript">
+    //方式一
+    function printNum(){
+        alert("ad");
+    }
+    //调用
+    printNum();
+    //定义有参数的function
+    function add(a, b) {
+        return a+b;
+    }
+    //
+    alert(add(2,12));
+
+    //方式二
+    var add2 = function(m, n ){
+        return m + n;
+    }
+    alert(add2(4,6));
+
+    //方式三
+    var add3 = new Function("a , b",
+        "return a + b;");
+    alert("add3 ； "+add3(4,7));
+
+    var canshu = "a, b";
+    var fnagfati = "return a + b;"
+    var add4 = new Function(canshu,fnagfati);
+    alert("动态函数:"+add4(2,0));
+</script>
+</html>

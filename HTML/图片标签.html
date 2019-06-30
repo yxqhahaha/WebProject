@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>图片标签</title>
+</head>
+<body>
+    <h3>HTML网页结构</h3>
+    <!--
+        img标签：
+            src：url
+            width：
+            height：
+            alt： 在图片上显示文字（兼容性很差）
+    --->
+    <img src="res/HTML网页结构.JPG" width="978" height="426" alt="HTML网页结构"/>
+    <!--
+        路径：
+            绝对路径：地址
+            相对路径：
+                同一路径下：直接文件名.类型
+
+                不同路径下 下层目录：
+                        D:\IntellijProject\WEB\JAVAWEB\src\HTML\    图片标签.html
+                        D:\IntellijProject\WEB\JAVAWEB\src\HTML\    res\HTML网页结构.JPG
+
+                不同路径 上层目录：
+                        D:\IntellijProject\WEB\JAVAWEB\src  \HTML\图片标签.html
+                        D:\IntellijProject\WEB\JAVAWEB\src  \res\HTML网页结构.JPG
+                       上层：  ../
+                       上层的上层：   ../../
+    -->
+    <hr/>
+    <img src="res/HTML网页结构JPG" width="978" height="426" alt="这是HTML网页结构"/>
+    <hr/><h3>带有title的图片</h3>
+    <img src="res/HTML网页结构.JPG" width="978" height="426" title="HTML网页结构"/>
+    <hr/><h3>带有边边框的图片</h3>
+    <img src="res/HTML网页结构.JPG" border="5px" width="978" height="426" title="HTML网页结构"/>
+</body>
+</html>

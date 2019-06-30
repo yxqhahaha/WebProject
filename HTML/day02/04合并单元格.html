@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>合并单元格</title>
+</head>
+<body>
+<!--跨行合并  rowspan-->
+
+<table align="center" border="1" width="240" height="300">
+    <thead>
+    <tr>
+        <td>数码</td>
+        <td>家电</td>
+        <td>生鲜</td>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>笔记本</td>
+        <td>手机</td>
+        <td>游戏机</td>
+    </tr>
+    <tr>
+        <td rowspan="2">电视</td>
+        <td>冰箱</td>
+        <td>洗衣机</td>
+    </tr>
+    <tr>
+       <!-- <td>XBOX</td>-->
+        <td>PS4</td>
+        <td>STEAM</td>
+    </tr>
+    </tbody>
+</table>
+<!--跨列合并 colspan-->
+<table align="center" border="1" width="240" height="300">
+    <thead>
+    <tr>
+        <td>数码</td>
+        <td>家电</td>
+        <td>生鲜</td>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>笔记本</td>
+        <td>手机</td>
+        <td>游戏机</td>
+    </tr>
+    <tr>
+        <td colspan="3">电视</td>
+      <!--  <td>冰箱</td>
+        <td>洗衣机</td>-->
+    </tr>
+    <tr>
+        <td>XBOX</td>
+        <td>PS4</td>
+        <td>STEAM</td>
+    </tr>
+    </tbody>
+</table>
+</body>
+</html>

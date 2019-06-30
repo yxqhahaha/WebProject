@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>js String对象</title>
+</head>
+<body>
+
+</body>
+<!-- String
+    length	返回字符串的长度
+
+    与HTML相关的方法
+        --bold();//加粗
+        --fontcolor();//设置字体颜色
+        --fontsize();//设置字体大小
+        --link();//将字符串显示为超链接  参数为超链接地址
+        --sub();//下标
+        --sup();//上标
+
+    与java相似的方法
+        --concat();// 连接字符串
+        --charAt();// 返回指定位置的字符串
+        --indexOf();// 返回指定字符串的位置
+        --split();// 把字符串切分成数组
+-->
+<script type="text/javascript">
+    //String length属性
+    var str = "yangxiuqian";
+    //alert(str.length);
+
+    //String 方法
+    //bold();方法
+    document.write("<hr/>");
+    document.write(str.bold());
+    document.write("<hr/>");
+    document.write(str.fontcolor("red"));
+    document.write("<hr/>");
+    document.write(str.fontsize(4));
+    document.write("<hr/>");
+    document.write("baidu".link("http;//www.baidu.com"));
+    document.write("<hr/>");
+    // --sub
+    //--sup
+    var s1 = "122";
+    var s2 = "222";
+    var s3 = "333";
+    document.write(s1.sub());
+    document.write(s2);
+    document.write(s3.sup());
+    document.write("<hr/>");
+
+
+    //concat
+    var str1 = "yangcn";
+    var str2 = "cnoooo";
+    document.write(str1.concat(str2));  //yangcncnoooo
+    document.write("<hr/>");
+    document.write(str1.charAt(4)); // c
+    document.write("<hr/>");
+    document.write(str1.indexOf("gc")); // 3
+    document.write("<hr/>");
+    var str3 = "a-d-dfa-sadf-vx-we";
+    var arrSplit = str3.split("-");
+    document.write(str3.split("-"));
+    document.write("<hr/>");
+    document.write(arrSplit);
+    document.write("<hr/>");
+    document.write("<hr/>");
+
+
+
+</script>
+</html>

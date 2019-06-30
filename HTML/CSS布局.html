@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS布局</title>
+    <style type="text/css">
+        /*  CSS布局
+            float   兼容性不好
+                --none  :　 默认值。对象不飘浮
+                --left  :　 文本流向对象的右边
+                --right  :　 文本流向对象的左边
+
+            position
+                static     :　 默认值。无特殊定位，对象遵循HTML定位规则
+                absolute   :　 将对象从文档流中拖出，使用 left ， right ， top ， bottom
+                                 等属性相对于其最接近的一个最有定位设置的父对象进行绝对定位。
+                                 如果不存在这样的父对象，则依据 body 对象。而其层叠通过 z-index 属性定义
+                fixed     :　 未支持。对象定位遵从绝对(absolute)方式。但是要遵守一些规范
+                relative  :　 对象不可层叠，但将依据 left ， right ， top ， bottom 等属性在正常文档流中偏移位置
+                                不会把对象从文档流中拖出去
+        */
+        div{
+            width: 200px;
+            height: 100px;
+            border: 2px solid darkslateblue;
+        }
+        #div11{
+            float: left;
+        }
+        #div22{
+            float: left;
+        }
+        #div33{
+             float: left;
+         }
+
+        #div41{
+            width: 200px;
+            height: 200px;
+            background-color: darkblue;
+        }
+        #div42{
+            position: absolute;
+            top: 50px;/*默认相对位置为网页的左上角*/
+            left: 80px;
+            background-color: coral;
+        }
+        #div43{
+            position: relative;
+            top: 120px;
+            left: 80px;
+            background-color: darkolivegreen;
+        }
+    </style>
+</head>
+<body>
+    <div id="div11">他强由他强，清风抚山冈</div>
+    <div id="div22">他横由他横，明月照大江。</div>
+    <div id="div33">他自狠来他自恶，我自一口真气足。</div>
+    <div></div>
+    <br/><hr/><hr/>
+    <div id="div41">他强由他强，清风抚山冈</div>
+    <div id="div42">他横由他横，明月照大江。</div>
+    <div id="div43">他自狠来他自恶，我自一口真气足。</div>
+
+</body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script type="text/javascript">
+    function sayHello(){ //定义全局sayHello函数
+        alert("Hello, I'm " + this.name);
+    };
+
+    function Person(name){
+        this.name = name;
+        this.sayHello = sayHello;   //设置sayHello方法为全局sayHello函数
+    };
+
+    var BillGates = new Person("Bill Gates");
+    var SteveJobs = new Person("STeve Jobs");
+
+    alert(BillGates.sayHello == SteveJobs.sayHello) ;//true
+</script>
+</body>
+</html>

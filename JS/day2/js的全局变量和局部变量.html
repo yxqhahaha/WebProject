@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>js的全局变量和局部变量</title>
+</head>
+
+<body>
+
+</body>
+<!--
+
+-->
+<script type="text/javascript">
+    var aa = "this var";    //全局变量
+    //局部变量  在定义的方法内部定义的变量为局部变量
+    alert("在方法的外部调用 ： " +aa);
+
+    function test1() {
+        alert("在方法内部调用 ；"+ aa);
+    }
+</script>
+
+<script type="text/javascript">
+    alert("在另一个script标签里调用： "+aa);
+</script>
+</html>

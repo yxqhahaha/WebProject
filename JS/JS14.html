@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JS构造函数</title>
+</head>
+<body>
+<script type="text/javascript">
+    function Person(name) { //带参数的构造函数
+        this.name = name;   //定义并初始化name属性
+        this.sayHello = function () {//定义对象方法sayHello
+            alert("hello, I'm " + this.name);
+        };
+    };
+
+    function employee(name,salary) {    //子构造函数
+        Person.call(this,name); //调用父类构造函数 !!!这里是 分号“  ， ”不是点“ . ”
+        this.salary = salary;   //添加并初始化salary属性
+
+        this.showMeTheMoney = function () { //添加对象方法并showMeTheMoney
+            alert(this.name + " $ " + this.salary);
+        };
+    };
+
+    //创建Person类的 BillGates对象
+    var BillGates = new Person("Bill Gates");
+    //创建employee类的SteveJobs
+    var SteveJobs = new employee("Steve Jobs",56463);
+
+    BillGates.sayHello();//hello, I'm Bill Gates
+    SteveJobs.sayHello();//hello, I'm Steve Jobs
+    SteveJobs.showMeTheMoney();//Steve Jobs $ 56463
+
+    alert(BillGates.constructor == Person);//true
+    alert(SteveJobs.constructor == employee);//true
+                                                //hello, I'm Bill Gates
+    alert(BillGates.sayHello() == SteveJobs.sayHello);//false
+</script>
+</body>
+</html>

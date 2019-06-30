@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JS07_Page</title>
+</head>
+<body>
+    <div align="center">
+        <img src="resouce\var修饰作用域01.JPG"/></br>
+        <img src="resouce\var修饰作用域02.JPG"/></br>
+        <img src="resouce\var修饰作用域03.JPG"/>
+
+    </div>
+
+<script type="text/javascript">
+    var yourName = "王菲";
+    myName = "yangx";
+
+    alert(myName + " like " + yourName);  //window alert : yangx like 张三
+
+    changeNames();  //调用改名函数
+
+    function changeNames() {
+        alert("your old name is : " + yourName);    //console print : your old name is : undefined
+        alert("My old name is : " + myName);    //console print : My old name is : yangx
+
+        var yourName = "王靖雯";
+        myName = "xiuqian";
+
+        alert(myName + " like " + yourName); //window alert : xiuqian like 王二
+    };
+
+    alert(yourName + " like " + myName);    //window alert : xiuqian like 张三
+
+    /**
+     *      显然，var 修饰yourName标识符在函数内外是两个东西，外面的“张三”不会因为changNames函数内
+     * 改成“王二”而改变，回到外面还是“张三”。
+     *      而没有用 var 修饰的标识符就是一个东西了，函数内的修改也就在函数外表现出来了。
+     *
+     *      使用 var 定义的变量只对本作用域有效
+     * **/
+</script>
+</body>
+</html>

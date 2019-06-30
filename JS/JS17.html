@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>多层次类型构造函数</title>
+</head>
+<body>
+<img src="resouce\原型示意图.jpg"/><br/>
+<img src="resouce\原型示意图2.jpg"/><br/>
+<img src="resouce\原型示意图3.jpg"/>
+<script type="text/javascript">
+    function Person(name) { //基类构造函数
+        this.name = name;
+    }
+
+    Person.prototype.sayHello = function () {//给基类构造函数的Prototype添加方法
+        alert("你好，我是" + this.name);
+    };
+
+    function employee(name,salary) {    //子类构造函数
+        Person.call(this,name); //调用基类构造函数
+        this.salary = salary;
+    }
+
+    employee.prototype = new Person();  //建一个基类的对象作为子类原型的原型（原型继承 ）
+
+    employee.prototype.showMeTheMoney = function() { //给子类构造函数的prototype
+        alert(this.name + " $ " + this.salary);
+    };
+
+    var BillGates = new Person("Bill Gates");   //创建基类Person的BillGates对象
+    var SteveJobs = new employee("Steve Jobs", 12345);  //创建子类employee的SteveJobs对象
+
+    BillGates.sayHello();   //通过对象直接调用到prototype的方法
+    SteveJobs.sayHello();   //通过子类对象直接调用基类prototype的方法
+    SteveJobs.showMeTheMoney(); //通过子类对象直接调用了子类prototype方法
+
+    alert(BillGates.sayHello == SteveJobs.sayHello);    //
+</script>
+
+</body>
+</html>

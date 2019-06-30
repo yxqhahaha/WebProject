@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>列表标签</title>
+</head>
+<body>
+    <!--
+        自定义列表
+        <dl></dl>：表示列表的范围
+        在dl里面： <dt></dt> 上层内容
+        在dl里面： <dd></dd> 下层内容
+    -->
+    <dl>
+        <dt>贵州民族大学</dt>
+        <dd>商学院</dd>
+        <dd>数信学院</dd>
+        <dd>体育学院</dd>
+        <dd>文学院</dd>
+    </dl>
+
+    <dl>
+        <dt>WEB</dt>
+        <dd>HTML</dd>
+        <dd>CSS</dd>
+        <dd>DIV</dd>
+        <dd>Frame</dd><!--dd 主要是对 dt做描述的-->
+    </dl>
+    <hr/>
+
+    <!--    有序列表
+          想要在页面上显示这样的效果
+          1、商学院
+          2、数信学院
+          3、体育学院
+          或者
+          a、商学院
+          b、数信学院
+          c、体育学院
+       -->
+    <!---
+         <ol></ol> 有序列表的范围
+            属性type：设置排序方式（默认123） a 1 i
+            在ol里面的内容： <li></li>
+    --->
+    <ol type="a">
+        <li>数信学院</li>
+        <li>体育学院</li>
+        <li>商学院</li>
+        <li>文学院</li>
+    </ol>
+    <hr/>
+    <!--    无序列表 ul
+         想要在页面上显示这样的效果
+         特殊符号（方框） 数信学院
+         特殊符号（原点） 商学院
+      -->
+    <ul type="square">
+        <li>数信学院</li>
+        <li>体育学院</li>
+        <li>商学院</li>
+        <li>文学院</li>
+    </ul>
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>创建对象的方法</title>
+</head>
+<body>
+<img src="resouce\创建对象的方法.jpg"/>
+<script type="text/javascript">
+    /*********************************
+     *      JSON 创建对象
+     * *********************************/
+    //创建一个没有任何属性的对象
+    var o = {};
+    //创建一个对象并设置属性及初始值
+    var person = {name:"Angel",age:19,maerried:false};
+    //创建一个更复杂的对象，嵌套其它对象和对象数组等
+    var company =
+        {
+            name:"Microsoft",
+            product:"softWares",
+            chairman:{name:"Bill Gates",age:63},
+            employees:[{name:"Angle",age:19},{name:"yangx",a:23}],
+            readme:function () {
+                document.write(this.name + " product : " + this.product);
+            }
+
+        };
+
+    /*************************************
+     *      创建对象
+     * **********************************/
+    function myFunc(){};    // 定义一个空函数
+    var obj01 = new myFunc();   //使用new操作符，借助myFunc函数，就创建了一个对象
+    var obj02 = new myFunc;   //函数也可以没有括号，但仍将调用对象
+
+    //也可将上面的代码写成这样的等价形式
+    function myFunc() {};
+    var obj03 = {}; //创建一个对象
+    myFunc().call(obj03);   //将obj03对象作为this指针调用myFunc函数。
+</script>
+
+</body>
+</html>

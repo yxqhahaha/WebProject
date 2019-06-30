@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Prototype原型</title>
+</head>
+<body>
+<script type="text/javascript">
+    function Person(name) {
+        this.name = name;   //设置对象属性，每个对象各自有一份属性数据
+    };
+
+    Person.prototype.sayHello = function () {//给Person函数的Prototype添加sayHello方法
+        alert("Hello, I'm " + this.name);
+    };
+
+    var BillGates = new Person("Bill Gates");
+    var SteveJobs = new Person("Steve Jobs");
+
+    BillGates.sayHello();
+    SteveJobs.sayHello();
+    alert(BillGates.sayHello == SteveJobs.sayHello);//true
+</script>
+</body>
+</html>
