@@ -1,92 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ae6b044c-02a9-45bd-91bb-03e89ddf2655" name="Default Changelist" comment="my">
-      <change afterPath="$PROJECT_DIR$/HTML/day02/12HTML5新增表单属性.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML/day02/13表单综合案例.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML/day02/14多媒体标签embed.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML/day02/movie.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML/day02/movie.ogg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML/day02/许镜清 - 无底船歌.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML/day03/02标签选择器.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML/day03/03类选择器.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML/day03/04谷歌案例.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML/day03/05多类名选择器.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML/day03/06id选择器.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML/day03/07类选择器和id选择器的区别.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML/day03/08通配符选择器.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML/day03/09伪类选择器.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML/day03/10伪类选择器.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML/day03/11结构伪类选择器（CSS3）.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML/day03/12结构为类选择器（二）.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML/day03/13目标伪类选择器.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML/day03/14行高对其和首行缩进.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML/day03/15单词间距.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML/day03/CSS样式.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML/day03/四大名著.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML/day03/综合案例/综合案例.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML/day04/01内部样式表.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML/day04/02行内样式表.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML/day04/03外部样式表.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML/day04/04块级元素和行内元素的区别.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML/day04/05行内块元素.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML/day04/06显示模式转换.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML/day04/07css复合选择器.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML/day04/08并集选择器.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML/day04/09后代选择器.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML/day04/10子元素选择器.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML/day04/11练习-测试选择器.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML/day04/12属性选择器.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML/day04/13属性选择器.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML/day04/14伪元素选择器.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML/day04/15伪元素选择器.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML/day04/16背景.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML/day04/17背景图片.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML/day04/20180629_113623680_iOS.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML/day04/21背景简写.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML/day04/22背景透明.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML/day04/23背景缩放.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML/day04/24多背景图片.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML/day04/25文字凹凸效果.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML/day04/26王者荣耀导航栏.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML/day04/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML/day04/_MG_9567.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML/day04/divcss.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML/day04/h.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML/day04/king.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML/day04/l.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML/day04/ms.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML/day04/外部样式表.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML/day05/01层叠性.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML/day05/02css的继承性.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML/test/indx.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTMLAuthoritativeGuide/ch03/3.8布尔属性.html" afterDir="false" />
+    <list default="true" id="ae6b044c-02a9-45bd-91bb-03e89ddf2655" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/HTMLAuthoritativeGuide/ch03/3.10自定义属性.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML/CSS布局.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/test/CSS布局.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML/CSS盒子模型.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/test/CSS盒子模型.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML/CSS结合HTML.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/test/CSS结合HTML.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML/CSS结合HTML方式4.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/test/CSS结合HTML方式4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML/CSS结合HTML方式三.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/test/CSS结合HTML方式三.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML/a.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/test/a.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML/b.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/test/b.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML/ccc.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/test/ccc.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML/day01/23自定义标签.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/day01/23自定义标签.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML/day02/01表格标签.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/day02/01表格标签.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML/day02/10datalist标签.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/day02/10datalist标签.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML/default.css" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/test/default.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML/其它常用标签.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/test/其它常用标签.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML/初识HTML.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/test/初识HTML.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML/图文混排案例.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/test/图文混排案例.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML/扩展选择器.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/test/扩展选择器.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML/框架标签.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/test/框架标签.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML/案例使用表单标签实现注册.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/test/案例使用表单标签实现注册.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML/案例图像签名.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/test/案例图像签名.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML/组合选择器.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/test/组合选择器.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML/表单标签.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/test/表单标签.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML/表格标签.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/test/表格标签.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML/超链接.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/test/超链接.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML/选择器.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/test/选择器.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -99,42 +16,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HTMLAuthoritativeGuide/ch03/3.8布尔属性.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HTML/test/初识HTML.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="487">
-              <caret line="25" column="20" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="20" />
-              <folding>
-                <element signature="e#657#663#0" expanded="true" />
-                <element signature="e#669#675#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HTML/day02/12HTML5新增表单属性.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/HTML/test/图片标签.html">
+        <entry file="file://$PROJECT_DIR$/HTMLAuthoritativeGuide/ch03/3.10自定义属性.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="252">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+              <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -162,7 +48,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/HTML/day02/10datalist标签.html" />
         <option value="$PROJECT_DIR$/HTML/day02/12HTML5新增表单属性.html" />
         <option value="$PROJECT_DIR$/HTML/day02/13表单综合案例.html" />
         <option value="$PROJECT_DIR$/HTML/day02/movie.ogg.html" />
@@ -213,14 +98,14 @@
         <option value="$PROJECT_DIR$/HTML/day04/16背景.html" />
         <option value="$PROJECT_DIR$/HTML/day05/02css的继承性.html" />
         <option value="$PROJECT_DIR$/HTMLAuthoritativeGuide/ch03/3.8布尔属性.html" />
+        <option value="$PROJECT_DIR$/HTMLAuthoritativeGuide/ch03/3.10自定义属性.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1132" />
-    <option name="y" value="51" />
+    <option name="x" value="1133" />
     <option name="width" value="1418" />
-    <option name="height" value="1420" />
+    <option name="height" value="1448" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -242,24 +127,6 @@
               <item name="WebProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="WebProject" type="462c0819:PsiDirectoryNode" />
               <item name="HTML" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebProject" type="462c0819:PsiDirectoryNode" />
-              <item name="HTML" type="462c0819:PsiDirectoryNode" />
-              <item name="day04" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebProject" type="462c0819:PsiDirectoryNode" />
-              <item name="HTML" type="462c0819:PsiDirectoryNode" />
-              <item name="day05" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebProject" type="462c0819:PsiDirectoryNode" />
-              <item name="HTML" type="462c0819:PsiDirectoryNode" />
-              <item name="res" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="WebProject" type="b2602c69:ProjectViewProjectNode" />
@@ -361,7 +228,7 @@
       <workItem from="1562026557610" duration="2989000" />
       <workItem from="1562033515344" duration="3588000" />
       <workItem from="1562052908273" duration="7259000" />
-      <workItem from="1562115352159" duration="10356000" />
+      <workItem from="1562115352159" duration="12328000" />
     </task>
     <task id="LOCAL-00001" summary="my">
       <created>1562130973619</created>
@@ -370,17 +237,24 @@
       <option name="project" value="LOCAL" />
       <updated>1562130973619</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="my">
+      <created>1562131087434</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1562131087434</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="140876000" />
+    <option name="totallyTimeSpent" value="142848000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="906" y="41" width="1134" height="1136" extended-state="0" />
+    <frame x="907" y="0" width="1134" height="1158" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20127505" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.20127505" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Messages" weight="0.32968128" />
@@ -392,7 +266,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32940018" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32163742" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -422,28 +296,37 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="my" />
     <option name="LAST_COMMIT_MESSAGE" value="my" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/CSS学习.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="280">
-            <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/day04/divcss.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/HTML/day04/ms.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -763,10 +646,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/HTML学习.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="448">
+            <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/HTML/test/图片标签.html">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="14" column="8" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTMLAuthoritativeGuide/ch03/3.10自定义属性.html">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
         </state>
       </provider>
     </entry>
