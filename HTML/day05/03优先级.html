@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>优先级</title>
+    <style>
+        div {
+            color: #cccccc;
+        }
+
+        .king {
+            color: #880bff;
+        }
+
+        :first-child {
+            color: orange;
+        }
+
+        #wang {
+            color: red;
+        }
+        /* 优先级最高的不是选择器 */
+        div {
+            color: black;!important;    /* 级别最高 */
+        }
+    </style>
+</head>
+<body>
+<div class="king" id="wang">
+    王者不可阻挡
+</div>
+<div class="king" id="wang" style="color: green">
+    王者不可阻挡
+</div>
+    <pre>
+        !important > 行内样式 > id选择器 > 类、伪类选择器 > 元素（标签）选择器
+    </pre>
+</body>
+</html>
