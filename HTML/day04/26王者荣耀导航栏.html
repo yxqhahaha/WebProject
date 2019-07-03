@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>王者不可阻挡</title>
+    <style>
+        body {
+            background-color: #000;
+            background-image: url(king.jpg);
+        }
+        a {
+
+            width: 200px;
+            height: 50px;
+            //background-color: orange;
+            display: inline-block;
+            text-align: center;/*文字水平居中*/
+            /*在一行内的盒子内，我们设定行高等于盒子的高度，就可以使文字垂直居中*/
+            line-height: 50px;
+            color: #000000;
+            text-decoration: none;  /*取消下划线*/
+            font-size: 24px;
+        }
+        /*链接伪类选择器*/
+        a:hover {
+            background: url("h.png") no-repeat;
+        }
+    </style>
+</head>
+<body>
+    <a href="#">专区说明</a>
+    <a href="#">申请资格</a>
+    <a href="#">奖励兑换</a>
+    <a href="#">下载游戏</a>
+    <pre>
+        text-decoration   通常我们用于给链接修改装饰效果
+        值                    描述
+        none                默认。定义标准的文本。
+        underline           定义文本下的一条线。下划线 也是我们链接自带的
+        overline            定义文本上的一条线。
+        line-through        定义穿过文本下的一条线。
+
+    </pre>
+</body>
+</html>

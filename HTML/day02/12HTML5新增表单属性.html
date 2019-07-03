@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML5新增表单属性</title>
+</head>
+<body>
+    <img src="images\HTML5常用的新属性.jpg" width="500px"/><br />
+    <!--placeholder 占位符 灰色的提示-->
+    用户名：<input type="text" placeholder="请输入用户名"/><br />
+    <!--自动获得焦点-->
+    搜 索：<input type="text" autofocus="autofocus" /><br />
+    <!--多文件上传-->
+    上传头像：<input type="file" multiple="multiple" /><br />
+    <!--自动记录完成-->
+    <!--autocomplete 默认 = on  规定表单是否应该启用自动完成功能
+        1、首先需要提交按钮
+        2、这个表单必须给名字
+        -->
+    <form action="#">
+        <!--accesskey = "keyValue"  按下alt+keyVale获得焦点-->
+        姓名：<input type="text" autocomplete="on" accesskey="a" name="userName"/>
+        <!--required 不能为空-->
+        昵称：<input type="text" required="required" />
+        <input type="submit" value="提交" />
+    </form>
+
+</body>
+</html>

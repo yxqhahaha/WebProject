@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>行内样式表</title>
+    <style>
+        div{
+            height: 100px;
+        }
+        span {
+            /*行级标签设置宽高无效*/
+            width: 100px;
+            height: 22px;
+        }
+    </style>
+</head>
+<body>
+    <div style="font-size: 20px; color: red; text-align: center">今日阳光明媚</div>
+    <span>行内样式表</span>
+    <!--span 不允许放div标签-->
+    <!--文字类标签不允许放块级元素-->
+    <div>今日阳光明媚</div>
+    <div>今日阳光明媚</div>
+    <div>今日阳光明媚</div>
+    <div>今日阳光明媚</div>
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>多媒体标签embed</title>
+</head>
+<body>
+    <!--
+        --embed ：标签定义嵌入的内容
+        --audio：播放音频
+        --video：播放视频
+    -->
+    <!--使用flash播放-->
+    <!--  没有加载到资源
+    <embed src="url" />
+
+    -->
+    <!--
+            autoplay 自动播放
+            controls 显示播放控件：可以控制音量和播放进度条
+            loop：循环次数  -1为无限循环
+    -->
+    <audio src="许镜清%20-%20无底船歌.mp3" autoplay="autoplay" controls loop="-1"></audio>
+    <!--为了浏览器兼容 音频文件会准备两种或三种格式-->
+    <audio controls autoplay="autoplay">
+        <source src="许镜清%20-%20无底船歌.mp3"/>
+        <source src="许镜清%20-%20无底船歌.ogg"/>
+        你的浏览器不支持播放音频文件。
+    </audio>
+    <!--
+        video元素支持三种视频格式
+            ogg
+            mpeg4
+            webm
+    -->
+    <video src="movie.mp4" autoplay="autoplay" controls></video>
+    <!--兼容性写法-->
+    <video controls autoplay="autoplay">
+        <source src="movie.mp4"/>
+        <source src="movie.ogg"/>
+        你的浏览器不支持播放视频！
+    </video>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>背景简写</title>
+    <style>
+        body {
+            background: #000 url("ms.jpg") no-repeat fixed center -25px;
+
+        }
+        pre {
+            font-size: 25px;
+            margin-top: 600px;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <pre>
+        background属性的值的书写顺序官方并没有强制标准的。为了可读性，建议大家如下写：
+
+        background:背景颜色 背景图片地址 背景平铺 背景滚动 背景位置
+
+        background: transparent url(image.jpg) repeat-y  scroll 50% 0 ;
+    </pre>
+</body>
+</html>

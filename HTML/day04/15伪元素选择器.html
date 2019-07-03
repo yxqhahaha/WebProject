@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>伪元素选择器</title>
+    <style>
+        /*在盒子内部的前面插入内容*/
+        div::before {
+            content: "俺";
+        }
+        /*在盒子内部的后面插入内容*/
+        div::after {
+            content: "18岁";
+        }
+    </style>
+</head>
+<body>
+    <div>
+        今年
+    </div>
+</body>
+</html>

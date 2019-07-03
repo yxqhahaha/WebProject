@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>单词间距</title>
+    <style>
+        div {
+
+            /*字间距*/
+            letter-spacing: 15px;
+        }
+
+        span {
+            /*单 词 间距*/
+            /*letter-spacing 属性与 word-spacing 的区别在于，字母间隔修改的是字符或字母之间的间隔。*/
+            word-spacing: 300px;
+        }
+
+        /*文字半透明*/
+        h1 {
+            /*color: green;*/
+            /*
+                rgb(red,green,blue,a)
+                a:透明度 ：0 - 1
+            */
+            color: rgba(0,0,0, 0.1);
+        }
+
+        pre {
+            /*设置文字阴影效果*/
+            /*
+                text-shadow:水平位置 垂直位置 模糊距离 阴影颜色
+                水平位置（必须）:阴影往右偏移 可以为负值，往左
+                垂直位置（必须）：阴影往下偏移 可以为负值
+                模糊距离：可以简单认为模糊程度 0 1 2 3 4（到4就几乎糊成一团）
+            */
+
+            font-size: 30px;
+            text-shadow: 7px 5px 2px rgba(0,0,0,0.2);
+        }
+    </style>
+</head>
+<body>
+    <h1>文字半透明</h1>
+    <div>熊大熊大，我是熊二，Over！</div>
+    <span>hello！your is pig</span>
+    <pre>
+        CSS 文本属性
+            属性 描述
+            color 设置文本颜色
+            direction 设置文本方向。
+            line-height 设置行高。
+            letter-spacing 设置字符间距。
+            text-align 对齐元素中的文本。
+            text-decoration 向文本添加修饰。
+            text-indent 缩进元素中文本的首行。
+            text-shadow 设置文本阴影。CSS2 包含该属性，但是 CSS2.1 没有保留该属性。
+            text-transform 控制元素中的字母。
+            unicode-bidi 设置文本方向。
+            white-space 设置元素中空白的处理方式。
+            word-spacing 设置字间距。
+    </pre>
+    快捷方式
+    <div class="nav"></div>
+    <div class="header"></div>
+    <div class="main">
+        <div class="left"></div>
+        <div class="right"></div>
+    </div>
+    <div class="nav"></div>
+    <div class="header"></div>
+    <div class="red"></div>
+    <div id="ref"></div>
+    <div>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+    </div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <p></p>
+    <p></p>
+    <p></p>
+    <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+    <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>链接伪类选择器</title>
+    <style>
+        /*!!!!注意 ： 这个顺序不要改变 lvha*/
+        a:link {
+            /*未访问的链接*/
+            font-size: 20px;
+            color: gray;
+            font-weight: 700;
+        }
+        a:visited{
+            /*访问过的链接*/
+            font-size: 20px;
+            color: orange;
+            font-weight: 700;
+        }
+        a:hover{
+            /*鼠标悬停时*/
+            font-size: 20px;
+            color: red;
+            font-weight: 700;
+        }
+        a:active{
+            /*鼠标选中的链接*/
+            font-size: 20px;
+            color: green;
+            font-weight: 700;
+        }
+
+    </style>
+</head>
+<body>
+    <!--
+        伪类选择器中的 链接伪类选择器
+            主要正对于 a
+    -->
+    <span ><a href="#" >黎明</a> </span>
+    <span ><a href="#">张学友</a></span>
+    <span>毕福剑</span>
+    <span >光头强</span>
+</body>
+</html>

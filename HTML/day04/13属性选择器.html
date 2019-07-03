@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>属性选择器</title>
+    <style>
+        /*显示灰色 实际生效 class^=font 模糊匹配:前面相同*/
+        div[class^=font] {
+            color: silver;
+        }
+        /*显示灰色 实际生效 class^=font 模糊匹配：后面相同*/
+        div[class$=footer]{
+            color: olive;
+        }
+        /*显示灰色 实际生效 class^=font 模糊匹配：任意位置包含 =标识 */
+        div[class*=tao]{
+            color: greenyellow;
+        }
+    </style>
+</head>
+<body>
+    <div class="font12">属性选择器</div>
+    <div class="font14">属性选择器</div>
+    <div class="font18">属性选择器</div>
+    <div class="font20">属性选择器</div>
+    <div class="font24">属性选择器</div>
+    <div class="sub-footer">属性选择器</div>
+    <div class="jd-footer">属性选择器</div>
+    <div class="news-tao-nav">属性选择器</div>
+    <div class="news-tao-header">属性选择器</div>
+    <div class="tao-header">属性选择器</div>
+</body>
+</html>

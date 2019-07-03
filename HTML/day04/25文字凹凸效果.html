@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>文字凹凸效果</title>
+    <style>
+        body {
+            background-color: #ccc;
+        }
+        div {
+            color: #cccccc;
+            font: 700 60px "Microsoft YaHei UI";
+        }
+        div:first-child {
+            /*水平 垂直 模糊距离 阴影颜色*/
+            text-shadow: 1px 1px 1px #000,
+                        -1px -1px 1px #fff;
+        }
+        div:last-child {
+            /* text-shadow: 水平位置  垂直位置  模糊距离 阴影颜色; */
+            text-shadow: -1px -1px 1px #000,
+                        1px 1px 1px #fff;
+        }
+    </style>
+</head>
+<body>
+    <div>我是凸起的文字</div>
+    <div>我是凹下的文字</div>
+</body>
+</html>

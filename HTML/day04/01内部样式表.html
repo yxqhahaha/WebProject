@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>内部样式表</title>
+    <style>
+        div {
+            font-size: 30px;
+            text-align: center;
+            text-shadow: 2px 2px 1px rebeccapurple;
+        }
+        pre {
+            color: #200eff;
+            font-size: 18px;
+            font-weight: normal;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        内部样式表
+    </div>
+    <pre>
+        内嵌式是将CSS代码集中写在HTML文档的head头部标签中，并且用style标签定义，其基本语法格式如下：
+        &lt;style type="text/css"&gt;
+            选择器 {属性1：属性值；属性2;属性值；......}
+        &lt;/style&gt;
+
+        语法中，style标签一般位于head标签中title之后，也可以吧style标签放到html文档的任何地方。
+
+        type="text/css"在html5中可以省略，写上也比较符合规范，所以这个地方可以写也可以省略。
+    </pre>
+</body>
+</html>

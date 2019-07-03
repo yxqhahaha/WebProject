@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>属性选择器</title>
+    <style>
+        /*属性选择器用中括号来表示*/
+        a[title] {
+            color: red;
+        }
+        input[type=text] {
+            color: gray;
+        }
+        input[type=submit] {
+            color: #5d7cff;
+        }
+    </style>
+</head>
+<body>
+    <!--选择标签-->
+    <a href="#" title="百度">百度</a>
+    <a href="#" title="搜狐">搜狐网</a>
+    <a href="#">哔哩哔哩弹幕网</a>
+    <a href="#">AcFun</a>
+    <a href="#">YouTube</a>
+    <input type="text"  value="文本"/>
+    <input type="text" value="文本"/>
+    <input type="submit" value="提交"/>
+    <input type="submit" value="提交"/>
+    <input type="text" value="文本"/>
+    <input type="text" value="文本"/>
+    <input type="submit" value="提交"/>
+    <input type="submit" value="提交"/>
+    <input type="reset" value="文本"/>
+    <input type="text" value="重置"/>
+    <input type="reset" value="重置"/>
+    <input type="submit" value="提交"/>
+</body>
+</html>

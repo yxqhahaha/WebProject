@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>多背景图片</title>
+    <style>
+        div {
+            width: 500px;
+            height: 500px;
+            background: url("l.jpg") no-repeat left top,
+                        url("3.jpg") no-repeat right bottom #ccc;
+
+        }
+    </style>
+</head>
+<body>
+<div></div>
+    <pre >
+        以逗号分隔可以设置多背景，可用于自适应布局  做法就是 用逗号隔开就好了。
+
+        - 一个元素可以设置多重背景图像。
+        - 每组属性间使用逗号分隔。
+        - 如果设置的多重背景图之间存在着交集（即存在着重叠关系），前面的背景图会覆盖在后面的背景图之上。
+        - 为了避免背景色将图像盖住，<strong>背景色通常都定义在最后一组上，</strong>
+
+        background:url(test1.jpg) no-repeat scroll 10px 20px/50px 60px  ,
+               url(test1.jpg) no-repeat scroll 10px 20px/70px 90px ,
+               url(test1.jpg) no-repeat scroll 10px 20px/110px 130px c #aaa;
+
+-
+
+    </pre>
+</body>
+</html>
