@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>07边框写法总结</title>
+    <style>
+        input{
+            border: none;
+        }
+        .userNmae {
+            border-width: 1px;
+            border-color: pink;
+            border-style: solid;
+        }
+        .nc {
+            border-top-width: 1px;
+            border-top-color: rebeccapurple;
+            border-top-style: solid;
+            border-bottom-width: 1px;
+            border-bottom-color: rebeccapurple;
+            border-bottom-style: solid;
+        }
+        .password {
+            /*border-top: 1px solid red;
+            border-bottom: 1px solid green;*/
+            border: 2px dotted blue;
+        }
+    </style>
+</head>
+<body>
+    用户名：<input type="text" class="userNmae"><br />
+    密  码：<input type="text" class="password"><br />
+    昵  称：<input type="text" class="nc"><br />
+    <pre>
+        样式综合设置：border-style:上边 [右边 下边 左边];
+                    none无（默认）、solid单实线、dashed虚线、dotted点线、double双实线
+        宽度综合设置  border-width:上边 [右边 下边 左边]; 像素值
+        颜色综合设置  border-color:上边 [右边 下边 左边];  颜色值、#十六进制、rgb(r,g,b)、rgb(r%,g%,b%)
+        边框综合设置  border:四边宽度 四边样式 四边颜色;
+        	border-top: 1px solid red; /*上边框*/
+            border-bottom: 2px solid green; /*下边框*/
+            border-left: 1px solid blue;
+            border-right: 5px solid pink;
+            border: 1px solid red;
+    </pre>
+</body>
+</html>

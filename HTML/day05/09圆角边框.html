@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>09圆角边框</title>
+    <style>
+        div {
+            width: 200px;
+            height: 200px;
+            border: 1px solid red;
+        }
+        div:first-child{
+            /*结构伪类选择器*/
+            border-radius: 30px;/*一个数值表示四个角都是相同的 10px 弧度*/
+        }
+        div:nth-child(2){
+            /*border-radius: 100px ;!*取高度和宽度的一半 则会变成圆*!*/
+            border-radius: 50% ;/*取高度和宽度的一半 则会变成圆*/
+        }
+        div:nth-child(3){
+            /*
+                左上角 右下角 20px
+                右上角 左下角 80px
+            */
+            border-radius: 20px 80px;
+        }
+        div:nth-child(4){
+            /*
+                左上角  20px
+                右上角 左下角 80px
+                右下角 50px
+            */
+            border-radius: 20px 80px 50px;
+        }
+        div:nth-child(5){
+            /*
+                顺时针
+                左上角  20px
+                右上角 80px
+                右下角 50px
+                左下角 100px
+            */
+            border-radius: 20px 80px 50px 100px;
+        }
+        div:nth-child(6){
+            /*
+                顺时针
+                 100px
+                 高度 100px
+            */
+            border-radius: 100px;
+            height: 100px;
+        }
+        div:nth-child(7){
+            /*
+                顺时针
+                 100px
+
+            */
+            border-radius: 100px 0;
+        }
+    </style>
+</head>
+<body>
+    <div>30px</div>
+    <div>50%</div>
+    <div>左上角 右下角 20px
+        右上角 左下角 80px</div>
+    <div>左上角  20px
+        右上角 左下角 80px
+        右下角 50px</div>
+    <div>顺时针
+        左上角  20px
+        右上角 80px
+        右下角 50px
+        左下角 100px</div>
+    <div>     100px
+        高度 100px</div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+</body>
+</html>

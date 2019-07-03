@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>权重叠加</title>
+    <style>
+
+        /*
+            ul 0 0 0 1
+            li 0 0 0 1
+            叠加 0 0 0 2
+        */
+        ul li {
+            color: green;
+        }
+
+        li {    /*0 0 0 1*/
+            color: red;
+        }
+        /*
+          nav 0 0 0 1
+          ul 0 0 0 1
+          li 0 0 0 1
+          叠加 0 0 0 3
+        */
+        nav ul li {
+            color: blue;
+        }
+        /*
+                .nav 0 0 1 0
+                 ul 0 0 0 1
+                 li 0 0 0 1
+               叠加 0 0 1 2
+             */
+        .daohang ul li {
+            color: deeppink;
+        }
+    </style>
+</head>
+<body>
+    <nav class="daohang">
+        <ul>
+            <li>李白</li>
+            <li>高渐离</li>
+            <li>荆轲</li>
+        </ul>
+    </nav>
+</body>
+</html>
