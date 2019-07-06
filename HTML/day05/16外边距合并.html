@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>16外边距合并</title>
+    <style>
+        div {
+            width: 200px;
+            height: 200px;
+            background-color: sienna;
+        }
+        div:first-child {
+            margin-bottom: 100px;
+        }
+        div:last-child {
+            background: purple;
+            margin-top: 50px;
+            /*外边距合并 垂直的块级盒子 以最大外边距为准*/
+        }
+    </style>
+</head>
+<body>
+<div></div>
+<div></div>
+</body>
+</html>

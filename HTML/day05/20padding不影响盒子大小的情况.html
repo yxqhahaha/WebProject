@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>20padding不影响盒子大小的情况</title>
+    <style>
+        div {
+            /*如果一个盒子没有给定高度 或者宽度 就不会影响*/
+            height: 30px;
+            border: 1px solid red;
+            padding-left: 20px;
+        }
+        nav {
+            width: 300px;
+            height: 30px;
+            border: 1px solid pink;
+        }
+        p {
+            /*因为p没有指定宽度，则会默认和父 一样宽*/
+            height: 20px;
+            background-color: #c1c1c1;
+            padding-left: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div>
+        王者不可阻挡
+    </div>
+    <nav>
+        <p>老子今天不上班</p>
+    </nav>
+</body>
+</html>

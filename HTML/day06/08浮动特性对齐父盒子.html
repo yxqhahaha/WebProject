@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>08浮动特性对齐父盒子</title>
+    <style>
+        div {
+            margin: 0 auto;
+        }
+        .nav{
+            width: 1366px;
+            height: 200px;
+            background-color: rgba(0,0,0,0.2);
+            border: 2px solid black;
+        }
+        .navFirst {
+            width: 366px;
+            height: 200px;
+            background-color: #c197ff;
+            float: left;
+        }
+        .navSecond {
+            width: 1000px;
+            height: 200px;
+            background-color: #ff49ee;
+            float: left;
+        }
+        .con {
+            width: 1366px;
+            height: 150px;
+            background-color: #ffd600;
+        }
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <div class="navFirst"></div>
+        <div class="navSecond"></div>
+    </div>
+    <div class="con"></div>
+    <div></div>
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>13图片和背景文字和盒子对齐区别</title>
+    <style>
+        div {
+            width: 300px;
+            height: 100px;
+            border: 1px solid pink;
+            text-align: center;/*文字水平居中*/
+            margin: 10px auto;/*盒子水平居中 左右为auto*/
+        }
+
+        section {
+            width: 400px;
+            height: 400px;
+            border:1px solid #000;
+
+        }
+        section img {
+            width: 200px;
+            height: 210px;
+            margin-top: 30px;/*插入图片更改位置*/
+            margin-left: 50px;
+        }
+        aside {
+            width: 400px;
+            height: 400px;
+            border: 1px solid purple;
+            background: rgba(124, 141, 112, 0.55) url(sun.jpg) no-repeat;
+            background-size: 200px 210px;
+            /*更改背景图片大小只能用 background-size  */
+            background-position: 30px 50px;/*背景图片更改位置 background-position */
+        }
+    </style>
+</head>
+<body>
+    1、文组水平居中  和  盒子水平居中
+    <div>
+        <span>文字水平居中</span>
+    </div>
+
+    2、插入图片和背景图片
+    <section>
+        <img src="sun.jpg"  alt="">123456
+    </section>
+    <aside>
+        <soan>123test</soan>
+    </aside>
+    3、一般情况下，背景图片适合做一些小图标使用
+</body>
+</html>
