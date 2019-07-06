@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>11一列固定宽度且居中</title>
+    <style>
+        * {
+            /*清除内外边距*/
+            margin: 0;
+            padding: 0;
+        }
+        .top ,
+        .banner,
+        .main,
+        .footer {
+            width: 960px;
+            margin: 0 auto;/*盒子居中对齐*/
+            text-align: center;/*文字居中对齐*/
+            line-height: 80px;/*不能写100%*/
+            margin-bottom: 15px;
+            border: 2px dashed sienna;
+
+        }
+        .top {
+
+            height: 80px;
+
+            background-color: silver;
+        }
+
+        .banner {
+            height: 120px;
+            background-color: #4c4ec0;
+        }
+
+        .main {
+            height: 500px;
+            background-color: #c08e61;
+        }
+
+        .footer {
+            height: 80px;
+            background-color: #28172f;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="top">top</div>
+    <div class="banner">banner</div>
+    <div class="main">main</div>
+    <div class="footer">footer</div>
+</body>
+</html>

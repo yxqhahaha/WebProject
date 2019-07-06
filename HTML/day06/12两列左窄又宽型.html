@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>12两列左窄又宽型</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        /*并集选择器 集体声明*/
+        .top,
+        .banner,
+        .main,
+        .footer {
+            width: 960px;
+            margin: 0 auto;
+            border: 1px dashed rgba(52, 39, 50, 0.29);
+            text-align: center;
+            background-color: silver;
+            margin-bottom: 10px;
+        }
+
+        .top {
+            height: 100px;
+        }
+
+        .banner {
+            height: 150px;
+        }
+
+        .main {
+            height: 500px;
+        }
+        .left {
+            width: 360px;
+            height: 500px;
+            box-sizing: border-box;
+            padding: 10px;
+            background-color: #ffd275;
+            float: left;
+            margin-right: 10px;
+        }
+        .right {
+            width: 590px;
+            height: 500px;
+            background-color: #ff986f;
+            float: right;
+        }
+
+        .footer {
+            height: 120px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="top">top</div>
+    <div class="banner">banner</div>
+    <div class="main">
+        <div class="left">left</div>
+        <div class="right">right</div>
+    </div>
+    <div class="footer">footer</div>
+</body>
+</html>
