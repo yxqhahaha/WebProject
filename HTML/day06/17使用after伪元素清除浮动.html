@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>17使用after伪元素清除浮动</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        div {
+            margin: 0 auto;/*居中*/
+        }
+        .box1 {
+            /* height: 200px;*//*很多情况下 父级盒子不方便给高度*/
+            width: 600px;
+            background-color: silver;
+            margin-bottom: 10px;
+        }
+
+        .clearfix:after {
+            display: block;
+            content: ".";
+            height: 0;
+            visibility: hidden;/*隐藏盒子*/
+            clear: both;/*清除浮动*/
+        }
+        .clearfix {
+            *zoom: 1;
+            /*
+                * 代表ie6 7 能识别的特殊符号 带有 * 的属性 只有ie6 7 才执行
+                zoom 就是ie6 7 清除浮动的方法
+            */
+        }
+        .son1 {
+            width: 200px;
+            height: 200px;
+            background-color: #c197ff;
+            float: left;
+        }
+        .son2 {
+            width: 350px;
+            height: 200px;
+            background-color: #ffac2b;
+            float: right;
+        }
+        .box2 {
+            height: 240px;
+            width: 600px;
+            background-color: cornsilk;
+        }
+    </style>
+</head>
+<body>
+<div class="box1 clearfix">
+    <div class="son1"></div>
+    <div class="son2"></div>
+</div>
+<div class="box2"></div>
+</body>
+</html>

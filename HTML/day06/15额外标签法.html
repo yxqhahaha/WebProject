@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>15额外标签法</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        div {
+            margin: 0 auto;/*居中*/
+        }
+        .box1 {
+            /*
+            height: 200px;
+            很多情况下 父级盒子不方便给高度
+            */
+            width: 600px;
+            background-color: silver;
+            margin-bottom: 10px;
+        }
+        .son1 {
+            width: 200px;
+            height: 200px;
+            background-color: #c197ff;
+            float: left;
+        }
+        .son2 {
+            width: 350px;
+            height: 200px;
+            background-color: #ffac2b;
+            float: right;
+        }
+        .box2 {
+            height: 240px;
+            width: 600px;
+            background-color: cornsilk;
+        }
+        .clear {
+            clear: both;/*清除浮动的影响*/
+        }
+    </style>
+</head>
+<body>
+<div class="box1">
+    <div class="son1"></div>
+    <div class="son2"></div>
+    <!--在浮动盒子后面添加一个空盒子-->
+    <div class="clear"></div>
+</div>
+<div class="box2"></div>
+</body>
+</html>

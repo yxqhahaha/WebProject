@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>18 双伪元素清除浮动</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        div {
+            margin: 0 auto;/*居中*/
+        }
+        .box1 {
+            /* height: 200px;*//*很多情况下 父级盒子不方便给高度*/
+            width: 600px;
+            background-color: silver;
+            margin-bottom: 10px;
+        }
+        .son1 {
+            width: 200px;
+            height: 200px;
+            background-color: #c197ff;
+            float: left;
+        }
+        .son2 {
+            width: 350px;
+            height: 200px;
+            background-color: #ffac2b;
+            float: right;
+        }
+        .box2 {
+            height: 240px;
+            width: 600px;
+            background-color: cornsilk;
+        }
+        /*清除浮动代码*/
+        .clearfix:before,
+        .clearfix:after {
+            content: "";
+            display: table;
+        }
+        .clearfix:after {
+            clear: both;
+        }
+        .clearfix {
+            *zoom: 1;
+        }
+    </style>
+</head>
+<body>
+<div class="box1 clearfix" >
+    <div class="son1"></div>
+    <div class="son2"></div>
+</div>
+<div class="box2"></div>
+</body>
+</html>

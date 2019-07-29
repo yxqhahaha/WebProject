@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>绝对定位水平垂直居中</title>
+    <style>
+        .father {
+            width: 800px;
+            height: 200px;
+            background-color: silver;
+            margin: 50px auto;
+            position: relative;
+        }
+
+        .son {
+            width: 100px;
+            height: 40px;
+            background-color: #000;
+            position: absolute;
+            /*margin: 0 auto;*/     /*加了绝对定位的盒子左右auto无效*/
+            /*left: 350px;*/
+            /*实现水平居中*/
+            left: 50%;/*父盒子一半*/
+            margin-left: -50px;/*本身的一半*/
+            /*top: 80px;*/
+            top:50%;   /* 100 - 20*/
+            margin-top: -20px;
+        }
+    </style>
+</head>
+<body>
+<div class="father">
+    <div class="son"></div>
+</div>
+</body>
+</html>

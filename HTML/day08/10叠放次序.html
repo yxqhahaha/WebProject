@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>10叠放次序</title>
+    <style>
+        div {
+            width: 200px;
+            height: 200px;
+            background-color: silver;
+            position: absolute;
+
+        }
+
+        div:first-child {
+            top: 0;
+            left: 0;
+        }
+
+        div:nth-child(2) {
+            top: 20px;
+            left: 20px;
+            background-color: #4bcc51;
+            /* 设置叠放的层级 数字越大越靠上层 不要加单位*/
+            z-index: 1;
+        }
+        div:last-child {
+            top: 40px;
+            left: 40px;
+            z-index: 2;
+            background-color: rosybrown;
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+    <div></div>
+    <div></div>
+</body>
+</html>

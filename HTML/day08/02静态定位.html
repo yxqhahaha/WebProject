@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>02静态定位</title>
+    <style>
+        div {
+            width: 100px;
+            height: 100px;
+            background-color: silver;
+            /*边偏移*/
+            top: 100px;
+            left: 100px ;
+            /*定位模式*/
+            position: static;
+            /*
+                默认的就是static  相当于标准流
+                对于偏移无效
+                一般用来清除定位的
+                一个原来有定位的盒子 不想加定位了 就用static来清除定位
+            */
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+</body>
+</html>

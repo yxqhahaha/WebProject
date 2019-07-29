@@ -1,0 +1,434 @@
+/*  公共样式  */
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+
+/*  定义京东红字号   */
+
+.style-red {
+    color: #c81623;
+}
+
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon.eot?3a2xdr');
+    src: url('../fonts/icomoon.eot?3a2xdr#iefix') format('embedded-opentype'), url('../fonts/icomoon.ttf?3a2xdr') format('truetype'), url('../fonts/icomoon.woff?3a2xdr') format('woff'), url('../fonts/icomoon.svg?3a2xdr#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.icomoon {
+    font-size: 16px;
+    font-family: 'icomoon';
+    line-height: 26px;
+}
+
+
+/*  版心  */
+
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+/*  顶部快捷导航  start   */
+
+.shortcut {
+    /*  顶盒子通栏显示   */
+    width: 100%;
+    height: 31px;
+    line-height: 31px;
+    background-color: #f1f1f1;
+}
+
+.shortcut li {
+    float: left;
+    font-family: 'icomoon';
+}
+
+
+/*  右盒子 */
+
+.spacer {
+    width: 1px;
+    height: 12px;
+    background-color: #666;
+    margin: 9px 12px 0;
+}
+
+
+/*  顶部快捷导航  end   */
+
+
+/*  header   0    */
+
+.header {
+    position: relative;
+    height: 105px;
+    background-color: pink;
+}
+
+.logo {
+    position: absolute;
+    top: 25px;
+    left: 0;
+    width: 175px;
+    height: 56px;
+    /* background-color: #ccc; */
+}
+
+.logo a {
+    display: block;
+    /* 让文字缩进后 用overflow: hidden;隐藏文字
+        或者用：font-size: 0;
+    */
+    /* overflow: hidden; */
+    width: 175px;
+    height: 56px;
+    background: url(../img/logo.png) no-repeat;
+    /* text-indent: -999px; */
+    font-size: 0;
+}
+
+
+/* 搜索框 */
+
+.search {
+    position: absolute;
+    top: 25px;
+    left: 348px;
+}
+
+.search .text {
+    float: left;
+    width: 445px;
+    height: 32px;
+    border: 2px solid #b1191a;
+    border-right: 0;
+    padding-left: 10px;
+    color: #ccc;
+}
+
+.search .btn {
+    float: left;
+    width: 82px;
+    height: 36px;
+    border: 0;
+    background-color: #b1191a;
+    font-size: 16px;
+    color: #fff;
+}
+
+
+/* hotwords */
+
+.hotwords {
+    position: absolute;
+    top: 65px;
+    left: 348px;
+}
+
+.hotwords a {
+    /* 量的时候是 12px  但是写的是10px  因为a之间默认有2px 的边距 */
+    margin: 0 10px;
+}
+
+
+/* shopcar */
+
+.shoppingcar {
+    position: absolute;
+    top: 25px;
+    right: 64px;
+    width: 138px;
+    height: 34px;
+    background-color: #f7f7f7;
+    border: 1px solid #dfdfdf;
+    text-align: center;
+    line-height: 34px;
+    font-family: 'icomoon'
+}
+
+.shoppingcar .car {
+    color: #da5555;
+    margin-right: 5px;
+}
+
+.shoppingcar .arrow {
+    margin-left: 5px;
+}
+
+
+/* 统计购物车商品件数 */
+
+.shopping-amount {
+    position: absolute;
+    top: -5px;
+    /* 数字应该往右边走  所以左对齐 */
+    left: 105px;
+    background-color: #e60012;
+    /* 不要给宽度，因为购物车里面件数不确定 */
+    height: 14px;
+    padding: 0 3px;
+    border-radius: 7px 7px 7px 0;
+    color: #fff;
+    line-height: 14px;
+}
+
+
+/*  header   1    */
+
+
+/*  nav     0 */
+
+.nav {
+    height: 44px;
+    border-bottom: 2px solid #b1191a;
+}
+
+
+/* 左侧 */
+
+.dropdown {
+    margin: 0;
+    padding: 0;
+    width: 209px;
+    height: 45px;
+}
+
+.dropdown .dt {
+    background-color: #b1191a;
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    line-height: 45px;
+}
+
+.dropdown .dd {
+    height: 465px;
+    margin-top: 2px;
+    background-color: #c81623;
+}
+
+.menu-item {
+    color: #fff;
+    height: 31px;
+    line-height: 31px;
+    margin-left: 1px;
+    padding: 0 11px;
+    transition: all 0.6s;
+}
+
+.menu-item:hover {
+    padding-left: 20px;
+    background-color: #fff;
+}
+
+.menu-item:hover a {
+    color: #c81623;
+}
+
+.menu-item a,
+.menu-item i {
+    font-size: 14px;
+    color: #fff;
+}
+
+
+/* .dd ul li:hover {
+    background-color: #fff;
+    color: #b1191a;
+} */
+
+.menu-item i {
+    font-family: "icomoon";
+    float: right;
+}
+
+
+/* 右侧 */
+
+.navitems {
+    color: #fff;
+    margin-left: 10px;
+}
+
+.navitems li {
+    float: left;
+}
+
+
+/* 字数不一样多，不要给宽度 */
+
+.navitems li a {
+    display: block;
+    height: 45px;
+    line-height: 45px;
+    padding: 0 25px;
+    font-size: 16px;
+    color: #333;
+}
+
+
+/* nav部分结束 */
+
+
+/*  nav     1 */
+
+
+/* footer部分开始 */
+
+
+/* 服务模块 */
+
+.footer {
+    height: 386px;
+    background-color: #f5f5f5;
+    padding-top: 30px;
+}
+
+.mod-service {
+    height: 79px;
+    border-bottom: 1px solid #ededed;
+}
+
+.mod-service li {
+    width: 240px;
+    height: 79px;
+    float: left;
+}
+
+.mod-service-pic {
+    width: 50px;
+    height: 50px;
+    /* i是行内元素 
+        添加浮动就不用写display:block;
+    */
+    float: left;
+    margin-left: 35px;
+    /* 使用精灵图 */
+    background: url(../img/icons.png) no-repeat;
+}
+
+.mod-service-title {
+    float: left;
+    margin-left: 5px;
+}
+
+.mod-service-title h5 {
+    margin: 5px 0;
+}
+
+.mod-service-zheng {
+    background-position: -252px -2px;
+}
+
+.mod-service-ji {
+    background-position: -254px -54px;
+}
+
+.mod-service-bao {
+    background-position: -256px -105px;
+}
+
+.mod-service-te {
+    background-position: -257px -156px;
+}
+
+.mod-service-bang {
+    background-position: -257px -208px;
+}
+
+
+/* 帮助模块 */
+
+.mod-help {
+    height: 187px;
+    /* 上右下左 */
+    padding: 20px 0px 0px 50px;
+    border-bottom: 1px solid #ededed;
+}
+
+.mode-help-item {
+    width: 190px;
+    float: left;
+}
+
+.mode-help ul {
+    display: block;
+    float: left;
+}
+
+.mode-help ul li {
+    height: 20px;
+    font-size: 12px;
+    color: #666;
+}
+
+.mode-help-titile {
+    height: 25px;
+    color: #333;
+    font-size: 16px;
+}
+
+.mod-help-app dt,
+.mod-help-app p {
+    padding-left: 15px;
+}
+
+.mod-help-app img {
+    margin: 7px 0;
+}
+
+
+/* 版权部分 */
+
+.mod-copyright {
+    text-align: center;
+}
+
+.mode-copyright-links i {
+    font-family: "icomoon";
+}
+
+.mode-copyright-spacer {
+    margin: 0 10px;
+}
+
+.mode-copyright-links {
+    margin: 20px 0px 5px 0;
+}
+
+.mode-copyright-links li {
+    float: left;
+    font-size: 12px;
+}
+
+.mod-copyright-details {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+
+/* footer部分结束 */
+
+
+/* CSS 书写顺序
+    1. 布局定位属性：display / position / float / clear / visibility / overflow
+        （建议 display 第一个写，毕竟关系到模式） 
+    2. 自身属性：width / height / margin / padding / border / background 
+    3. 文本属性：color / font / text-decoration / text-align / vertical-align 
+                / white- space / break-word 
+    4. 其他属性（CSS3）：content / cursor / border-radius / box-shadow 
+                / text-shadow / background:linear-gradient …
+
+*/

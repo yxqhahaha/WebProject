@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>04绝对定位是脱标的</title>
+    <style>
+        div:first-child {
+            width: 100px;
+            height: 200px;
+            background-color: silver;
+            position: absolute;
+            top: 50px;
+            left: 60px;
+            /*绝对定位是完全脱标的  不占有位置*/
+        }
+        div:last-child {
+            width: 200px;
+            height: 150px;
+            background-color: #ccc;
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+    <div></div>
+</body>
+</html>

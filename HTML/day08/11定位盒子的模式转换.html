@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>11定位盒子的模式转换</title>
+    <style>
+        div {
+            height: 100px;
+            background-color: silver;
+            /*浮动的盒子有模式转换的情况，转化为：行内块*/
+            /*本例中，在没有指定宽度的情况下，正常情况下会自动铺满，
+            使用浮动，宽度会自动转换为内容撑开的宽度
+
+            和浮动一样，元素添加了绝对定位和固定定位字后，元素模式也会发生转换，都转为 行内块模式
+            */
+            /*float: left;*/
+            /*position: absolute;*/
+            /*
+                隐藏元素  隐藏之后 不再保留位置
+            */
+            /*display: none;*/
+            /*
+                隐藏元素，但是保留位置
+            */
+            visibility: visible;
+            /*显示元素*/
+            /*display: block;*/
+        }
+        span {
+            /*
+                行内元素只要添加了浮动或者定位（绝对或者固定）
+                就会转为行内块
+                不用写 display:block;
+            */
+            background-color: #fff;
+            /*display: block;*/
+            float: left;
+            width: 100px;
+            height: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        稳住，我们能赢！定位不难
+    </div>
+    <span>我是行内元素</span>
+</body>
+</html>

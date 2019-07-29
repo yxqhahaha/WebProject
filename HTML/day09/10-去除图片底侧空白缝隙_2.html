@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>10-去除图片底侧空白缝隙</title>
+    <style>
+        div {
+            border: 1px solid red;
+        }
+
+        div img {
+            /*
+                产生的原因：图片或者表单等行内块元素，他的底线会和父级盒子的基线对齐
+
+                因为默认的是基线对齐 所以底部会有空白缝隙
+                除了 baseline 都可以
+            */
+            /*vertical-align: middle;*/
+
+            /*
+                也可以将img转为块元素
+                对块级元素来说，vertical-align 是无效的
+                就不会有基线对齐的问题了
+            */
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <img src="images/3.jpg" alt="">
+    </div>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>12鼠标经过显示二维码</title>
+    <style>
+        div {
+            width: 100px;
+            height: 100px;
+            background-color: #ccc;
+            text-align: center;/*水平居中*/
+            line-height: 100px;/*垂直居中*/
+            margin: 100px auto;
+            position: relative;
+        }
+
+        /*鼠标经过div时会显示二维码*/
+        div:first-child:hover img {
+            display: block;
+        }
+        div img {
+            position: absolute;
+            left: 105px;
+            top: 0;
+            display: none;/*初始状态隐藏二维码*/
+        }
+    </style>
+</head>
+<body>
+    <div>
+        扫二维码
+        <img src="images/erweima.png" alt="">
+    </div>
+
+</body>
+</html>

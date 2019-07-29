@@ -1,0 +1,248 @@
+/*css初始化*/
+* {
+    /*清除内外边距*/
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;/*去掉列表样式中的小点*/
+}
+
+/*清除浮动*/
+.clearfix:before,
+.clearfix:after {
+    display: table;
+    content: "";
+}
+.clearfix:after {
+    clear: both;
+}
+.clearfix {
+*zoom: 1;
+}
+/*CSS初始化*/
+a {
+    color: #050505;
+    text-decoration: none;/*取消下划线 */
+}
+body {
+    background-color: #f3f5f7;/*整个页面的背景色*/
+}
+input {
+    border: 0;  /*所有的表单边框为0*/
+    box-sizing: border-box;/*盒子模型  让盒子不撑开*/
+}
+.container {
+    /*版心宽度都是1200*/
+    width: 1200px;
+    margin:  0 auto;
+
+}
+/*CSS 初始化结束*/
+/*页面头部分*/
+header {
+    height: 101px;
+    width: 1600px;
+    background-color: #f3f5f7;
+    overflow: hidden;/*防止外边距合并问题*/
+    margin: 0 auto;/*居中对齐*/
+}
+
+nav {
+    width: 1600px;
+    height: 42px;
+    background-color: #f3f5f7;
+    margin: 0 auto;/*居中对齐*/
+    margin-top: 30px;
+}
+
+.logo {
+    float: left;
+}
+
+.navbar {
+    float: left;
+    height: 42px;
+    line-height: 42px;/*让文字垂直居中 行高会继承*/
+    margin-left: 65px;
+}
+.navbar li {
+    float: left;/*让文字 一行显示*/
+}
+.navbar li a {
+    padding: 0 8px;/*左右 上下*/
+    /*border-bottom: 2px solid #00a4ff;*/
+    display: block;/*a 是行内元素  给高需要转换为块元素*/
+    height: 40px;
+}
+.navbar li a:hover {
+    border-bottom: 2px solid #00a4ff;   /*显示底边框*/
+}
+/*搜索框部分*/
+.search {
+    width: 410px;   /* 360  + 50px */
+    height: 38px;
+    border: 1px solid #00a4ff;
+    float: right;
+}
+.search input[type=text] {   /*属性选择器*/
+    width: 360px;
+    height: 38px;   /*高度不继承*/
+    padding-left: 20px;
+    float: left;
+}
+/*行内块元素之间有缝隙*/
+.search input[type=submit] {   /*属性选择器*/
+    width: 50px;
+    height: 38px;   /*高度不继承*/
+    padding-left: 20px;
+    margin:  0 auto;
+    float: left;
+    background: #00a4ff url("images/fa-search.png") center center no-repeat;
+}
+/*个人中心部分*/
+.personal {
+    float: right;
+    height: 42px;
+    line-height: 42px;
+    /*上右下左*/
+    margin:0 0 0 30px;
+}
+.personal a {
+    display: block;
+    line-height: 42px;
+    text-align: center;
+    float: left;
+}
+.personal a:nth-child(2) {
+    display: block;
+    line-height: 42px;
+    text-align: center;
+    float: left;
+}
+.personal img:nth-child(1) {
+    margin: 0 30px;
+}
+.personal img:nth-child(2) {
+    margin: 0 0px;
+}
+/*header 部分结束*/
+/*banner部分开始*/
+/*左侧边栏*/
+.banner {
+    height: 420px;
+    background-color: #1c036c;
+}
+.banner-in {
+    height: 420px;
+background: url("images/banner2.png") 0 0 no-repeat;
+}
+.sildebar {
+    height: 420px;
+    width: 190px;
+    background: rgba(20,2,75,0.4);  /*半透明*/
+    float: left;
+}
+.sildebar ul li a {
+    color: #fff;
+    font-size: 14px;
+    padding: 0 20px;
+    display: block;
+    /*height: 45px;*/
+    line-height: 45px;  /*很多情况下 给了行高 不用给高*/
+}
+.sildebar li a span {
+    float: right;
+    font-family: Arial;/*一般情况下 符号用这个字体*/
+}
+.sildebar li a:hover {
+    color: #00a4ff;
+}
+/*左侧边栏结束*/
+/*右侧边栏*/
+.timetable {
+    float: right;
+    width: 230px;
+    height: 300px;
+    background-color: #fff;
+    margin-top: 50px;
+
+}
+.timetable dt {
+    height: 50px;
+    background-color: #9bceea;
+    line-height: 50px;
+    text-align: center;/*文字水平居中*/
+    font-size: 18px;
+    font-weight: 700;/*文字加粗*/
+    color: #fff;
+    letter-spacing: 2px;/*设置字间距*/
+    margin-bottom: 5px;
+}
+.timetable dd {
+    width: 193px;
+    height: 60px;
+    margin: 0 auto;
+    border-bottom: 1px solid #ccc;
+    box-sizing: border-box;
+    padding-top: 14px;
+}
+.timetable dd h4 {
+    font-size: 16px;
+    font-weight: normal;
+    color: #4e4e4e;
+}
+.timetable dd p {
+    color: #a5a5a5;
+    font-size: 14px;
+}
+.timetable dd:nth-child(4) h4,
+.timetable dd:nth-child(4) p{
+    color: #00a4ff;
+}
+.timetable dd:last-child {  /*结构伪类选择器*/
+    border: 0;
+}
+
+.timetable dd a {
+    height: 38px;
+    text-align: center;
+    line-height: 38px;
+    color: #00a4ff;
+    font-weight: 700;/*加粗*/
+    border: 1px solid #00a4ff;
+    display: block;
+}
+
+.timetable dd a:hover {
+    background-color: #00a4ff;
+    color: #fff;
+}
+/*右侧边栏结束*/
+/*banner部分结束*/
+/*精品推荐部分开始*/
+.recommend {
+    background-color: #fff;
+    line-height: 60px;
+    margin-top: 8px;
+    box-shadow: 0 2px 2px rgba(0,0,0,0.3);/*阴影效果 水平位置 垂直位置 模糊距离 影子颜色*/
+}
+.recommend a {
+    padding: 0 30px;
+    border-right: 1px solid #ccc ;
+}
+.recommend a:first-child {
+    color: #00a4ff;
+
+}
+.recommend a:hover {
+    color: #00a4ff;
+}
+.recommend a:last-child {
+    color: #00a4ff;
+    border: 0;
+    float: right;
+    font-size: 14px;
+}
+/*精品推荐部分结束*/

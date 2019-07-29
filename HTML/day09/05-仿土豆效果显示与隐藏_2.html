@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>05-仿土豆效果显示与隐藏_2</title>
+    <style>
+    .box {
+        position: relative;
+        width: 222px;
+        height: 220px;
+        margin: 0 auto;
+
+    }
+
+    /*a:hover .mask {*/
+    .mask {
+        position: absolute;
+        top: 0;
+        left: 0;
+        /*  初始状态隐藏元素    */
+        display: none;
+        width: 222px;
+        height: 220px;
+        /*
+            background: 背景颜色 背景图片地址 背景平铺 背景滚动 背景位置;
+            background: transparent url(image.jpg) repeat-y  scroll center top ;
+        */
+        background: url("images/arr.png") rgba(0,0,0,.5) no-repeat center center;
+
+    }
+
+        a:hover .mask {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <a href="">
+            <div class="mask"></div>
+            <img src="images/3.jpg" alt=""
+        </a>
+    </div>
+</body>
+</html>

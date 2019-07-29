@@ -1,9 +1,180 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ae6b044c-02a9-45bd-91bb-03e89ddf2655" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/HTML/day06/13通栏平均分布型.html" afterDir="false" />
+    <list default="true" id="ae6b044c-02a9-45bd-91bb-03e89ddf2655" name="Default Changelist" comment="my">
+      <change afterPath="$PROJECT_DIR$/HTML/day06/14浮动引起的问题.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/day06/15额外标签法.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/day06/16父级添加overflow方法.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/day06/17使用after伪元素清除浮动.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/day06/18 双伪元素清除浮动.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/day07/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/day07/readMe.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/day07/style-xuechengwang.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/day07/学成网职业规划.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/day07/学成网职业规划.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/day07/学成网课程列表页.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/day07/学成网课程列表页.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/day07/学成网首页.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/day07/学成网首页.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/day08/01定位属性.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/day08/02静态定位.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/day08/03相对定位.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/day08/04绝对定位是脱标的.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/day08/05父级没有定位.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/day08/06定位练习-哈根达斯.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/day08/07淘宝轮播图.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/day08/08固定定位.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/day08/09仿新浪固定定位和广告.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/day08/10叠放次序.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/day08/11定位盒子的模式转换.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/day08/12鼠标经过显示二维码.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/day08/13overflow属性.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/day08/images/adv.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/day08/images/bl.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/day08/images/br.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/day08/images/top_tu.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/day08/绝对定位水平垂直居中.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/day09/01鼠标样式.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/day09/03-元素的显示与隐藏-visiblity.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/day09/04-元素的显示与隐藏-overflow.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/day09/05-仿土豆效果显示与隐藏.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/day09/05-仿土豆效果显示与隐藏_2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/day09/06-取消轮廓线.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/day09/06-轮廓线_2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/day09/07-防止拖拽文本域.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/day09/07-防止拖拽文本域_2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/day09/08-vertical-align对于块级元素无效.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/day09/09-vertical-align图片对齐文字.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/day09/09-vertical-align图片对齐文字_2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/day09/10-去除图片底侧空白缝隙.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/day09/10-去除图片底侧空白缝隙_2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/day09/11-溢出的文字省略号显示.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/day09/11-溢出的文字省略号显示_2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/day09/12-体会CSS精灵技术.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/day09/13-拼出自己的名字.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/day09/images/icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/day09/overflowTest.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/day09/显示与隐藏.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/day09/精灵图技术.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTMLAuthoritativeGuide/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/day01/js介绍.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/day01/交换变量.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/day01/位运算.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/day01/字符串.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/day01/数值的范围.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/day01/类型转换.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/day01/获取变量的数据类型.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinyougou2/css/base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinyougou2/css/common.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinyougou2/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinyougou2/fonts/icomoon.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinyougou2/fonts/icomoon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinyougou2/fonts/icomoon.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinyougou2/fonts/icomoon.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinyougou2/img/account.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinyougou2/img/arrow-next.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinyougou2/img/arrow-prev.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinyougou2/img/cartPanelViewIcons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinyougou2/img/checked.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinyougou2/img/clock.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinyougou2/img/delete.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinyougou2/img/deng.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinyougou2/img/duibi.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinyougou2/img/erji.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinyougou2/img/error.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinyougou2/img/erweima.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinyougou2/img/fenxiang.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinyougou2/img/guanzhu.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinyougou2/img/icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinyougou2/img/images/clock_03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinyougou2/img/jian.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinyougou2/img/jinghualu.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinyougou2/img/jisuwuliu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinyougou2/img/loginbg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinyougou2/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinyougou2/img/maojin.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinyougou2/img/nvbao.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinyougou2/img/pingdiguo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinyougou2/img/quan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinyougou2/img/regetype.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinyougou2/img/shoubiao.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinyougou2/img/shouji.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinyougou2/img/success.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinyougou2/img/tixudao.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinyougou2/img/ts.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinyougou2/img/tuijian.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinyougou2/img/wx_cz.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinyougou2/img/zhengpinbaozhang.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinyougou2/img/今日推荐.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinyougou2/img/图层106.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinyougou2/img/图层140.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinyougou2/img/图层141.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinyougou2/img/图层142.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinyougou2/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinyougou2/upload/aside_img.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinyougou2/upload/b3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinyougou2/upload/bargain.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinyougou2/upload/bg_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinyougou2/upload/bottom_barpic.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinyougou2/upload/detail_img1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinyougou2/upload/detail_img2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinyougou2/upload/detail_img3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinyougou2/upload/erweima.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinyougou2/upload/floor-1-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinyougou2/upload/floor-1-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinyougou2/upload/floor-1-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinyougou2/upload/floor-1-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinyougou2/upload/floor-1-5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinyougou2/upload/floor-1-6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinyougou2/upload/floor-1-b01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinyougou2/upload/focus.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinyougou2/upload/maojin.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinyougou2/upload/mobile.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinyougou2/upload/pic.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinyougou2/upload/pic1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinyougou2/upload/pre.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinyougou2/upload/s3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinyougou2/upload/shoubiao.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinyougou2/upload/sk.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinyougou2/upload/tixu.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pinyougou2/upload/矩形12拷贝3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/学成网案例/images/banner2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/学成网案例/images/fa-search.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/学成网案例/images/headerPic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/学成网案例/images/lingdang_02_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/学成网案例/images/logo_03_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/学成网案例/images/图层158.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/学成网案例/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/学成网案例/style-xuechengwang.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/学成网案例/学成网职业规划.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/学成网案例/学成网职业规划.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/学成网案例/学成网课程列表页.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/学成网案例/学成网课程列表页.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/学成网案例/学成网首页.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/学成网案例/学成网首页.psd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS学习.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML/test/图片标签.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/test/图片标签.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML学习.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS/JS01.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS/JS02.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS/JS03.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS/JS04.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS/JS05.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS/JS06.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS/JS07.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS/JS08.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS/JS09.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS/JS10.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS/JS11.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS/JS12.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS/JS14.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS/JS14.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS/JS15.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS/JS16.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS/JS17.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS/JS18.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS/JSON.html" beforeDir="false" afterPath="$PROJECT_DIR$/JS/JSON.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,85 +191,19 @@
   <component name="CoverageViewManager">
     <option name="myElementSize" value="508" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="WebProject" />
+  </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HTML/day06/08浮动特性对齐父盒子.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="24" column="38" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HTML/day06/09浮动特性2.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="616">
-              <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HTML/day06/10浮动改变元素模式.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="644">
-              <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HTML/day06/11一列固定宽度且居中.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-465">
-              <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/HTML/day06/13通栏平均分布型.html">
+        <entry file="file://$PROJECT_DIR$/HTML/test/p标签居中问题.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="129">
-              <caret line="25" column="37" lean-forward="true" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HTML/day06/12两列左窄又宽型.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="283">
-              <caret line="46" column="38" selection-start-line="46" selection-start-column="38" selection-end-line="46" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="mock:///">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HTML/day06/06体验浮动.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="588">
-              <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HTML/day06/07浮动详解.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+            <state relative-caret-position="784">
+              <caret line="28" column="7" lean-forward="true" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
+              <folding>
+                <element signature="e#173#179#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -108,8 +213,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
         <option value="HTML File" />
       </list>
     </option>
@@ -117,7 +222,18 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>pre</find>
+      <find>re</find>
+      <find>ci</find>
+      <find>cir</find>
+      <find>footer-l</find>
+      <find>一只</find>
+      <find>display</find>
+      <find>displa</find>
+      <find>_</find>
     </findStrings>
+    <replaceStrings>
+      <replace>-</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
@@ -126,57 +242,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/HTML/day04/21背景简写.html" />
-        <option value="$PROJECT_DIR$/HTML/day04/22背景透明.html" />
-        <option value="$PROJECT_DIR$/HTML/day04/23背景缩放.html" />
-        <option value="$PROJECT_DIR$/HTML/day04/24多背景图片.html" />
-        <option value="$PROJECT_DIR$/HTML/day04/25文字凹凸效果.html" />
-        <option value="$PROJECT_DIR$/HTML/day04/26王者荣耀导航栏.html" />
-        <option value="$PROJECT_DIR$/HTML/day05/01层叠性.html" />
-        <option value="$PROJECT_DIR$/HTML/day03/07类选择器和id选择器的区别.html" />
-        <option value="$PROJECT_DIR$/HTML/day03/10伪类选择器.html" />
-        <option value="$PROJECT_DIR$/HTML/day03/13目标伪类选择器.html" />
-        <option value="$PROJECT_DIR$/HTML/day04/02行内样式表.html" />
-        <option value="$PROJECT_DIR$/HTML/day04/16背景.html" />
-        <option value="$PROJECT_DIR$/HTMLAuthoritativeGuide/ch03/3.8布尔属性.html" />
-        <option value="$PROJECT_DIR$/HTMLAuthoritativeGuide/ch03/3.10自定义属性.html" />
-        <option value="$PROJECT_DIR$/HTML/day05/02css的继承性.html" />
-        <option value="$PROJECT_DIR$/HTML/day05/03优先级.html" />
-        <option value="$PROJECT_DIR$/HTML/day05/04权重叠加.html" />
-        <option value="$PROJECT_DIR$/HTML/day05/05看透网页本质.html" />
-        <option value="$PROJECT_DIR$/HTML/day05/06盒子模型-边框.html" />
-        <option value="$PROJECT_DIR$/HTML/day05/07边框写法总结.html" />
-        <option value="$PROJECT_DIR$/HTML/day05/08细格边框.html" />
-        <option value="$PROJECT_DIR$/HTML/day05/09圆角边框.html" />
-        <option value="$PROJECT_DIR$/HTML/day05/10盒子内边距.html" />
-        <option value="$PROJECT_DIR$/HTML/day05/11新浪导航栏.html" />
-        <option value="$PROJECT_DIR$/HTML/day05/12外边距.html" />
-        <option value="$PROJECT_DIR$/HTML/day05/13图片和背景文字和盒子对齐区别.html" />
-        <option value="$PROJECT_DIR$/HTML/day05/14清除内外边距.html" />
-        <option value="$PROJECT_DIR$/HTML/day05/15行内元素没有上下内外边距.html" />
-        <option value="$PROJECT_DIR$/HTML/day05/16外边距合并.html" />
-        <option value="$PROJECT_DIR$/HTML/day05/17外边距合并2.html" />
-        <option value="$PROJECT_DIR$/HTMLAuthoritativeGuide/ch03/3.14accesskey属性.html" />
-        <option value="$PROJECT_DIR$/HTML/day05/18盒子的计算尺寸.html" />
-        <option value="$PROJECT_DIR$/HTML/day05/19学会计算盒子的尺寸.html" />
-        <option value="$PROJECT_DIR$/HTML/day05/20padding不影响盒子大小的情况.html" />
-        <option value="$PROJECT_DIR$/HTML/day05/21探索趣图.html" />
-        <option value="$PROJECT_DIR$/HTML/day05/21搜索趣图.html" />
-        <option value="$PROJECT_DIR$/HTML/day06/01宽度剩余法.html" />
-        <option value="$PROJECT_DIR$/HTML/day06/02CSS3盒子模型.html" />
-        <option value="$PROJECT_DIR$/HTML/day06/03盒子阴影.html" />
-        <option value="$PROJECT_DIR$/HTML/day06/04水晶图片案例.html" />
-        <option value="$PROJECT_DIR$/HTML/day06/05文档流介绍.html" />
-        <option value="$PROJECT_DIR$/HTML/day06/06体验浮动.html" />
-        <option value="$PROJECT_DIR$/HTML/day06/07浮动详解.html" />
-        <option value="$PROJECT_DIR$/HTML/day06/08浮动特性对齐父盒子.html" />
-        <option value="$PROJECT_DIR$/HTML/day06/09浮动特性2.html" />
-        <option value="$PROJECT_DIR$/HTML/day06/test.html" />
-        <option value="$PROJECT_DIR$/HTML/day06/10浮动改变元素模式.html" />
-        <option value="$PROJECT_DIR$/HTML/day06/11一列固定宽度且居中.html" />
-        <option value="$PROJECT_DIR$/HTML/day06/12两列左窄又宽型.html" />
-        <option value="$PROJECT_DIR$/HTML/day06/13通栏平均分布性.html" />
-        <option value="$PROJECT_DIR$/HTML/day06/13通栏平均分布型.html" />
+        <option value="$PROJECT_DIR$/HTML/day09/code.html" />
+        <option value="$PROJECT_DIR$/HTML/test/图片标签.html" />
+        <option value="$PROJECT_DIR$/HTML/day09/01鼠标样式.html" />
+        <option value="$PROJECT_DIR$/HTML/day09/02元素的显示与隐藏-dispaly.html" />
+        <option value="$PROJECT_DIR$/HTML/day09/03-元素的显示与隐藏-visiblity.html" />
+        <option value="$PROJECT_DIR$/HTML/day09/04-元素的显示与隐藏-overflow.html" />
+        <option value="$PROJECT_DIR$/HTML/day09/05-仿土豆效果显示与隐藏.html" />
+        <option value="$PROJECT_DIR$/HTML/day09/06-取消轮廓线.html" />
+        <option value="$PROJECT_DIR$/HTML/day09/07-防止拖拽文本域.html" />
+        <option value="$PROJECT_DIR$/HTML/day09/08-vertical-align对于块级元素无效.html" />
+        <option value="$PROJECT_DIR$/HTML/day09/09-vertical-align图片对齐文字.html" />
+        <option value="$PROJECT_DIR$/学成网案例/index.html" />
+        <option value="$PROJECT_DIR$/学成网案例/style-xuechengwang.css" />
+        <option value="$PROJECT_DIR$/HTML/day09/10-去除图片底侧空白缝隙.html" />
+        <option value="$PROJECT_DIR$/HTML/day09/11-溢出的文字省略号显示.html" />
+        <option value="$PROJECT_DIR$/HTML/day09/12-体会CSS精灵技术.html" />
+        <option value="$PROJECT_DIR$/JS/JSON.html" />
+        <option value="$PROJECT_DIR$/JS/day01/js介绍.html" />
+        <option value="$PROJECT_DIR$/JS/day01/交换变量.html" />
+        <option value="$PROJECT_DIR$/JS/day01/位运算.html" />
+        <option value="$PROJECT_DIR$/JS/day01/获取变量的数据类型.html" />
+        <option value="$PROJECT_DIR$/JS/day01/数值的范围.html" />
+        <option value="$PROJECT_DIR$/JS/day01/字符串.html" />
+        <option value="$PROJECT_DIR$/JS/day01/类型转换.html" />
+        <option value="$PROJECT_DIR$/HTMLAuthoritativeGuide/test.html" />
+        <option value="$PROJECT_DIR$/HTML/day09/overflowTest.html" />
+        <option value="$PROJECT_DIR$/HTML/day09/显示与隐藏.html" />
+        <option value="$PROJECT_DIR$/HTML/day09/05-仿土豆效果显示与隐藏_2.html" />
+        <option value="$PROJECT_DIR$/HTML/day09/06-轮廓线_2.html" />
+        <option value="$PROJECT_DIR$/HTML/day09/07-防止拖拽文本域_2.html" />
+        <option value="$PROJECT_DIR$/HTML/day09/09-vertical-align图片对齐文字_2.html" />
+        <option value="$PROJECT_DIR$/HTML/day09/10-去除图片底侧空白缝隙_2.html" />
+        <option value="$PROJECT_DIR$/HTML/day09/11-溢出的文字省略号显示_2.html" />
+        <option value="$PROJECT_DIR$/HTML/day09/13-拼出自己的名字.html" />
+        <option value="$PROJECT_DIR$/HTML/day09/精灵图技术.html" />
+        <option value="$PROJECT_DIR$/HTML/day09/15-滑动门原理.html" />
+        <option value="$PROJECT_DIR$/HTML/day09/16-微信导航栏.html" />
+        <option value="$PROJECT_DIR$/HTML/day09/18-突出某个盒子.html" />
+        <option value="$PROJECT_DIR$/HTML/day09/19-三角形效果.html" />
+        <option value="$PROJECT_DIR$/pinyougou/css/common.css" />
+        <option value="$PROJECT_DIR$/pinyougou/css/details.css" />
+        <option value="$PROJECT_DIR$/pinyougou/css/index.css" />
+        <option value="$PROJECT_DIR$/pinyougou/css/list.css" />
+        <option value="$PROJECT_DIR$/pinyougou/css/register.css" />
+        <option value="$PROJECT_DIR$/pinyougou/list.html" />
+        <option value="$PROJECT_DIR$/pinyougou/details.html" />
+        <option value="$PROJECT_DIR$/pinyougou/register.html" />
+        <option value="$PROJECT_DIR$/pinyougou/index.html" />
+        <option value="$PROJECT_DIR$/pinyougou2/index.html" />
+        <option value="$PROJECT_DIR$/pinyougou2/css/common.css" />
+        <option value="$PROJECT_DIR$/HTML/test/p标签居中问题.html" />
       </list>
     </option>
   </component>
@@ -187,10 +303,10 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="406" />
-    <option name="y" value="1420" />
-    <option name="width" value="1418" />
-    <option name="height" value="1448" />
+    <option name="x" value="211" />
+    <option name="y" value="1432" />
+    <option name="width" value="1936" />
+    <option name="height" value="1096" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -217,7 +333,7 @@
               <item name="WebProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="WebProject" type="462c0819:PsiDirectoryNode" />
               <item name="HTML" type="462c0819:PsiDirectoryNode" />
-              <item name="day06" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="WebProject" type="b2602c69:ProjectViewProjectNode" />
@@ -232,7 +348,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/HTML/day06/09浮动特性2.html" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.stylelint" value="true" />
     <property name="node.js.path.for.package.stylelint" value="project" />
@@ -240,22 +356,23 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
     <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/HTML/day06/09浮动特性2.html" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\WorkSpace\WebProject\HTML\day06" />
-      <recent name="D:\WorkSpace\WebProject\HTML\day05" />
-      <recent name="D:\WorkSpace\WebProject\HTML\day04" />
-      <recent name="D:\WorkSpace\WebProject\HTML\day03" />
-      <recent name="D:\WorkSpace\WebProject\HTML\day02" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\WorkSpace\WebProject\pinyougou\upload" />
+      <recent name="D:\WorkSpace\WebProject\HTML\day09" />
+      <recent name="D:\WorkSpace\WebProject" />
+      <recent name="D:\WorkSpace\WebProject\Study" />
       <recent name="D:\WorkSpace\WebProject\HTML\test" />
-      <recent name="D:\WorkSpace\WebProject\HTML\day01" />
-      <recent name="D:\WorkSpace\WebProject\HTML" />
-      <recent name="D:\WorkSpace\WebProject\JS" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\WorkSpace\WebProject\HTML\day09\images" />
+      <recent name="D:\WorkSpace\WebProject\HTML\day09" />
+      <recent name="D:\WorkSpace\WebProject\学成网案例" />
+      <recent name="D:\WorkSpace\WebProject\HTML\day08\images" />
+      <recent name="D:\WorkSpace\WebProject\HTML\day07" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -270,34 +387,38 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.08浮动特性对齐父盒子.html">
-    <configuration name="01宽度剩余法.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/WebProject/HTML/day06/01宽度剩余法.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="08浮动特性对齐父盒子.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/WebProject/HTML/day06/08浮动特性对齐父盒子.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="JavaScript Debug.p标签居中问题.html">
     <configuration name="14多媒体标签embed.html" type="JavascriptDebugType" nameIsGenerated="true" uri="http://localhost:63342/WebProject/HTML/day02/14多媒体标签embed.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="19学会计算盒子的尺寸.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/WebProject/HTML/day05/19学会计算盒子的尺寸.html" useBuiltInWebServerPort="true">
+    <configuration name="16-微信导航栏.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/WebProject/HTML/day09/16-微信导航栏.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="20padding不影响盒子大小的情况.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/WebProject/HTML/day05/20padding不影响盒子大小的情况.html" useBuiltInWebServerPort="true">
+    <configuration name="19-三角形效果.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/WebProject/HTML/day09/19-三角形效果.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="3.14accesskey属性.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/WebProject/HTMLAuthoritativeGuide/ch03/3.14accesskey属性.html" useBuiltInWebServerPort="true">
+    <configuration name="index.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/WebProject/pinyougou2/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/WebProject/pinyougou/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="p标签居中问题.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/WebProject/HTML/test/p标签居中问题.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.08浮动特性对齐父盒子.html" />
-        <item itemvalue="JavaScript Debug.01宽度剩余法.html" />
-        <item itemvalue="JavaScript Debug.20padding不影响盒子大小的情况.html" />
-        <item itemvalue="JavaScript Debug.19学会计算盒子的尺寸.html" />
-        <item itemvalue="JavaScript Debug.3.14accesskey属性.html" />
+        <item itemvalue="JavaScript Debug.p标签居中问题.html" />
+        <item itemvalue="JavaScript Debug.index.html (1)" />
+        <item itemvalue="JavaScript Debug.index.html" />
+        <item itemvalue="JavaScript Debug.19-三角形效果.html" />
+        <item itemvalue="JavaScript Debug.16-微信导航栏.html" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="StructureViewFactory">
+    <option name="AUTOSCROLL_MODE" value="false" />
+    <option name="ACTIVE_ACTIONS" value=",Show Imports" />
   </component>
   <component name="SvnConfiguration">
     <configuration useDefault="false">C:\Users\cnyangx\AppData\Roaming\Subversion</configuration>
@@ -322,7 +443,36 @@
       <workItem from="1562148993546" duration="1339000" />
       <workItem from="1562200458205" duration="17162000" />
       <workItem from="1562287182051" duration="14337000" />
-      <workItem from="1562375347128" duration="10068000" />
+      <workItem from="1562375347128" duration="16016000" />
+      <workItem from="1562462436887" duration="1555000" />
+      <workItem from="1562480048907" duration="3454000" />
+      <workItem from="1562636817665" duration="1479000" />
+      <workItem from="1562650259240" duration="22530000" />
+      <workItem from="1562721145303" duration="13705000" />
+      <workItem from="1562760580488" duration="811000" />
+      <workItem from="1562805658520" duration="20428000" />
+      <workItem from="1562843967673" duration="5259000" />
+      <workItem from="1562890656363" duration="3358000" />
+      <workItem from="1562916415716" duration="4201000" />
+      <workItem from="1562977376787" duration="17427000" />
+      <workItem from="1563017611922" duration="1334000" />
+      <workItem from="1563346319836" duration="107000" />
+      <workItem from="1563351278082" duration="10884000" />
+      <workItem from="1563428314252" duration="45000" />
+      <workItem from="1563878029233" duration="30000" />
+      <workItem from="1563878276741" duration="5349000" />
+      <workItem from="1563886657722" duration="1411000" />
+      <workItem from="1563931139355" duration="11517000" />
+      <workItem from="1563979999335" duration="4774000" />
+      <workItem from="1564024266852" duration="5341000" />
+      <workItem from="1564036684695" duration="2878000" />
+      <workItem from="1564039968297" duration="8148000" />
+      <workItem from="1564105603082" duration="813000" />
+      <workItem from="1564107543918" duration="5378000" />
+      <workItem from="1564122529912" duration="1516000" />
+      <workItem from="1564124841000" duration="74000" />
+      <workItem from="1564313708679" duration="52000" />
+      <workItem from="1564313775403" duration="1129000" />
     </task>
     <task id="LOCAL-00001" summary="my">
       <created>1562130973619</created>
@@ -373,55 +523,52 @@
       <option name="project" value="LOCAL" />
       <updated>1562391662407</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="my">
+      <created>1562393117350</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1562393117350</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="196396000" />
+    <option name="totallyTimeSpent" value="357331000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="212" y="1432" width="1936" height="1096" extended-state="6" />
+    <frame x="-7" y="-7" width="2062" height="1166" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15405117" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.55821204" visible="true" weight="0.14807503" />
+      <window_info id="Structure" order="1" sideWeight="0.44178793" side_tool="true" weight="0.1512118" />
+      <window_info id="Favorites" order="2" sideWeight="0.4352031" side_tool="true" weight="0.14560711" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32911393" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32838982" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32952183" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.18510638" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.18503119" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32952183" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32163742" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3210913" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32952183" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32968128" />
-      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.32995737" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Coverage" order="3" side_tool="true" weight="0.32995737" />
     </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20052539" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -470,369 +617,363 @@
     <MESSAGE value="my" />
     <option name="LAST_COMMIT_MESSAGE" value="my" />
   </component>
+  <component name="XPathView.XPathProjectComponent">
+    <history />
+    <find-history />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/HTML/day04/16背景.html">
+    <entry file="file://$PROJECT_DIR$/JS/day01/位运算.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="8" column="4" selection-start-line="5" selection-end-line="20" selection-end-column="12" />
+        <state relative-caret-position="250">
+          <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/day04/17背景图片.html">
+    <entry file="file://$PROJECT_DIR$/JS/day01/获取变量的数据类型.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="644">
-          <caret line="23" column="7" lean-forward="true" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
+        <state relative-caret-position="875">
+          <caret line="35" column="41" selection-start-line="35" selection-start-column="41" selection-end-line="35" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/day04/21背景简写.html">
+    <entry file="file://$PROJECT_DIR$/JS/day01/数值的范围.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="7" column="16" selection-start-line="5" selection-end-line="15" selection-end-column="12" />
+        <state relative-caret-position="750">
+          <caret line="30" column="19" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/day04/22背景透明.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="588">
-          <caret line="21" column="12" lean-forward="true" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/day04/23背景缩放.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="644">
-          <caret line="23" column="11" lean-forward="true" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/day04/24多背景图片.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/day04/25文字凹凸效果.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/day05/01层叠性.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="22" column="7" lean-forward="true" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/day04/26王者荣耀导航栏.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="18" column="30" lean-forward="true" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HTMLAuthoritativeGuide/ch03/3.8布尔属性.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/test/初识HTML.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="487">
-          <caret line="25" column="20" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="20" />
-          <folding>
-            <element signature="e#657#663#0" expanded="true" />
-            <element signature="e#669#675#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/day02/12HTML5新增表单属性.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HTML学习.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="448">
-            <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/test/图片标签.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="14" column="8" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HTMLAuthoritativeGuide/ch03/3.10自定义属性.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/day05/02css的继承性.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="8" column="28" lean-forward="true" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/day05/03优先级.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
-          <folding>
-            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/day05/04权重叠加.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="28" column="10" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/day05/05看透网页本质.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/day05/06盒子模型-边框.html">
+    <entry file="file://$PROJECT_DIR$/JS/day01/字符串.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
-          <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
+          <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/day05/07边框写法总结.html">
+    <entry file="file://$PROJECT_DIR$/JS/day01/类型转换.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="13" selection-start-line="13" selection-end-line="14" />
+        <state relative-caret-position="175">
+          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/day05/08细格边框.html">
+    <entry file="file://$PROJECT_DIR$/HTMLAuthoritativeGuide/test.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+        <state relative-caret-position="225">
+          <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/day05/09圆角边框.html">
+    <entry file="file://$PROJECT_DIR$/HTML/day09/overflowTest.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1170">
-          <caret line="39" column="24" selection-start-line="39" selection-start-column="24" selection-end-line="39" selection-end-column="24" />
+        <state>
+          <caret column="15" selection-start-column="15" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/day05/sina1.png">
+    <entry file="file://$PROJECT_DIR$/HTML/day09/显示与隐藏.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTML/day09/05-仿土豆效果显示与隐藏.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="21" column="26" lean-forward="true" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTML/day09/05-仿土豆效果显示与隐藏_2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="22" column="22" lean-forward="true" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTML/day09/06-取消轮廓线.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTML/day09/06-轮廓线_2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Program Files/feiq/Recv Files/杨秀潜/职问（65分）/zhiwen.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Program Files/feiq/Recv Files/杨秀潜/职问（65分）/zhiwen.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="123" lean-forward="true" selection-start-line="123" selection-end-line="123" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTML/day09/07-防止拖拽文本域.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTML/day09/07-防止拖拽文本域_2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="15" lean-forward="true" selection-start-column="15" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTML/day09/09-vertical-align图片对齐文字.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTML/day09/09-vertical-align图片对齐文字_2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="17" column="26" lean-forward="true" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTML/day09/10-去除图片底侧空白缝隙_2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTML/day09/11-溢出的文字省略号显示.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTML/day09/11-溢出的文字省略号显示_2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTML/day09/17-margin负值可以压住相邻盒子的边框.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTML/day09/13-拼出自己的名字.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTML/day09/14-制作精灵图注意事项.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTML/day09/15-滑动门原理.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTML/day09/16-微信导航栏.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="850">
+          <caret line="34" column="31" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTML/day09/images/wx.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/day05/12外边距.html">
+    <entry file="file://$PROJECT_DIR$/HTML/day09/images/to.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTML/day09/19-三角形效果.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        <state relative-caret-position="650">
+          <caret line="26" column="32" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/day05/13图片和背景文字和盒子对齐区别.html">
+    <entry file="file://$PROJECT_DIR$/HTML/day09/18-突出某个盒子.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+        <state relative-caret-position="625">
+          <caret line="25" column="31" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/day05/14清除内外边距.html">
+    <entry file="file://$PROJECT_DIR$/HTML/day09/12-体会CSS精灵技术.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+        <state relative-caret-position="25">
+          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/day05/15行内元素没有上下内外边距.html">
+    <entry file="file://$PROJECT_DIR$/HTML/day09/精灵图技术.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+        <state relative-caret-position="250">
+          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/day05/16外边距合并.html">
+    <entry file="file://$PROJECT_DIR$/HTML/day09/20-仿京东的三角形效果.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+        <state relative-caret-position="325">
+          <caret line="13" column="31" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/day05/17外边距合并2.html">
+    <entry file="file://$PROJECT_DIR$/pinyougou/css/common.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+        <state relative-caret-position="9914">
+          <caret line="400" column="15" selection-start-line="400" selection-start-column="15" selection-end-line="400" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/day05/10盒子内边距.html">
+    <entry file="file://$PROJECT_DIR$/pinyougou/css/base.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+        <state relative-caret-position="801">
+          <caret line="69" selection-start-line="69" selection-end-line="81" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/day05/18盒子的计算尺寸.html">
+    <entry file="file://$PROJECT_DIR$/pinyougou/css/details.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="14" column="49" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
+        <state relative-caret-position="8664">
+          <caret line="349" column="6" selection-start-line="349" selection-start-column="6" selection-end-line="349" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/day05/19学会计算盒子的尺寸.html">
+    <entry file="file://$PROJECT_DIR$/pinyougou/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+        <state relative-caret-position="-282">
+          <caret line="188" column="13" selection-start-line="188" selection-start-column="13" selection-end-line="188" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/day05/11新浪导航栏.html">
+    <entry file="file://$PROJECT_DIR$/pinyougou/css/list.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+        <state relative-caret-position="4589">
+          <caret line="189" column="6" selection-start-line="189" selection-start-column="6" selection-end-line="189" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTMLAuthoritativeGuide/ch03/3.14accesskey属性.html">
+    <entry file="file://$PROJECT_DIR$/pinyougou/css/register.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+        <state relative-caret-position="5539">
+          <caret line="224" column="15" selection-start-line="224" selection-start-column="15" selection-end-line="224" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/day05/21搜索趣图.html">
+    <entry file="file://$PROJECT_DIR$/pinyougou/list.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="53" column="30" lean-forward="true" selection-start-line="53" selection-start-column="30" selection-end-line="53" selection-end-column="30" />
+        <state relative-caret-position="13308">
+          <caret line="654" column="41" selection-start-line="654" selection-start-column="41" selection-end-line="654" selection-end-column="41" />
+          <folding>
+            <element signature="e#19037#19041#0" expanded="true" />
+            <element signature="e#19041#19045#0" expanded="true" />
+            <element signature="e#19365#19369#0" expanded="true" />
+            <element signature="e#19369#19373#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/day05/20padding不影响盒子大小的情况.html">
+    <entry file="file://$PROJECT_DIR$/pinyougou/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pinyougou/favicon.ico">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pinyougou/details.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
+        <state relative-caret-position="16464">
+          <caret line="661" column="41" selection-start-line="661" selection-start-column="41" selection-end-line="661" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/day06/01宽度剩余法.html">
+    <entry file="file://$PROJECT_DIR$/pinyougou/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="23" column="42" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
+        <state relative-caret-position="150">
+          <caret line="6" column="4" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/day06/05文档流介绍.html">
+    <entry file="file://$PROJECT_DIR$/pinyougou/register.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="26" lean-forward="true" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+        <state relative-caret-position="494">
+          <caret line="29" column="21" lean-forward="true" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/day06/04水晶图片案例.html">
+    <entry file="file://$PROJECT_DIR$/pinyougou/resources/icomoon/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="19" column="67" lean-forward="true" selection-start-line="19" selection-start-column="60" selection-end-line="19" selection-end-column="67" />
+        <state relative-caret-position="50">
+          <caret line="2" column="5" selection-end-line="9" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/day06/03盒子阴影.html">
+    <entry file="file://$PROJECT_DIR$/pinyougou/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="21" column="15" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="15" />
+        <state relative-caret-position="2025">
+          <caret line="81" column="21" selection-start-line="42" selection-start-column="16" selection-end-line="81" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/day06/02CSS3盒子模型.html">
+    <entry file="file://$PROJECT_DIR$/pinyougou/resources/icomoon/demo.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="24" column="48" lean-forward="true" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="48" />
+        <state relative-caret-position="75">
+          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/day06/06体验浮动.html">
+    <entry file="file://$PROJECT_DIR$/pinyougou2/css/common.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="588">
-          <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+        <state relative-caret-position="798">
+          <caret line="64" selection-start-line="64" selection-end-line="64" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/day06/07浮动详解.html">
+    <entry file="file://$PROJECT_DIR$/pinyougou2/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+        <state relative-caret-position="698">
+          <caret line="37" column="20" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/day06/08浮动特性对齐父盒子.html">
+    <entry file="file://$PROJECT_DIR$/HTML/test/p标签居中问题.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="24" column="38" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
+        <state relative-caret-position="784">
+          <caret line="28" column="7" lean-forward="true" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
+          <folding>
+            <element signature="e#173#179#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/day06/09浮动特性2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/day06/test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/day06/10浮动改变元素模式.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="644">
-          <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/day06/12两列左窄又宽型.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="46" column="38" selection-start-line="46" selection-start-column="38" selection-end-line="46" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/day06/11一列固定宽度且居中.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-465">
-          <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/day06/13通栏平均分布型.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="25" column="37" lean-forward="true" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

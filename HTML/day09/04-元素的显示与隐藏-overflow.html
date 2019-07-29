@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>04-元素的显示与隐藏-overflow</title>
+    <style>
+        .one {
+            width: 200px;
+            height: 200px;
+            overflow: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="one">
+        检索或设置当对象的内容超过其指定高度及宽度时如何管理内容。所有对象的默认值是 visible ，除了 textarea 对象和 body 对象的默认值是 auto 。
+        设置 textarea 对象此属性值为 hidden 将隐藏其滚动条。对于 table 来说，假如 table-layout 属性设置为 fixed ，则 td 对象支持带有默认值为 hidden 的 overflow 属性。
+        如果设为 scroll 或者 auto ，那么超出 td 尺寸的内容将被剪切。如果设为 visible ，将导致额外的文本溢出到右边或左边（视 direction 属性设置而定）的单元格。
+        自IE5开始，此属性在MAC平台上可用。自IE6开始，当你使用 !DOCTYPE 声明指定了 standards-compliant 模式，此属性可以应用于 html 对象。对应的脚本特性为 overflow 。
+    </div>
+    <div class="two"></div>
+    <pre>
+        基本特性
+        初始值： visible  适用于： block-level and replaced elements
+        继承性： 无  百分比： N/A
+        媒体： visual  版本： CSS2
+        兼容性： IE4+ NS6+
+
+        基本语法
+        overflow : visible | auto | hidden | scroll
+        语法取值
+        visible  :　 默认值。不剪切内容也不添加滚动条。假如显式声明此默认值，
+                     对象将以包含对象的 window 或 frame 的尺寸裁切。并且 clip 属性设置将失效
+        auto     :　 在必需时对象内容才会被裁切或显示滚动条
+        hidden   :　 不显示超过对象尺寸的内容
+        scroll   :　 总是显示滚动条
+
+        使用说明
+         检索或设置当对象的内容超过其指定高度及宽度时如何管理内容。所有对象的默认值是 visible ，除了 textarea 对象和 body 对象的默认值是 auto 。
+        设置 textarea 对象此属性值为 hidden 将隐藏其滚动条。对于 table 来说，假如 table-layout 属性设置为 fixed ，则 td 对象支持带有默认值为 hidden 的 overflow 属性。
+        如果设为 scroll 或者 auto ，那么超出 td 尺寸的内容将被剪切。如果设为 visible ，将导致额外的文本溢出到右边或左边（视 direction 属性设置而定）的单元格。
+        自IE5开始，此属性在MAC平台上可用。自IE6开始，当你使用 !DOCTYPE 声明指定了 standards-compliant 模式，此属性可以应用于 html 对象。对应的脚本特性为 overflow 。
+    </pre>
+</body>
+</html>

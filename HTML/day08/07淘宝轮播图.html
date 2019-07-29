@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>07淘宝轮播图</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        ul {
+            /*取消原有的小圆点*/
+            list-style: none;
+        }
+        .silder {
+            width: 520px;
+            height: 280px;
+            margin: 50px auto;
+            background-color: #c0301c;
+            position: relative;
+        }
+        .arrow-left ,
+        .arrow-right{
+            position: absolute;
+            top: 50%;
+            width: 24px;
+            height: 36px;
+            /* a 标签是行级标签*/
+            display: block;
+            top: 50%;
+            margin-top: -18px;
+        }
+        .arrow-left {
+            left: 0;
+        }
+        .arrow-right {
+            right: 0;
+        }
+        .circle {
+            position: absolute;
+            left: 50%;
+            bottom: 15px;
+            margin-left: -32px;
+            background-color: rgba(255, 255, 255, 0.3);
+            width: 65px;
+            height: 13px;
+            border-radius: 5px ;
+        }
+        .circle li {
+            width: 9px;
+            height: 9px;
+            background-color: #b7b7b7;
+            float: left;
+            margin: 2px;
+            border-radius: 50%;
+        }
+        .circle li:hover {
+            background-color: #ff4400;
+        }
+    </style>
+</head>
+<body>
+    <div class="silder">
+        <img src="images/taobao.jpg" alt="taobao.jpg">
+        <a href="#" class="arrow-left"><img src="images/left.png" alt=""></a>
+        <a href="#" class="arrow-right"><img src="images/right.png" alt=""></a>
+        <!--小圆点-->
+        <ul class="circle">
+            <li><img src="" alt=""></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+</body>
+</html>
