@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        div {
+            width: 200px;
+            height: 200px;
+            background-color: pink;
+            margin: 150px auto;
+            position: relative;
+        }
+        
+        p {
+            width: 0;
+            height: 0;
+            font-size: 0;
+            line-height: 0;
+            border-width: 20px;
+            border-style: solid;
+            border-color: transparent transparent rgb(179, 21, 21) transparent;
+            /* 子绝父相 */
+            position: absolute;
+            top: -40px;
+            left: 50%;
+            margin-left: -20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <p></p>
+    </div>
+</body>
+
+</html>

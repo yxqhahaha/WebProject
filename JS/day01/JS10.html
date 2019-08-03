@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JS10_Page</title>
+</head>
+<body>
+<p>
+    &nbsp;&nbsp;&nbsp;&nbsp;在js中只有object和function两种东西才有对象化的能力。</br>
+    任何一个函数都可以为其动态地添加或去除属性，这些属性可以是简单类型，可以是对象，也可以是其<br/>
+    它函数，也就是说，函数具有对象的全部特征，你完全可以把函数当对象来用。其实函数就是对象，只不过比一般的对象多了一个括号()
+
+</p>
+<img src="resouce\动态地给函数添加属性.JPG">
+<script type="text/javascript">
+    function sing() {
+        alert(sing.author + " : " + sing.poem);
+    };
+
+    sing.author = "李白";
+    sing.poem = "汉家秦地月，流影照明妃。一上玉关道，天涯去不归...";
+    sing(); //李白 : 汉家秦地月，流影照明妃。一上玉关道，天涯去不归...
+
+    sing.author = "李战";
+    sing.poem = "日出汉家天，月落阴山前。女儿琵琶怨，已唱三千年...";
+    sing(); //李战 : 日出汉家天，月落阴山前。女儿琵琶怨，已唱三千年...
+</script>
+</body>
+</html>

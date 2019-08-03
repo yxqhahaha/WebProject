@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        div {
+            /* 用css边框可以模拟三角形效果 */
+            width: 1px;
+            height: 1px;
+            /* 兼容性设置 */
+            font-size: 0;
+            line-height: 0;
+            /* 上 右 下 左 */
+            border-top: 10px dashed red;
+            border-right: 10px dashed green;
+            border-bottom: 10px dashed yellow;
+            border-left: 10px dashed pink;
+        }
+        
+        p {
+            width: 0;
+            height: 0;
+            border-style: solid;
+            border-width: 10px;
+            /* 上 右 下  左 */
+            border-color: red transparent skyblue transparent;
+        }
+
+
+        li {
+            width: 6px;
+            height: 6px;
+            /*border: 1px solid red;*/
+            border-radius: 50%;
+        }
+    </style>
+</head>
+
+<body>
+    <div></div>
+    <p></p>
+    <li></li>
+<span></span>
+</body>
+
+</html>

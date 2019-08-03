@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        div {
+            position: relative;
+            width: 200px;
+            height: 200px;
+            margin-left: -2px;
+            margin-top: -2px;
+            float: left;
+            border: 2px solid #ccc;
+        }
+        /* 伪类选择器 */
+        
+        div:hover {
+            /* 当鼠标经过的时候 将盒子层级升到最高 
+            定位的盒子是最高层的*/
+            border: 2px solid rgba(248, 224, 12, 0.938);
+            /* 只能用相对定位，相对定位是占有位置的 */
+            position: relative;
+            z-index: 1;
+        }
+    </style>
+</head>
+
+<body>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+</body>
+
+</html>

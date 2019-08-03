@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>如何创建多个对象</title>
+    <style>
+
+    </style>
+</head>
+<body>
+<script>
+    //把创建对象的代码封装在函数中
+
+    function  createObj(name, age) {
+        var obj = new Object();
+        //添加属性
+        obj.name = name;
+        obj.age = age;
+        //添加方法
+        obj.sayHi = function () {
+            console.log("hi : " + this.name);
+        };
+        return obj;
+    }
+
+    //创建人的对象
+    var per1 = createObj("cnyangx", 23);
+    per1.sayHi();
+</script>
+</body>
+</html>

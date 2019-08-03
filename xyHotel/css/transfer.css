@@ -1,0 +1,83 @@
+/* shutdown部分 0 */
+.shutdown {
+    height: 34px;
+    background-color: #eee;
+    border-bottom: 1px solid #ddd;
+    line-height: 34px;
+}
+.shutdown-r li {
+    float: left;
+    color: #666;
+    margin-left: 16px;
+}
+/* shutdown部分 1 */
+.main-thanks {
+    text-align: center;
+    font-size: 30px;
+    color: #222;
+    padding-top: 100px;
+    padding-bottom: 28px;
+}
+.main-con {
+    width: 630px;
+    height: 236px;
+    margin: 0 auto;
+    padding: 26px;
+    border: 1px solid #dedede;
+}
+.main-con-top {
+    height: 113px;
+    border-bottom: 1px dashed #ccc;
+}
+.main-con-top div {
+    width: 140px;
+    font-size: 16px;
+    line-height: 50px;
+    text-align: center;
+}
+.main-con-top h2 {
+    width: 264px;
+    color: #00bf6c;
+    margin: 0 auto;
+    font-size: 16px;
+    text-align: center;
+    font-family: '微软雅黑';
+    border-bottom: 2px solid #00bf6c;
+    line-height: 46px;
+}
+.main-con img {
+    display: block;
+    margin: 0 auto;
+    height: 50px;
+}
+.main-con-bottom dt {
+    line-height: 50px;
+    color: #00bf6c;
+    font-size: 18px;
+}
+.main-con-bottom dd {
+    padding-top: 12px;
+    color: #333;
+    font-size: 16px;
+}
+.money {
+    padding: 70px 40px 0 0;
+    color: #ff3838;
+    font-size: 28px;
+    font-family: 'Arial';
+}
+.main-statement {
+    width: 675px;
+    font-size: 14px;
+    color: #999;
+    line-height: 24px;
+    margin: 40px auto 125px;
+}
+
+.footer {
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    color: #aeafae;
+    border-top: 1px solid #cccccc;
+}

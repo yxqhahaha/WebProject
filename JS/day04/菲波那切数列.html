@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>菲波那切数列</title>
+    <style>
+
+    </style>
+</head>
+<body>
+<script>
+    /**
+     * 斐波那契数列（Fibonacci sequence），又称黄金分割数列、因数学家列昂纳多·斐波那契（Leonardoda Fibonacci）以兔子繁殖为例子而引入
+     *
+     * 故又称为“兔子数列”，指的是这样一个数列：1、1、2、3、5、8、13、21、34、
+     *
+     * F(1)=1，F(2)=1, F(n)=F(n-1)+F(n-2)（n>=3，n∈N*）
+     *
+     * */
+
+    /**
+     * 传入参数控制菲波那切数列打印范围
+     * */
+    function fib( num ) {
+        var arr = new Array(num);
+        arr[0] = 1;
+        arr[1] = 1;
+        for (var i = 2; i < num; i++) {
+            arr[i] = arr[i - 1] + arr[i - 2];
+        }
+        console.log(arr);
+    }
+
+    fib(50);
+</script>
+</body>
+</html>

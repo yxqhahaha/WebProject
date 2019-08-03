@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        
+        li {
+            padding: 0 20px;
+             background: url("images/wx.jpg") repeat-x;
+            list-style: none;
+            text-align: center;
+        }
+        /* a 是设置左侧背景（左门） */
+        
+        a {
+            /*margin: 50px;*/
+            display: inline-block;
+            height: 33px;
+            padding-left: 25px;
+            background: url(images/to.png) no-repeat;
+            color: #fff;
+            /* float: left */
+        }
+        /* span 是设置右侧背景（右门） */
+        /* 因为整个导航栏都是链接，所以a要包含span */
+        /* 因为是滑动门，所以需要用文字来撑开盒子，就要用到行内块 */
+        
+        a span {
+            display: inline-block;
+            padding-right: 25px;
+            /* 背景图片右对齐 */
+            background: url(images/to.png) no-repeat right top;
+            /* float: right */
+        }
+    </style>
+</head>
+
+<body>
+    <li>
+        <a href="">
+            <span>首页</span>
+        </a>
+        <a href="">
+            <span>最新活动</span>
+        </a>
+        <a href="">
+            <span>下载</span>
+        </a>
+    </li>
+</body>
+
+</html>
