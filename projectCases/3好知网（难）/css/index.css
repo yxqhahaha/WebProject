@@ -1,0 +1,423 @@
+/* 好知网样式 */
+
+
+/* 设置版心 */
+
+.w {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+
+/* header   0 */
+
+.header {
+    height: 80px;
+    background-color: #fff;
+}
+
+
+/* .logo */
+
+.logo a {
+    display: block;
+    float: left;
+    margin-top: 15px;
+    width: 90px;
+    height: 55px;
+    background: url(../images/logo.png) no-repeat;
+    font-size: 0;
+}
+
+.header_nav {
+    float: left;
+    margin-left: 50px;
+    /* height: 80px; */
+}
+
+.header_nav_item {
+    float: left;
+}
+
+.header_nav_item a {
+    margin-left: 50px;
+    height: 80px;
+    line-height: 80px;
+    font-size: 16px;
+}
+
+
+/* 登录注册 */
+
+.login_reg {
+    float: right;
+    width: 300px;
+    height: 80px;
+    /* background-color: silver; */
+}
+
+.login_reg ul {
+    float: right;
+}
+
+.login_reg li {
+    float: left;
+    margin-left: 20px;
+}
+
+.login_reg li a {
+    height: 80px;
+    line-height: 80px;
+    font-size: 16px;
+    color: #13c287;
+}
+
+.login_reg .hao_zhi_app {
+    padding-top: 2px;
+    padding: 20px;
+    background: url(../images/1243.png) no-repeat left;
+    vertical-align: middle;
+    font-size: 14px;
+}
+
+
+/* header   1 */
+
+
+/* focus    0 */
+
+.focus {
+    height: 420px;
+    background: url(../images/11.jpg) no-repeat
+}
+
+.focus_bd {
+    position: relative;
+}
+
+.focus_study {
+    position: absolute;
+    top: 100px;
+    right: 0;
+    width: 255px;
+    height: 210px;
+}
+
+.course {
+    padding: 20px 0 0 22px;
+    box-sizing: border-box;
+    width: 255px;
+    height: 145px;
+    background: rgba(0, 0, 0, .2);
+    border-radius: 20px;
+}
+
+.course h5 {
+    padding-left: 15px;
+    margin-bottom: 20px;
+    border-left: 5px solid #fd7c54;
+    color: #fff;
+    font-family: 400;
+    font-size: 12px;
+}
+
+.course_number {
+    display: block;
+    float: left;
+    width: 150px;
+    height: 48px;
+    font-size: 46px;
+    line-height: 46px;
+    color: #fff;
+}
+
+.course_person {
+    float: left;
+    display: block;
+    padding-top: 8px;
+    width: 60px;
+    height: 40px;
+    line-height: 20px;
+    color: #fff;
+    font-size: 12px;
+}
+
+.study {
+    margin-top: 15px;
+    width: 255px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: #fc7b53;
+    text-align: center;
+}
+
+.study a {
+    line-height: 50px;
+    font-size: 22px;
+    color: #fff;
+}
+
+
+/* focus    1 */
+
+
+/* floor    0 */
+
+.hot_course {
+    height: 435px;
+    padding-top: 60px;
+}
+
+.line {
+    position: relative;
+}
+
+.paint_line {
+    height: 1px;
+    margin-bottom: 48px;
+    background-color: #efefef;
+}
+
+.txt_title {
+    position: absolute;
+    top: -14px;
+    left: 50%;
+    margin-left: -67px;
+    background-color: #fff;
+    text-align: center;
+    line-height: 28px;
+    width: 134px;
+    height: 28px;
+    font-size: 20px;
+    color: #62615f;
+}
+
+.pic {
+    position: relative;
+    height: 315px;
+}
+
+.btn_left {
+    position: absolute;
+    top: 50%;
+    margin-top: -40px;
+    width: 36px;
+    height: 80px;
+    background: rgba(102, 153, 153, .2);
+    text-align: center;
+    line-height: 80px;
+}
+
+.btn_left a {
+    font-size: 20px;
+}
+
+.pic_li {
+    position: relative;
+    float: left;
+    width: 560px;
+    height: 315px;
+    margin-left: 10px;
+}
+
+.content_div {
+    position: absolute;
+    top: 70px;
+    left: 100px;
+    width: 290px;
+    height: 100px;
+    border: 2px solid #fff;
+    text-align: center;
+}
+
+.content_div a {
+    font-size: 20px;
+    color: #fff;
+    line-height: 100px;
+}
+
+.pic_li p {
+    position: absolute;
+    top: 200px;
+    left: 190px;
+    color: #fff;
+    font-size: 16px;
+}
+
+
+/* 班级推荐 */
+
+.tuijian_pic {
+    width: 1180px;
+}
+
+.tuijian_li {
+    position: relative;
+    float: left;
+    width: 264px;
+    height: 285px;
+    margin-left: 25px;
+}
+
+.tuijian_li h5 {
+    font-size: 14px;
+    font-weight: 400;
+    height: 44px;
+    line-height: 44px;
+}
+
+.tuijian_img {
+    height: 150px;
+}
+
+.tuijian_li .banji {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.tuijian_li p {
+    height: 40px;
+}
+
+.tuijian_li a {
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    width: 230px;
+    height: 38px;
+    border-radius: 15px;
+    color: #fff;
+    background-color: #15c388;
+    text-align: center;
+    line-height: 38px;
+}
+
+
+/* 认证达人 */
+
+.daren {
+    margin-top: 50px;
+    height: 310px;
+}
+
+.daren_pic {
+    width: 1180px;
+}
+
+.daren_pic li {
+    float: left;
+    margin-left: 30px;
+    width: 360px;
+    height: 145px;
+    border: 1px solid #ccc;
+}
+
+.icon_pic {
+    line-height: 145px;
+    float: left;
+    width: 135px;
+}
+
+.icon_pic img {
+    border-radius: 80px;
+}
+
+.daren_txt {
+    padding-top: 32px;
+    float: left;
+    height: 145px;
+}
+
+.daren_txt h5 {
+    color: #13c287;
+}
+
+.daren_txt a {
+    display: block;
+    margin: 15px 0;
+    width: 100px;
+    height: 35px;
+    color: #fff;
+    text-align: center;
+    line-height: 35px;
+    background-color: #ff9338;
+    border-radius: 15px;
+}
+
+.daren_txt p {
+    width: 200px;
+}
+
+.shegnqing ul {
+    margin-top: 12px;
+    float: right;
+}
+
+.shegnqing li {
+    float: left;
+    margin-left: 10px;
+    width: 88px;
+    height: 28px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 28px;
+}
+
+
+/* floor    1 */
+
+
+/* footer   0 */
+
+.footer {
+    height: 180px;
+    padding-top: 20px;
+    background-color: #515151;
+}
+
+.footer_logo {
+    float: left;
+    width: 360px;
+    height: 55px;
+    background: url(../images/foot-logo.png) no-repeat;
+}
+
+.guanyu {
+    float: left;
+    width: 300px;
+    margin-top: 18px;
+    text-align: center;
+}
+
+.guanyu li {
+    float: left;
+    margin: 0 5px;
+}
+
+.guanyu li a {
+    font-size: 14px;
+    color: #fff;
+}
+
+.guanyu p {
+    color: #9e9a99;
+}
+
+.copyright {
+    margin-top: 15px;
+}
+
+.copyright li {
+    float: left;
+    margin: 0 5px;
+    color: #9e9a99;
+}
+
+.copyright p {
+    color: #9e9a99;
+}
+
+
+/* footer   1 */

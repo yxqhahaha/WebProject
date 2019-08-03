@@ -1,0 +1,231 @@
+/* 注册页面 */
+
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    height: 82px;
+    border-bottom: 2px solid #b1191a;
+}
+
+.logo {
+    padding-top: 15px;
+}
+
+
+/* register-area 0 */
+
+.register-area {
+    margin-top: 20px;
+    height: 520px;
+    border: 1px solid #ccc;
+}
+
+.register-area h3 {
+    height: 40px;
+    line-height: 40px;
+    padding: 0 10px;
+    border-bottom: 1px solid #ccc;
+    background-color: #ececec;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+.register-area h3 em {
+    font-size: 14px;
+    float: right;
+}
+
+.register-area h3 em a {
+    color: #c81623;
+}
+
+.reg-form {
+    width: 600px;
+    height: 400px;
+    /* background-color: pink; */
+    margin: 40px auto 0;
+}
+
+.reg-form li {
+    margin-bottom: 10px;
+}
+
+.reg-form label {
+    display: inline-block;
+    width: 100px;
+    height: 36px;
+    text-align: right;
+    line-height: 36px;
+    margin-right: 10px;
+}
+
+.inp {
+    width: 238px;
+    height: 34px;
+    padding-left: 10px;
+    border: 1px solid #ccc;
+}
+
+.error-icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+    background: url(../img/error.png) no-repeat;
+    /* 让文字居中对齐 */
+    vertical-align: middle;
+}
+
+.success {
+    color: #40b83f;
+}
+
+.success-icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+    background: url(../img/success.png) no-repeat;
+    /* 让文字居中对齐 */
+    vertical-align: middle;
+}
+
+.error {
+    color: #b1191a;
+}
+
+.safe {
+    margin-left: 200px;
+    color: #b2b2b2;
+}
+
+.safe em {
+    padding: 0 10px;
+    color: #fff;
+}
+
+.safe .ruo {
+    background-color: #de1111;
+}
+
+.safe .zhong {
+    background-color: #40b83f;
+}
+
+.safe .qiang {
+    background-color: #dbce11;
+}
+
+.agree {
+    padding-top: 15px;
+    padding-left: 115px;
+}
+
+.agree .inp {
+    width: 15px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.agree a {
+    color: #1ba1e6;
+}
+
+.over-reg a {
+    display: block;
+    width: 200px;
+    height: 34px;
+    text-align: center;
+    line-height: 34px;
+    background-color: #c81623;
+    font-size: 14px;
+    color: #fff;
+    margin: 30px 0 0 115px;
+}
+
+
+/* register-area 1 */
+
+
+/* footer   0 */
+
+.footer {
+    height: 120px;
+    text-align: center;
+}
+
+
+/* 帮助模块 */
+
+.mod-help {
+    height: 187px;
+    /* 上右下左 */
+    padding: 20px 0px 0px 50px;
+    border-bottom: 1px solid #ededed;
+}
+
+.mode-help-item {
+    width: 190px;
+    float: left;
+}
+
+.mode-help ul {
+    display: block;
+    float: left;
+}
+
+.mode-help ul li {
+    height: 20px;
+    font-size: 12px;
+    color: #666;
+}
+
+.mode-help-titile {
+    height: 25px;
+    color: #333;
+    font-size: 16px;
+}
+
+.mod-help-app dt,
+.mod-help-app p {
+    padding-left: 15px;
+}
+
+.mod-help-app img {
+    margin: 7px 0;
+}
+
+
+/* 版权部分 */
+
+.mod-copyright {
+    text-align: center;
+}
+
+.mode-copyright-links i {
+    font-family: "icomoon";
+}
+
+.mode-copyright-spacer {
+    margin: 0 10px;
+}
+
+.mode-copyright-links {
+    margin: 20px 0px 5px 0;
+}
+
+.mode-copyright-links li {
+    float: left;
+    font-size: 12px;
+}
+
+.mod-copyright-details {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+
+/* footer   1 */

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>函数的调用及定义</title>
+</head>
+<body>
+<script>
+    function mf() {
+        console.log("test");
+    }
+
+    mf();
+    mf();
+    mf();
+    mf();
+    mf();
+
+    /**
+     *      传参
+     * */
+    var num1 =  23;
+    var num2 = 432;
+    function mf2(num, num2) {
+        return num + num2;
+    }
+
+    console.log(mf2(num1, num2));
+
+
+    /**
+     *  函数定义
+     *  从浏览器弹窗输入数据
+     *  */
+    var num3 = parseInt(prompt("请输入num3 : "));
+    var num4 = parseInt(prompt("请输入num4 : "));
+
+    console.log( "输入的两个值的和 ： " + mf2(num3, num4));
+    console.log(mf2);
+</script>
+</body>
+</html>

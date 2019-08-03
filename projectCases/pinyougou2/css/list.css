@@ -1,0 +1,210 @@
+/* 列表页样式 */
+
+.sk {
+    position: absolute;
+    top: 40px;
+    left: 185px;
+    height: 32px;
+    padding: 5px 0 0 15px;
+    border-left: 2px solid #c81623;
+}
+
+
+/* nav  0 */
+
+.nav li {
+    float: left;
+    height: 45px;
+    line-height: 45px;
+}
+
+.nav li a {
+    display: block;
+    height: 45px;
+    margin: 0 25px;
+}
+
+.sk-list li a {
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;
+}
+
+.sk-con li a {
+    font-size: 14px;
+    font-family: 'icomoon';
+}
+
+.sk-list li a:hover {
+    color: #c81623;
+}
+
+.sk-con .sk-con-lastitem {
+    font-size: 18px;
+    margin-top: -4px;
+}
+
+
+/* nav  1 */
+
+
+/* sk-container 0 */
+
+
+/* 秒杀内容 */
+
+.sk-container-bd {
+    width: 1220px;
+    margin-top: 25px;
+}
+
+.sk-container-goods {
+    position: relative;
+    /* box-sizing: border-box; */
+    margin: 0 14px 15px 0;
+    width: 288px;
+    height: 458px;
+    /* 
+        边框初始颜色为透明
+
+        盒子不会抖动 
+    */
+    border: 1px solid transparent;
+}
+
+.sk-container-goods:hover {
+    border: 1px solid #e12228;
+}
+
+.sk-goods-title {
+    padding: 10px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #666;
+    font-family: 'simsun', '宋体';
+}
+
+.sk-goods-price {
+    padding: 0 10px;
+}
+
+.sk-goods-price em {
+    font-size: 22px;
+    color: #e60012;
+}
+
+.sk-goods-price del {
+    font-size: 14px;
+    color: #a4a4a4;
+}
+
+
+/* 进度条 */
+
+.sk-goods-progress {
+    padding: 0 10px;
+}
+
+.bar {
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: middle;
+    /* 使进度条与文字垂直居中 */
+    margin-top: -2px;
+    width: 130px;
+    height: 10px;
+    border: 1px solid red;
+    border-radius: 5px;
+}
+
+.bar-in {
+    height: 12px;
+    width: 87%;
+    background: red;
+}
+
+.sk-goods-progress em,
+.sk-goods-progress i {
+    color: #c81623;
+}
+
+.sk-goods-buy {
+    position: absolute;
+    bottom: -1px;
+    left: -1px;
+    /* 使用了定位就自动转为块级元素 */
+    width: 290px;
+    height: 50px;
+    background-color: #b1191a;
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+    font-size: 18px;
+}
+
+
+/* sk-container 0 */
+
+
+/* 页面跳转     0 */
+
+.page {
+    margin: 40px 0;
+    /* 容器里面的内容居中对齐 */
+    text-align: center;
+}
+
+.page-num a {
+    display: inline-block;
+    margin: 0 5px;
+    width: 36px;
+    height: 36px;
+    font-size: 14px;
+    background-color: #f7f7f7;
+    border: 1px solid #ccc;
+    line-height: 36px;
+    font-family: 'consolas';
+}
+
+
+/* 提权 */
+
+.page-num .page-previous,
+.page-num .page-next {
+    width: 83px;
+}
+
+.page-num .dotted,
+.page-num .current {
+    background-color: transparent;
+}
+
+.page-skip {
+    padding: 0 20px;
+}
+
+.page-skip input {
+    width: 36px;
+    height: 36px;
+    border: 1px solid #ccc;
+    transition: all 0.5s;
+}
+
+.page-skip input:focus {
+    width: 56px;
+    border: 1px solid blue;
+}
+
+.page-skip button {
+    width: 56px;
+    height: 36px;
+    margin-left: 10px;
+    color: #666;
+    font-size: 14px;
+    line-height: 27px;
+    border: 1px solid #ccc;
+    background-color: #f7f7f7;
+}
+
+
+/* 页面跳转     1 */

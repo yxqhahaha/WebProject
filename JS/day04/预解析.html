@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<script>
+    /* 预解析 */
+    /**
+     * 预解析
+     *  预解析就是在代码之前
+     *     --把变量的声明提前了--提前到当前坐在的作用域的最上面
+     *     --函数的声明一会被提前--提前到当前所在的作用域的最上面
+     *
+     * */
+    //把变量的声明提前了
+    // var num;
+    // console.log(num);
+    //
+    // var num = 10;
+
+
+    /**
+     *  预解析存在，所以两次打印的结果相同
+     *
+     *      控制台输出为： 第二次
+     *
+     *     预解析把声明提前， 相同函数名的函数，后面的会覆盖前面的
+     * */
+    // function  f1() {
+    //     console.log("第一次");
+    // }
+    // f1();
+    //
+    // function  f1() {
+    //     console.log("第二次");
+    // }
+    //
+    // f1();
+
+
+    /**
+     *  输出  ：undefined
+     *
+     *  由于预解析的存在，会将var num = 10; 中的var num提前到console.log(num);的
+     *  上面进行解析，但这时没有赋值，所以为undefined,只是定义了，但没有赋值。
+     * */
+
+    // f1();
+    // var num = 20;
+    // function f1() {
+    //     console.log(num);
+    //     var num = 10;
+    // }
+
+    /*
+    //放在这三个位置都是undefined
+    // f1();   //undefined
+    var num = 20;
+    // f1();   //undefined
+    function f1() {
+        console.log(num);
+        var num = 10;
+    }
+    // f1();   //undefined
+    */
+
+
+    // f1();   //undefined
+    var num = 20;
+    // f1();   //20
+    function f1() {
+        console.log(num);
+    }
+    f1();   //20
+
+
+    /**
+     *
+     *  简述两者的不同，js是没有块级作用域的
+     *
+     *  在
+     *  ar num = 20;
+     *  function f1() {
+        console.log(num);
+        var num = 10;
+        }
+     *  中，因为函数块的存在，调用了f1会先在函数块里面去寻找变量num的定义，
+     *  这时将var num = 10的var num预解析到console.log（）前面。因为只有定义而没有赋值，所以都为undefined
+     *
+     *
+     * 而在
+     // * // f1();   //undefined   //函数申明提前到变量使用之前 var num; 但此时没有赋值
+     *    var num = 20;
+     *    // f1();   //20
+     *   function f1() {
+     *       console.log(num);
+     *   }
+     *    f1();   //20
+     *中，函数调用的时候，会将函数的声明提升到作用域的上面，而变量使用的时候会将变量的声明提升到变量的使用之前
+     *
+     *
+     * */
+
+</script>
+</body>
+</html>

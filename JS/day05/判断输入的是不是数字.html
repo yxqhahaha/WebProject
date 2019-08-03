@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>判断输入的是不是数字</title>
+    <style>
+
+    </style>
+</head>
+<body>
+<script>
+    var str = prompt("请输入一个数字");
+    if(str == ""){
+        //没有输入内容
+        console.log("error");
+    }else {
+        console.log(str);
+        /*  isNaN  是不是 不是一个数字 */
+        if(!isNaN(parseInt(str))){
+            console.log("is number --value : " + parseInt(str));
+        }else {
+            console.log("not a number");
+        }
+
+    }
+</script>
+</body>
+</html>

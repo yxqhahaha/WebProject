@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>arguments对象</title>
+    <style>
+
+    </style>
+</head>
+<body>
+<script>
+    /**
+     *  参数对象
+     *      arguments.length()
+     *          --获取传入参数的个数
+     * */
+
+    function f1() {
+        console.log(arguments.length)
+    }
+
+    f1(1,2,32,34,235,345,4);
+
+
+    /**
+     * 伪数组
+     *      --计算伪数组的和
+     * */
+    function  f2() {
+        var sum  = 0;
+        for (var i = 0; i < arguments.length - 1; i++) {
+            sum += arguments[i];
+        }
+        return sum;
+    }
+
+    console.log(f2(1,2,32,34,235,345,4));
+
+</script>
+</body>
+</html>

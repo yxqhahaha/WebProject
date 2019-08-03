@@ -1,0 +1,159 @@
+/* 注册页面 */
+
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    position: relative;
+    height: 82px;
+    border-bottom: 2px solid #b1191a;
+}
+
+.logo {
+    padding-top: 15px;
+}
+
+
+/* register-area    0   */
+
+.register-area {
+    margin-top: 20px;
+    height: 520px;
+    border: 1px solid #ccc;
+}
+
+.register-area h3 {
+    padding: 0 10px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #ececec;
+    border-bottom: 1px solid #ccc;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.register-area h3 em {
+    float: right;
+    font-size: 14px;
+}
+
+.register-area a {
+    color: #c81623;
+}
+
+.reg_form {
+    width: 600px;
+    height: 400px;
+    /* background-color: #aff; */
+    margin: 40px auto 0;
+}
+
+.reg_form li {
+    margin-bottom: 15px;
+}
+
+.reg_form label {
+    display: inline-block;
+    width: 100px;
+    height: 36px;
+    text-align: right;
+    line-height: 36px;
+}
+
+.inp {
+    margin: 0 10px;
+    box-sizing: border-box;
+    padding-left: 15px;
+    width: 240px;
+    height: 36px;
+    border: 1px solid #ccc;
+}
+
+.error {
+    display: inline-block;
+    color: #df3033;
+}
+
+.error_icon,
+.success_icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url(../img/error.png) no-repeat;
+    vertical-align: middle;
+    margin-top: -2px;
+}
+
+.success_icon {
+    background-image: url(../img/success.png);
+}
+
+.safe {
+    padding-left: 187px;
+    color: #b2b2b2;
+}
+
+.safe em {
+    padding: 0 12px;
+}
+
+.ruo {
+    background-color: #de1111;
+}
+
+.zhong {
+    background-color: #40b83f;
+}
+
+.qiang {
+    background-color: #f79100;
+}
+
+.agree {
+    padding-left: 100px;
+}
+
+.agree input {
+    width: 12px;
+    height: 12px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.agree a {
+    color: #1ba1e6;
+}
+
+.over-reg .over {
+    margin: 20px 0 0 130px;
+    width: 200px;
+    height: 34px;
+    background-color: #c81623;
+    border: 0;
+    color: #fff;
+    text-align: center;
+    line-height: 34px;
+    font-size: 14px;
+}
+
+
+/* register-area    1   */
+
+
+/* footer   0 */
+
+.footer {
+    padding-top: 20px;
+    text-align: center;
+    height: 120px;
+}
+
+.mode-copyright-links {
+    margin-top: 20px;
+    line-height: 20px;
+}
+
+
+/* footer   1 */
