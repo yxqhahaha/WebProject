@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>08-innerText和innerHTML的区别</title>
+    <style>
+
+    </style>
+</head>
+<body>
+    <div></div>
+    <p>
+        p tag
+        <span>test span</span>
+    </p>
+    <script>
+        let div = document.querySelector('div');
+        // div.innerText = '<strong>不知道</strong> ';
+        div.innerHTML = '<strong>i don\'t know</strong> ';
+
+        let p = document.querySelector('p');
+        console.log(p.innerText);
+        console.log(p.innerHTML);
+    </script>
+</body>
+</html>

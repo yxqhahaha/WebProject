@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>10-分时问候并显示不同图片</title>
+    <style>
+        img {
+            width: 300px;
+
+        }
+    </style>
+</head>
+<body>
+    <img src="images/ldh.jpg" alt="">
+    <div>早上听刘德华：开心的马骝</div>
+    <script>
+        //根据系统不同时间来判断，所以需要用到日期内置对象
+        //利用多分支语句来设置不同的图片
+        //需要一个图片，并且根据时间修改图片，就需要用到操作元素src属性
+        //需要一个div元素，显示不同问候语，修改元素内容即可
+
+        let img = document.querySelector('img');
+        let div = document.querySelector('div');
+
+        let date = new Date();
+        let h = date.getHours();
+        // console.log(h);
+        if(h < 12) {
+            img.src = 'images/ldh.jpg';
+            div.innerHTML = '早上听刘德华：开心的马骝';
+        }else if (h < 18){
+            img.src = 'images/zxy.jpg';
+            div.innerHTML = '下午听张学友：忘情水';
+        }else {
+            img.src = 'images/shishilani.jpg';
+            div.innerHTML = '食屎啦你';
+        }
+    </script>
+</body>
+</html>

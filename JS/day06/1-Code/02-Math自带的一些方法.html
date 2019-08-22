@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>02-Math自带的一些方法</title>
+    <script>
+        //绝对值方法
+        console.log('--------绝对值方法-------');
+        console.log(Math.abs(1));
+        console.log(Math.abs(-1));
+        console.log(Math.abs('-1'));    //隐式转换 --> Number
+        console.log(Math.abs('yangx')); //NaN
+
+        //向上取整
+        console.log('--------向上取整-------');
+        console.log(Math.ceil(1.234));
+        console.log(Math.ceil(1.534));
+        //向下取整
+        console.log('--------向下取整-------');
+        console.log(Math.floor(1.234));
+        console.log(Math.floor(1.534));
+
+        //四舍五入
+        console.log('--------四舍五入-------');
+        console.log(Math.round(1.4445));
+        console.log(Math.round(1.3445));
+        console.log(Math.round(1.5445));
+        console.log(Math.round(1.7445));
+        console.log(Math.round(-1.1));  //-1
+        console.log(Math.round(-1.5));  //-1
+        console.log(Math.round(-1.6));  //-2
+
+        //随机数
+        console.log('--------随机数-------');
+        console.log(Math.random());
+        console.log(Math.random()*10);
+        console.log(Math.round(Math.random()*100));
+        console.log(Math.random()*1000);
+        console.log(Math.random()*1000 + 500);
+
+        //产生介于两个数之间的随机数（包含)
+        function getRandom(min, max) {
+            return Math.floor(Math.random() * (max - min + 1)) + min;
+        }
+        for (let i = 0; i < 10; i++) {
+            console.log(getRandom(10, 20    ));
+        }
+    </script>
+</head>
+<body>
+
+</body>
+</html>

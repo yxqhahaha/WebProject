@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>06-tab栏切换</title>
+    <style>
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        ul {
+            list-style: none;
+        }
+        .detail {
+            width: 978px;
+            /* border: 1px solid #ccc; */
+        }
+
+        .detail-tab-list {
+            height: 39px;
+            border: 1px solid #ccc;
+            background-color: #f1f1f1;
+        ;
+        }
+
+        .detail-tab-list li {
+            float: left;
+            height: 39px;
+            line-height: 39px;
+            padding: 0 20px;
+            text-align: center;
+            cursor: pointer;
+        }
+
+        .detail-tab-list .current {
+            background-color: #c81623;
+            color: #fff;
+        }
+
+        .item {
+            display: none;
+        }
+
+        .item-info {
+            padding: 20px 0 0 20px;
+        }
+
+        .item-info li {
+            line-height: 22px;
+        }
+
+        .more {
+            float: right;
+            font-weight: 700;
+            font-family: 'icomoon';
+        }
+        /*规格与包装*/
+
+        /*商品评价*/
+    </style>
+</head>
+<body>
+<div class="detail fr">
+    <div class="detail-tab-list">
+        <ul>
+            <li class="current">商品介绍</li>
+            <li>规格与包装</li>
+            <li>售后保障</li>
+            <li>商品评价（50000）</li>
+            <li>商品介绍</li>
+        </ul>
+    </div>
+    <div class="detail-tab-con">
+        <!-- 商品介绍 -->
+        <!--<div class="item" style="display: block">-->
+        <div class="item" >
+            <ul class="item-info">
+                <li>分辨率：1920*1080(FHD)</li>
+                <li>后置摄像头：1200万像素</li>
+                <li>前置摄像头：500万像素</li>
+                <li>核 数：其他</li>
+                <li>频 率：以官网信息为准</li>
+                <li>品牌： Apple ♥关注</li>
+                <li>商品名称：APPLEiPhone 6s Plus</li>
+                <li>商品编号：1861098</li>
+                <li>商品毛重：0.51kg</li>
+                <li>商品产地：中国大陆</li>
+                <li>热点：指纹识别，Apple Pay，金属机身，拍照神器</li>
+                <li>系统：苹果（IOS）</li>
+                <li>像素：1000-1600万</li>
+                <li>机身内存：64GB</li>
+            </ul>
+            <p><a href="javascript:;" class="more">查看更多参数</a></p>
+
+        </div>
+        <!--规格与包装-->
+        <div class="item">
+            <ul class="item-info">
+                <li>规格与包装规格与包装规格与包装</li>
+                <li>分辨率：1920*1080(FHD)</li>
+                <li>后置摄像头：1200万像素</li>
+                <li>前置摄像头：500万像素</li>
+                <li>核 数：其他</li>
+                <li>频 率：以官网信息为准</li>
+                <li>品牌： Apple ♥关注</li>
+                <li>商品名称：APPLEiPhone 6s Plus</li>
+                <li>商品编号：1861098</li>
+                <li>商品毛重：0.51kg</li>
+                <li>商品产地：中国大陆</li>
+                <li>热点：指纹识别，Apple Pay，金属机身，拍照神器</li>
+                <li>系统：苹果（IOS）</li>
+                <li>像素：1000-1600万</li>
+                <li>机身内存：64GB</li>
+            </ul>
+            <p><a href="javascript:;" class="more">查看更多参数</a></p>
+        </div>
+        <!--售后保障-->
+        <div class="item">
+            <ul class="item-info">
+                <li>商品评价商品评价商品评价</li>
+                <li>分辨率：1920*1080(FHD)</li>
+                <li>后置摄像头：1200万像素</li>
+                <li>前置摄像头：500万像素</li>
+                <li>核 数：其他</li>
+                <li>频 率：以官网信息为准</li>
+                <li>品牌： Apple ♥关注</li>
+                <li>商品名称：APPLEiPhone 6s Plus</li>
+                <li>商品编号：1861098</li>
+                <li>商品毛重：0.51kg</li>
+                <li>商品产地：中国大陆</li>
+                <li>热点：指纹识别，Apple Pay，金属机身，拍照神器</li>
+                <li>系统：苹果（IOS）</li>
+                <li>像素：1000-1600万</li>
+                <li>机身内存：64GB</li>
+            </ul>
+            <p><a href="javascript:;" class="more">查看更多参数</a></p>
+        </div>
+        <!--商品评价（50000）-->
+        <div class="item">
+            <ul class="item-info">
+                <li>商品评价商品评价商品评价</li>
+                <li>分辨率：1920*1080(FHD)</li>
+                <li>后置摄像头：1200万像素</li>
+                <li>前置摄像头：500万像素</li>
+                <li>核 数：其他</li>
+                <li>频 率：以官网信息为准</li>
+                <li>品牌： Apple ♥关注</li>
+                <li>商品名称：APPLEiPhone 6s Plus</li>
+                <li>商品编号：1861098</li>
+                <li>商品毛重：0.51kg</li>
+                <li>商品产地：中国大陆</li>
+                <li>热点：指纹识别，Apple Pay，金属机身，拍照神器</li>
+                <li>系统：苹果（IOS）</li>
+                <li>像素：1000-1600万</li>
+                <li>机身内存：64GB</li>
+            </ul>
+            <p><a href="javascript:;" class="more">查看更多参数</a></p>
+        </div>
+        <!-- 商品介绍 -->
+        <div class="item">
+            <ul class="item-info">
+                <li>商品评价商品评价商品评价</li>
+                <li>分辨率：1920*1080(FHD)</li>
+                <li>后置摄像头：1200万像素</li>
+                <li>前置摄像头：500万像素</li>
+                <li>核 数：其他</li>
+                <li>频 率：以官网信息为准</li>
+                <li>品牌： Apple ♥关注</li>
+                <li>商品名称：APPLEiPhone 6s Plus</li>
+                <li>商品编号：1861098</li>
+                <li>商品毛重：0.51kg</li>
+                <li>商品产地：中国大陆</li>
+                <li>热点：指纹识别，Apple Pay，金属机身，拍照神器</li>
+                <li>系统：苹果（IOS）</li>
+                <li>像素：1000-1600万</li>
+                <li>机身内存：64GB</li>
+            </ul>
+            <p><a href="javascript:;" class="more">查看更多参数</a></p>
+        </div>
+    </div>
+    <script>
+        //点击一个模块，当前底色是红色 其余不变  修改类名的方式
+        //获取元素
+        let tab_list = document.querySelector('.detail-tab-list');
+        let lis = tab_list.querySelectorAll('li');
+        //获取div
+        let items = document.querySelectorAll('.item');
+        // for循环绑定事件
+        for (let i = 0; i < lis.length; i++) {
+            //设置索引号
+            lis[i].setAttribute('index',i);
+            //点击之前 设置默认显示
+            items[0].style.display = 'block';
+            lis[i].onclick = function () {
+                //先清除  tab栏
+                for (let j = 0; j < lis.length; j++) {
+                    lis[j].className = '';
+                }
+                this.className = 'current';
+
+                //显示内容
+                this.index = this.getAttribute('index');
+
+                //先让其它隐藏
+                for (let j = 0; j < items.length; j++) {
+                    items[j].style.display = 'none';
+                }
+
+                // 显示
+                items[this.index].style.display = 'block';
+            }
+        }
+    </script>
+</div>
+</body>
+</html>

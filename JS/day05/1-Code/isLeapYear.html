@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>isLeapYear</title>
+    <script>
+        //判断闰年
+        function  isLeapYear() {
+            while(true){
+                var judge = parseInt(prompt("要判断闰年吗（1：是  other：不是）"));
+
+                if(judge === 1){
+                    var year = prompt("输入年份");
+                    if(year % 4 === 0 && year % 100 !== 0 || year % 400 === 0){
+                        alert(year + "是闰年！");
+                    }else {
+                        alert(year + "不是闰年！");
+                    }
+                }else{
+                    break;
+                }
+            }
+            alert("再见啦您嘞");
+        }
+
+        isLeapYear();
+    </script>
+</head>
+<body>
+
+
+</body>
+</html>

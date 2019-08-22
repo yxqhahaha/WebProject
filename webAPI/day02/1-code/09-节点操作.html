@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>09-节点操作</title>
+    <style>
+
+    </style>
+</head>
+<body>
+<div>div</div>
+<span>span</span>
+<ul>
+    <li>test li</li>
+    <li>test li</li>
+    <li>test li</li>
+    <li>test li</li>
+    <li>test li</li>
+</ul>
+<div class="demo">
+    <div class="box">
+        <span class="erweima">x</span>
+        <span class="erweima">x</span>
+        <span class="erweima">x</span>
+        <span class="erweima">x</span>
+    </div>
+</div>
+
+
+<script>
+    // 1. 父节点 parentNOde
+    // 得到的是离元素最近的父级节点  没有则返回null
+    let erweima = document.querySelector('.erweima');
+    let box = document.querySelector('.box');
+
+    console.log(erweima.parentNode);
+    console.log(box.parentNode);
+
+    //2. 子节点操作
+    console.log(box.childNodes);
+    // nodeType == 1  则是元素节点
+    console.dir(box.childNodes);
+
+    console.log(box.childNodes[1].nodeType);
+
+    //获取所有的子元素节点
+    console.log(box.children);
+</script>
+</body>
+</html>

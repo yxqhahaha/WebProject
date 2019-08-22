@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>11-数组去重</title>
+    <script>
+        function unique(arr) {
+            let newArr = [];
+            for (let i = 0; i < arr.length; i++){
+                if ( newArr.indexOf(arr[i]) === -1){
+                    newArr.push(arr[i]);
+                }
+            }
+            return newArr;
+        }
+        let arr1 = [1,2,3,4,6,4,2,1,2,3,1];
+        console.log(unique(arr1).sort(function (a,b) {
+            return b -a ;
+        }));
+    </script>
+</head>
+<body>
+
+</body>
+</html>

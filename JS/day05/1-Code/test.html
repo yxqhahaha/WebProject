@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>test</title>
+    <script>
+        let date = Number(prompt("输入日期"));
+        var arr = ["星期二", "星期三", "星期四", "星期五", "星期六", "星期日", "星期一"];
+        for (let i = 0; i < arr.length; i++) {
+            if (date > 31 || date <= 0) {
+                alert('搞笑呢');
+                break;
+            } else if (date % 7 == i) {
+                alert(date + '号是：' + arr[i ])
+            }
+        }
+    </script>
+</head>
+<body>
+
+</body>
+</html>

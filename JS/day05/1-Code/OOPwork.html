@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>OOPwork</title>
+    <script>
+        class Computer {
+
+            constructor(color, weight, brand, type) {
+                this._color = color;
+                this._weight = weight;
+                this._brand = brand;
+                this._type = type;
+            }
+
+            playMovie() {
+                console.log('我在看电影');
+            }
+
+            playMusic() {
+                console.log('我在听音乐')
+            }
+
+            playGames() {
+                console.log('我在打游戏')
+            }
+
+            editCode() {
+                console.log('我在写代码')
+            }
+
+            get color() {
+                return this._color;
+            }
+
+            set color(value) {
+                this._color = value;
+            }
+
+            get weight() {
+                return this._weight;
+            }
+
+            set weight(value) {
+                this._weight = value;
+            }
+
+            get brand() {
+                return this._brand;
+            }
+
+            set brand(value) {
+                this._brand = value;
+            }
+
+            get type() {
+                return this._type;
+            }
+
+            set type(value) {
+                this._type = value;
+            }
+
+            toString() {
+                console.log('brand : ' + this.brand + ' type :' + this.type + ' color : ' + this.color + ' weight : ' + this.weight);
+            }
+        }
+
+        let computer1 = new Computer('black', '1.36kg', 'ThinkPad', 'T480s');
+        computer1.playGames();
+        computer1.playMovie();
+        computer1.playMusic();
+        computer1.editCode();
+        computer1.toString();
+
+
+        class Student {
+            constructor(name, id, sex, grade) {
+                this._name = name;
+
+                this._id = id;
+                this._sex = sex;
+                this._grade = grade;
+                this.sayHi = function () {
+                    alert('你好，我是'+this._name + '， 其中\''+this._name+'\'是对象name的属性值');
+                }
+            }
+
+            // sayHi() {
+            //     alert('你好，我是'+this.name + '， 其中'+this.name+'对象name的属性值');
+            // }
+
+            toString() {
+                alert('我是'+this._name+ ',学号是：'+ this._id + ',  我是'+this._sex+'生' +'.  正在读'+this._grade+'年级' );
+            }
+
+
+            get name() {
+                return this._name;
+            }
+
+            set name(value) {
+                this._name = value;
+            }
+
+            get id() {
+                return this._id;
+            }
+
+            set id(value) {
+                this._id = value;
+            }
+
+            get sex() {
+                return this._sex;
+            }
+
+            set sex(value) {
+                this._sex = value;
+            }
+
+            get grade() {
+                return this._grade;
+            }
+
+            set grade(value) {
+                this._grade = value;
+            }
+        }
+
+        let stu1 = new Student('蒋洁','420704197412272373','女','22');
+        stu1.sayHi();
+        stu1.toString();
+    </script>
+</head>
+<body>
+
+</body>
+</html>

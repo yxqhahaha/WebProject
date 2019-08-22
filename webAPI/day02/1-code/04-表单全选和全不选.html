@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>04-表单全选和全不选</title>
+    <style>
+        table {
+            margin: 200px auto;
+            background-color: #e0e0e0;
+
+            width: 600px;
+            height: 400px;
+            border-collapse: collapse;
+        }
+
+        thead tr {
+
+            height: 80px;
+            background-color: #26b2ff;
+            color: white;
+        }
+
+        table td {
+            text-align: center;
+            border: 2px solid #ccc;
+
+        }
+
+    </style>
+</head>
+<body>
+<table>
+    <thead>
+    <tr>
+        <td><input type="checkbox" id="ipt_all"></td>
+        <td>商品</td>
+        <td>价钱</td>
+    </tr>
+    </thead>
+
+    <tbody id="ipts">
+    <tr>
+        <td><input type="checkbox"></td>
+        <td>iphone8</td>
+        <td>4000</td>
+    </tr>
+
+    <tr>
+        <td><input type="checkbox"></td>
+        <td>ipad pro</td>
+        <td>5000</td>
+    </tr>
+
+    <tr>
+        <td><input type="checkbox"></td>
+        <td>ipad air</td>
+        <td>2300</td>
+    </tr>
+
+    <tr>
+        <td><input type="checkbox"></td>
+        <td>Apple watch</td>
+        <td>2000</td>
+    </tr>
+    </tbody>
+</table>
+
+<script>
+    //1.全选和取消全选做法：让下面所有复选框的checked属性（选中状态） 跟随 全选按钮即可
+    //获取元素
+    let iptAll = document.getElementById('ipt_all');    //全选按钮
+    let ipts = document.getElementById('ipts').getElementsByTagName('input');   //下面所有的复选框
+
+    //注册事件
+    iptAll.onclick = function () {
+        // console.log(this.checked) true false
+        for (let i = 0; i < ipts.length; i++) {
+            ipts[i].checked = this.checked;
+        }
+    }
+    //下面的复选框全部选中 上面的复选框就选中
+    //给下面的所有复选框都绑定事件 每次点击 都要循环来检查是否全部选中
+    for (let i = 0; i < ipts.length; i++) {
+        ipts[i].onclick = function () {
+            let flag = true;   //控制全选按钮是否选中
+            for (let j = 0; j < ipts.length; j++) {
+                if (!ipts[j].checked) {
+                    flag = false;
+                    break;
+                }
+            }
+            iptAll.checked = flag;
+        }
+    }
+</script>
+</body>
+</html>

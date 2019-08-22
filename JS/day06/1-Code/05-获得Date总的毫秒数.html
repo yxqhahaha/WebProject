@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>05-获得Date总的毫秒数</title>
+    <style>
+
+    </style>
+</head>
+<body>
+<script>
+    /*  时间戳     */
+    //距离1970.1.1
+    var date = new Date();
+    console.log(date.valueOf());
+    console.log(date.getTime());
+
+    //简单的写法 最常用的写法
+    var date1 = +new Date();
+    console.log(date1);
+
+    //h5 新增方法   需要考虑兼容性问题
+    console.log(Date.now());
+</script>
+</body>
+</html>

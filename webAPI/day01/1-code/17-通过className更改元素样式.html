@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>17-通过className更改元素样式</title>
+    <style>
+        .change {
+            margin-top: 100px;
+            background-color: yellow;
+            color: #f09;
+            font-size: 24px;
+        }
+    </style>
+</head>
+<body>
+<div class="first">wenben</div>
+<script>
+    //1. use element.style alter element style
+    let test = document.querySelector('div');
+    test.onclick = function () {
+        /*this.style.backgroundColor = 'yellow';
+        this.style.color = '#f02';
+        this.style.fontSize = '24px';
+        this.style.marginTop = '100px';*/
+
+        this.className = this.className + ' change';
+        console.log(this.className);
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>useStructerCreateObj</title>
+    <script>
+        var hero = function (name, type, blood, attactPattern) {
+            this.hname = name;
+            this.htype = type;
+            this.hblood = blood;
+            this.attactPattern = attactPattern;
+            this.toString = function () {
+                console.log('英雄名 ：' + this.hname + '  英雄类型：' + this.htype + '  血量：' + this.hblood + '  攻击方式：' + this.attactPattern);
+            }
+        };
+
+        var lianPo = new hero('廉颇', '力量型', '500','近战');
+        var houYi = new hero('后羿', '射手型', '1000','远程');
+        lianPo.toString();
+        houYi.toString();
+    </script>
+</head>
+<body>
+
+</body>
+</html>

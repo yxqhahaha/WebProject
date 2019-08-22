@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>05-自定义属性操作</title>
+    <style>
+
+    </style>
+</head>
+<body>
+    <div id="demo" index="1" class="ddd"></div>
+    <script>
+        //获取元素的属性值
+        let div = document.querySelector('div');
+        console.log(div.id);    //只能获取内置属性
+
+        console.log(div.getAttribute('index')); //获取自定义属性
+
+        //设置元素属性值
+        div.id = 'test';
+        // div.setAttribute('属性', '值')
+        div.setAttribute('index','3');    //主要针对于自定义属性
+        div.className = 'dddddddd';
+        console.log(div.className);
+        div.setAttribute('class', 'www');
+        //移除元素属性
+        div.removeAttribute('index');
+    </script>
+</body>
+</html>

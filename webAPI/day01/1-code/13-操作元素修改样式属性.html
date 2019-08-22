@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>13-操作元素修改样式属性</title>
+    <style>
+        div {
+            width: 200px;
+            height: 200px;
+            background-color: pink;
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+    <script>
+        //获取元素
+        let div = document.querySelector('div');
+        div.onclick = function () {
+            this.style.backgroundColor = 'purple';
+            this.style.width = '250px';
+            // this.style.width = 250px;    错误写法
+        }
+    </script>
+</body>
+</html>

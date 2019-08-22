@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>06-执行事件步骤</title>
+    <style>
+
+    </style>
+</head>
+<body>
+<div>test</div>
+<script>
+    //点击div  控制台输出  我被选中了
+
+    //1、获取事件源
+    let div = document.querySelector('div');
+    //2、绑定事件  注册事件
+    //3、添加事件处理程序
+    div.onclick = function () {
+        alert('我被选中了');
+    }
+
+    //
+</script>
+</body>
+</html>

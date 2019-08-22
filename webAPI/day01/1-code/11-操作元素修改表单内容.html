@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>11-操作元素修改表单内容</title>
+    <style>
+
+    </style>
+</head>
+<body>
+<button>btn</button>
+<input type="text" name="" value="输入内容" id="">
+<script>
+    let btn = document.querySelector('button');
+    let input = document.querySelector('input');
+
+    btn.onclick = function () {
+        btn.innerHTML = 'dianle';
+        input.value = '你点击了按钮';
+        //禁用表单
+       this.disabled = 'true';  // this指向时间函数的调用者
+    }
+</script>
+</body>
+</html>

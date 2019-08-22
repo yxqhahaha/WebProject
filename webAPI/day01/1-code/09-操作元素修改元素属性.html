@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>09-操作元素修改元素属性</title>
+    <style>
+
+    </style>
+</head>
+<body>
+    <button id="ldh">刘德华</button>
+    <button id="zxy">张学友</button>
+    <button id="ssln">食屎啦你</button>
+    <img src="images/ldh.jpg" alt="">
+    <script>
+        //修改元素属性 src
+        //1. 获取元素
+        let ldh = document.getElementById('ldh');
+        let zxy = document.getElementById('zxy');
+        let img = document.querySelector('img');
+        let ssln = document.getElementById('ssln');
+
+        //2. 注册事件
+        zxy.onclick = function f() {
+            img.src = 'images/zxy.jpg';
+            img.title = '张学友';
+        };
+        ldh.onclick = function f() {
+            img.src = 'images/ldh.jpg';
+            img.title = '刘德华';
+        };
+        ssln.onclick = function f() {
+            img.src = 'images/shishilani.jpg';
+            img.title = '食屎啦你';
+        };
+    </script>
+</body>
+</html>

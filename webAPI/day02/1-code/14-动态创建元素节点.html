@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>14-动态创建元素节点</title>
+    <style>
+
+    </style>
+</head>
+<body>
+    <ul>
+        <li>test1</li>
+        <li>test2</li>
+        <li>test3</li>
+
+    <script>
+        //创建节点元素节点
+        let li = document.createElement('li');
+        li.innerHTML = '动态添加的节点';
+        //添加节点  node.appendChild(child) node 父级 child 子级 所有子节点的后面追加元素
+        let ul = document.querySelector('ul');
+        ul.appendChild(li);
+        //添加节点 node.insertBefore(child, 指定元素)
+        let lili = document.createElement('li');
+        lili.innerHTML = 'node.insertBefore(child, 指定元素) ';
+        ul.insertBefore(lili, ul.children[2]);
+    </script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>16-显示隐藏文本框内容</title>
+    <style>
+        input {
+            margin: 100px ;
+            color: #999;
+            height: 40px;
+            font-size: 30px;
+        }
+    </style>
+</head>
+<body>
+<input type="text" value="phone">
+<script>
+    let text = document.querySelector('input');
+    //注册事件  获得焦点事件 onfocus
+    text.onfocus = function () {
+        //console.log('得到了焦点');
+        if(this.value === 'phone'){
+            this.value = '';
+        }
+        //获得焦点需要把文本框里面的文字颜色变黑
+        this.style.color = '#333';
+    };
+    text.onblur = function () {
+        // console.log('失去了焦点');
+        if(this.value === ''){
+            this.value = 'phone';
+        }
+    }
+</script>
+</body>
+</html>

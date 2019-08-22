@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>16-统计出现最多的字符和次数</title>
+    <script>
+        //有一个对象
+        let o = {
+            age:18
+        };
+
+        if(o['age']){
+            console.log('里面有该属性');
+        }else{
+            console.log('里面没有该属性');
+        }
+
+        let str1 = "werasfdasdgasradf";
+        //创建一个对象
+        let obj ={};
+        //遍历
+        for (let i = 0; i < str1.length; i++) {
+            let chars = str1.charAt(i);
+            //把每个字符都存储给对象，如果对象没有该属性，就为1，如果存在就 +1
+            if(obj[chars]){
+                obj[chars]++;
+            }else {
+                obj[chars] = 1;
+            }
+        }
+
+        console.log(obj);
+        let max = 0;
+        let ch = '';
+        //遍历对象
+        for (let key in obj){
+            //key得到的是属性名
+            //obj[key] 得到的是属性值
+            if(obj[key] > max){
+                max = obj[key];
+                ch = key;
+            }
+        }
+        console.log('出现最多的字符是' + ch +' '+max+ ' 次')
+    </script>
+</head>
+<body>
+
+</body>
+</html>

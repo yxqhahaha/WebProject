@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>01-排他思想</title>
+    <style>
+
+    </style>
+</head>
+<body>
+    <button>btn1</button>
+    <button>btn2</button>
+    <button>btn3</button>
+    <button>btn4</button>
+    <button>btn5</button>
+    <script>
+        //获取所有按钮元素
+        let btns = document.getElementsByTagName('button');
+        //btns得到伪数组
+        for (let i = 0; i < btns.length; i++){
+            btns[i].onclick = function () {
+                //先把所有按钮背景颜色去掉
+                for (let j = 0; j <btns.length; j++){
+                    btns[j].style.backgroundColor = '';
+                }
+                this.style.backgroundColor = 'pink';
+            }
+        }
+    </script>
+</body>
+</html>

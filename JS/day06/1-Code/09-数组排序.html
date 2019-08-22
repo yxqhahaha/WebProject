@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>09-数组排序</title>
+    <script>
+        //翻转
+        let arr1 = [1,2,3,4,6,4,2,1,2,3,1];
+        arr1.reverse();
+        console.log(arr1);
+
+        //排序  默认从小到大  想要从大到小，可以使用reverse()翻转
+        console.log(arr1.sort());
+        console.log(arr1.sort(function (a, b) {
+            // return a - b;    //升序
+            return b - a;   //降序
+        }));
+    </script>
+</head>
+<body>
+
+</body>
+</html>

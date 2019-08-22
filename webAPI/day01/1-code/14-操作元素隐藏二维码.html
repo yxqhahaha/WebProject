@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>14-操作元素隐藏二维码</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .box {
+            position: relative;
+            width: 100px;
+            height: 100px;
+            border: 1px solid #ccc;
+            margin: 100px auto;
+            font-size: 14px;
+            text-align: center;
+            color: #f40;
+        }
+        .box img {
+            width: 80px;
+            margin-top: 5px;
+        }
+        .close-btn {
+            position: absolute;
+            top: -1px;
+            left: -16px;
+            width: 14px;
+            height: 14px;
+            border: 1px solid #ccc;
+            line-height: 14px;
+            font-family: Arial, Helvetica, sans-serif;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        二维码
+        <img src="images/code.png" alt="">
+        <i class="close-btn">X</i>
+    </div>
+
+    <script>
+        //获取元素
+        let btn = document.querySelector('.close-btn');
+        let box = document.querySelector('.box');
+        //注册事件
+        btn.onclick = function () {
+            box.style.display = 'none';
+            //box.style.visibility = 'hidden';  //貌似效果一样 但是visibility只是隐藏还是占用位置的
+        }
+    </script>
+</body>
+</html>

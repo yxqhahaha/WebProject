@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>15-简单版发布留言案例</title>
+    <style>
+        textarea {
+            border: 1px solid #c197ff;
+        }
+    </style>
+</head>
+<body>
+<textarea name="" id="" cols="30" rows="10">留言...</textarea>
+<button>发布</button>
+ <ul>
+
+ </ul>
+
+<script>
+    //点击按钮 动态添加一个li到ul里面
+    let btn = document.querySelector('button');
+    let text = document.querySelector('textarea');
+    let ul = document.querySelector('ul');
+
+    //注册事件
+    btn.onclick = function () {
+        if(text.value === ''){
+            alert('请输入内容！');
+        }
+        //创建元素
+        let li = document.createElement('li');
+        console.dir(text);
+        li.innerHTML = text.value;
+        //添加元素
+        // ul.appendChild(li); //在最后显示
+        ul.insertBefore(li, ul.children[0]); //在前面显示
+    }
+
+</script>
+</body>
+</html>

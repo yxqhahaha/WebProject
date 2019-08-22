@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>11-子节点第一个元素和最后一个元素</title>
+    <style>
+
+    </style>
+</head>
+<body>
+<div>
+    <ol>
+        <li>test li1</li>
+        <li>test li2</li>
+        <li>test li3</li>
+        <li>test li4</li>
+    </ol>
+</div>
+<script>
+    let ol = document.querySelector('ol');
+    //获取第一个li  firstChild  不管是文本节点还是元素节点都拿到了
+    console.log(ol.firstChild); //#text
+
+    console.log(ol.firstElementChild);  //<li>test li1</li>  // IE9 以上
+    //获取最后一个li
+    console.log(ol.lastElementChild);
+    console.log('--------------------');
+    //实际开发写法  没有兼容性问题
+    console.log(ol.children[0]);
+    console.log(ol.children[ol.children.length - 1]);
+    console.log(ol.children.length);
+
+</script>
+</body>
+</html>

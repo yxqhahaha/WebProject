@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>03-表格隔行变色</title>
+    <style>
+        table {
+            margin: 0 auto;
+        }
+        .bg {
+            background-color: pink;
+        }
+    </style>
+</head>
+<body>
+    <table border="1">
+        <thead>
+            <tr><td>12344444</td></tr>
+        </thead>
+        <tbody>
+            <tr><td>23wertyuiosxdcfvgbnmsdfghjkdfghj</td></tr>
+            <tr><td>23wertyuiosxdcfvgbnmsdfghjkdfghj</td></tr>
+            <tr><td>23wertyuiosxdcfvgbnmsdfghjkdfghj</td></tr>
+            <tr><td>23wertyuiosxdcfvgbnmsdfghjkdfghj</td></tr>
+            <tr><td>23wertyuiosxdcfvgbnmsdfghjkdfghj</td></tr>
+            <tr><td>23wertyuiosxdcfvgbnmsdfghjkdfghj</td></tr>
+        </tbody>
+    </table>
+
+    <script>
+        let trs = document.querySelector('tbody').querySelectorAll('tr');
+        for (let i = 0; i < trs.length; i++) {
+            // 鼠标经过事件 onmouseover
+            trs[i].onmouseover = function () {
+                this.className = 'bg';
+            }
+            //鼠标离开事件onmouseout
+            trs[i].onmouseout = function () {
+                this.className = '';
+            }
+        }
+    </script>
+</body>
+</html>

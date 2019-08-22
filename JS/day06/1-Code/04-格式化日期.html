@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>04-格式化日期</title>
+    <script>
+        function getLocalCurrentTime() {
+            let date = new Date();
+            //年
+            let year = date.getFullYear();
+            // 月
+            let month = date.getMonth() + 1;
+            month = month < 10 ? '0' + month : month;
+            // 日
+            let day = date.getDate();
+            day = day < 10 ? '0' + day : day;
+            // 时
+            let hour = date.getHours();
+            hour = hour < 10 ? '0' + hour : hour;
+            // 分
+            let minutes = date.getMinutes();
+            minutes = minutes < 10 ? '0' + minutes : minutes;
+            // 秒
+            let seconds = date.getSeconds();
+            seconds = seconds < 10 ? '0' + seconds : seconds;
+
+            console.log('现在是北京时间：' + year + '年' + month + '月' + day + '日' + hour + ':' + minutes + ':' + seconds);
+        }
+
+        getLocalCurrentTime();
+    </script>
+</head>
+<body>
+
+</body>
+</html>

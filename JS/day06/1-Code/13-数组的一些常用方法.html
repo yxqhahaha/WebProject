@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>13-数组的一些常用方法</title>
+    <script>
+        /*
+        * concat() 连接两个或多个数组 不影响原数组     返回一个新的数组
+        * slice()   数组截取slice(begin, end)   返回被截取项目的新数组
+        * splice()  数组删除splice(第几个开始，要删除个数)     返回被删除项目的新数组，注意：这个会影响原数组
+        * */
+
+        //test
+        let arr1 = ['zai','nali','chengdu'];
+        let arr2 = ['qwerty','keyboard','zh-CN','Chinese'];
+
+        console.log(arr1.concat(arr2));
+
+        console.log(arr2.slice(1,3));   //  不包含3
+
+        console.log(arr2.splice(2,2));  //原数组里面的内容被删除
+        console.log(arr2);
+    </script>
+</head>
+<body>
+
+</body>
+</html>

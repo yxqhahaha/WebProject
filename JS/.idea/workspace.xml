@@ -2,248 +2,146 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7fa63e75-f0e8-4e44-9121-83b8d946a42f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../H5C3/course/day01/code/cart/css/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../H5C3/course/day01/code/cart/css/jquery.fullpage.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../H5C3/course/day01/code/cart/images/00-go.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../H5C3/course/day01/code/cart/images/00-more.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../H5C3/course/day01/code/cart/images/00-point01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../H5C3/course/day01/code/cart/images/00-point02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../H5C3/course/day01/code/cart/images/01-bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../H5C3/course/day01/code/cart/images/01-fly.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../H5C3/course/day01/code/cart/images/01-goods.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../H5C3/course/day01/code/cart/images/01-sofa.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../H5C3/course/day01/code/cart/images/02-bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../H5C3/course/day01/code/cart/images/02-goods.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../H5C3/course/day01/code/cart/images/02-key.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../H5C3/course/day01/code/cart/images/02-search.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../H5C3/course/day01/code/cart/images/02-sofa.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../H5C3/course/day01/code/cart/images/02-text.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../H5C3/course/day01/code/cart/images/02-text02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../H5C3/course/day01/code/cart/images/02-text1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../H5C3/course/day01/code/cart/images/02-text2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../H5C3/course/day01/code/cart/images/03-bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../H5C3/course/day01/code/cart/images/03-cart01.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../H5C3/course/day01/code/cart/images/03-cart02.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../H5C3/course/day01/code/cart/images/03-change01.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../H5C3/course/day01/code/cart/images/03-change02.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../H5C3/course/day01/code/cart/images/04-address01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../H5C3/course/day01/code/cart/images/04-address02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../H5C3/course/day01/code/cart/images/04-bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../H5C3/course/day01/code/cart/images/04-cart.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../H5C3/course/day01/code/cart/images/04-cloud.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../H5C3/course/day01/code/cart/images/04-sofa.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../H5C3/course/day01/code/cart/images/04-text01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../H5C3/course/day01/code/cart/images/04-text02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../H5C3/course/day01/code/cart/images/05-bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../H5C3/course/day01/code/cart/images/05-card.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../H5C3/course/day01/code/cart/images/05-hand.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../H5C3/course/day01/code/cart/images/05-mouse.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../H5C3/course/day01/code/cart/images/05-mouse01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../H5C3/course/day01/code/cart/images/05-mouse02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../H5C3/course/day01/code/cart/images/05-order.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../H5C3/course/day01/code/cart/images/05-text.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../H5C3/course/day01/code/cart/images/06-address.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../H5C3/course/day01/code/cart/images/06-bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../H5C3/course/day01/code/cart/images/06-box.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../H5C3/course/day01/code/cart/images/06-buyer.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../H5C3/course/day01/code/cart/images/06-car.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../H5C3/course/day01/code/cart/images/06-cloud01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../H5C3/course/day01/code/cart/images/06-cloud02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../H5C3/course/day01/code/cart/images/06-door.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../H5C3/course/day01/code/cart/images/06-person.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../H5C3/course/day01/code/cart/images/06-say.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../H5C3/course/day01/code/cart/images/06-text01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../H5C3/course/day01/code/cart/images/06-text02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../H5C3/course/day01/code/cart/images/06-worker.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../H5C3/course/day01/code/cart/images/07-bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../H5C3/course/day01/code/cart/images/07-star.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../H5C3/course/day01/code/cart/images/07-text.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../H5C3/course/day01/code/cart/images/08-again.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../H5C3/course/day01/code/cart/images/08-bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../H5C3/course/day01/code/cart/images/08-btn01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../H5C3/course/day01/code/cart/images/08-btn02.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../H5C3/course/day01/code/cart/images/08-hand.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../H5C3/course/day01/code/cart/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../H5C3/course/day01/code/cart/js/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../H5C3/course/day01/code/cart/js/jquery.fullpage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../H5C3/course/day01/code/cart/js/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../H5C3/course/day01/code/note.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HTML/day06/14浮动引起的问题.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HTML/day06/15额外标签法.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HTML/day06/16父级添加overflow方法.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HTML/day06/17使用after伪元素清除浮动.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HTML/day06/18 双伪元素清除浮动.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HTML/day07/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HTML/day07/readMe.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HTML/day07/style-xuechengwang.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HTML/day07/学成网职业规划.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HTML/day07/学成网职业规划.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HTML/day07/学成网课程列表页.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HTML/day07/学成网课程列表页.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HTML/day07/学成网首页.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HTML/day07/学成网首页.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HTML/day08/01定位属性.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HTML/day08/02静态定位.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HTML/day08/03相对定位.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HTML/day08/04绝对定位是脱标的.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HTML/day08/05父级没有定位.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HTML/day08/06定位练习-哈根达斯.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HTML/day08/07淘宝轮播图.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HTML/day08/08固定定位.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HTML/day08/09仿新浪固定定位和广告.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HTML/day08/10叠放次序.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HTML/day08/11定位盒子的模式转换.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HTML/day08/12鼠标经过显示二维码.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HTML/day08/13overflow属性.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HTML/day08/images/adv.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HTML/day08/images/bl.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HTML/day08/images/br.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HTML/day08/images/top_tu.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HTML/day08/绝对定位水平垂直居中.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HTML/day09/01鼠标样式.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HTML/day09/03-元素的显示与隐藏-visiblity.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HTML/day09/04-元素的显示与隐藏-overflow.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HTML/day09/05-仿土豆效果显示与隐藏.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HTML/day09/05-仿土豆效果显示与隐藏_2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HTML/day09/06-取消轮廓线.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HTML/day09/06-轮廓线_2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HTML/day09/07-防止拖拽文本域.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HTML/day09/07-防止拖拽文本域_2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HTML/day09/08-vertical-align对于块级元素无效.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HTML/day09/09-vertical-align图片对齐文字.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HTML/day09/09-vertical-align图片对齐文字_2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HTML/day09/10-去除图片底侧空白缝隙.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HTML/day09/10-去除图片底侧空白缝隙_2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HTML/day09/11-溢出的文字省略号显示.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HTML/day09/11-溢出的文字省略号显示_2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HTML/day09/12-体会CSS精灵技术.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HTML/day09/13-拼出自己的名字.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HTML/day09/images/icons.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HTML/day09/overflowTest.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HTML/day09/显示与隐藏.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HTML/day09/精灵图技术.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HTML/test/p标签居中问题.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HTMLAuthoritativeGuide/test.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day01/js介绍.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day01/交换变量.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day01/位运算.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day01/字符串.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day01/数值的范围.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day01/类型转换.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day01/获取变量的数据类型.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day04/预解析.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day04/预解析分段的问题的局部作用域的问题.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pinyougou2/css/base.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pinyougou2/css/common.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pinyougou2/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pinyougou2/fonts/icomoon.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pinyougou2/fonts/icomoon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pinyougou2/fonts/icomoon.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pinyougou2/fonts/icomoon.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pinyougou2/img/account.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pinyougou2/img/arrow-next.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pinyougou2/img/arrow-prev.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pinyougou2/img/cartPanelViewIcons.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pinyougou2/img/checked.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pinyougou2/img/clock.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pinyougou2/img/delete.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pinyougou2/img/deng.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pinyougou2/img/duibi.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pinyougou2/img/erji.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pinyougou2/img/error.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pinyougou2/img/erweima.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pinyougou2/img/fenxiang.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pinyougou2/img/guanzhu.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pinyougou2/img/icons.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pinyougou2/img/images/clock_03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pinyougou2/img/jian.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pinyougou2/img/jinghualu.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pinyougou2/img/jisuwuliu.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pinyougou2/img/loginbg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pinyougou2/img/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pinyougou2/img/maojin.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pinyougou2/img/nvbao.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pinyougou2/img/pingdiguo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pinyougou2/img/quan.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pinyougou2/img/regetype.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pinyougou2/img/shoubiao.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pinyougou2/img/shouji.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pinyougou2/img/success.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pinyougou2/img/tixudao.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pinyougou2/img/ts.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pinyougou2/img/tuijian.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pinyougou2/img/wx_cz.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pinyougou2/img/zhengpinbaozhang.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pinyougou2/img/今日推荐.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pinyougou2/img/图层106.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pinyougou2/img/图层140.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pinyougou2/img/图层141.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pinyougou2/img/图层142.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pinyougou2/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pinyougou2/upload/aside_img.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pinyougou2/upload/b3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pinyougou2/upload/bargain.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pinyougou2/upload/bg_03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pinyougou2/upload/bottom_barpic.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pinyougou2/upload/detail_img1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pinyougou2/upload/detail_img2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pinyougou2/upload/detail_img3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pinyougou2/upload/erweima.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pinyougou2/upload/floor-1-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pinyougou2/upload/floor-1-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pinyougou2/upload/floor-1-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pinyougou2/upload/floor-1-4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pinyougou2/upload/floor-1-5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pinyougou2/upload/floor-1-6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pinyougou2/upload/floor-1-b01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pinyougou2/upload/focus.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pinyougou2/upload/maojin.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pinyougou2/upload/mobile.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pinyougou2/upload/pic.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pinyougou2/upload/pic1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pinyougou2/upload/pre.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pinyougou2/upload/s3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pinyougou2/upload/shoubiao.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pinyougou2/upload/sk.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pinyougou2/upload/tixu.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pinyougou2/upload/矩形12拷贝3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../学成网案例/images/banner2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../学成网案例/images/fa-search.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../学成网案例/images/headerPic.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../学成网案例/images/lingdang_02_03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../学成网案例/images/logo_03_03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../学成网案例/images/图层158.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../学成网案例/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../学成网案例/style-xuechengwang.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../学成网案例/学成网职业规划.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../学成网案例/学成网职业规划.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../学成网案例/学成网课程列表页.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../学成网案例/学成网课程列表页.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../学成网案例/学成网首页.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../学成网案例/学成网首页.psd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CSS学习.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HTML/test/图片标签.html" beforeDir="false" afterPath="$PROJECT_DIR$/../HTML/test/图片标签.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HTML学习.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS01.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS02.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS03.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS04.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS05.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS06.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS07.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS08.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS09.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS10.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS11.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS12.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS14.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS14.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS15.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS16.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS17.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS18.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JSON.html" beforeDir="false" afterPath="$PROJECT_DIR$/JSON.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../H5C3/course/day01/code/cart/css/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../H5C3/course/day01/code/cart/css/jquery.fullpage.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../H5C3/course/day01/code/cart/images/00-go.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../H5C3/course/day01/code/cart/images/00-more.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../H5C3/course/day01/code/cart/images/00-point01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../H5C3/course/day01/code/cart/images/00-point02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../H5C3/course/day01/code/cart/images/01-bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../H5C3/course/day01/code/cart/images/01-fly.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../H5C3/course/day01/code/cart/images/01-goods.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../H5C3/course/day01/code/cart/images/01-sofa.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../H5C3/course/day01/code/cart/images/02-bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../H5C3/course/day01/code/cart/images/02-goods.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../H5C3/course/day01/code/cart/images/02-key.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../H5C3/course/day01/code/cart/images/02-search.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../H5C3/course/day01/code/cart/images/02-sofa.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../H5C3/course/day01/code/cart/images/02-text.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../H5C3/course/day01/code/cart/images/02-text02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../H5C3/course/day01/code/cart/images/02-text1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../H5C3/course/day01/code/cart/images/02-text2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../H5C3/course/day01/code/cart/images/03-bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../H5C3/course/day01/code/cart/images/03-cart01.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../H5C3/course/day01/code/cart/images/03-cart02.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../H5C3/course/day01/code/cart/images/03-change01.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../H5C3/course/day01/code/cart/images/03-change02.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../H5C3/course/day01/code/cart/images/04-address01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../H5C3/course/day01/code/cart/images/04-address02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../H5C3/course/day01/code/cart/images/04-bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../H5C3/course/day01/code/cart/images/04-cart.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../H5C3/course/day01/code/cart/images/04-cloud.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../H5C3/course/day01/code/cart/images/04-sofa.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../H5C3/course/day01/code/cart/images/04-text01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../H5C3/course/day01/code/cart/images/04-text02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../H5C3/course/day01/code/cart/images/05-bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../H5C3/course/day01/code/cart/images/05-card.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../H5C3/course/day01/code/cart/images/05-hand.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../H5C3/course/day01/code/cart/images/05-mouse.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../H5C3/course/day01/code/cart/images/05-mouse01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../H5C3/course/day01/code/cart/images/05-mouse02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../H5C3/course/day01/code/cart/images/05-order.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../H5C3/course/day01/code/cart/images/05-text.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../H5C3/course/day01/code/cart/images/06-address.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../H5C3/course/day01/code/cart/images/06-bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../H5C3/course/day01/code/cart/images/06-box.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../H5C3/course/day01/code/cart/images/06-buyer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../H5C3/course/day01/code/cart/images/06-car.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../H5C3/course/day01/code/cart/images/06-cloud01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../H5C3/course/day01/code/cart/images/06-cloud02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../H5C3/course/day01/code/cart/images/06-door.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../H5C3/course/day01/code/cart/images/06-person.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../H5C3/course/day01/code/cart/images/06-say.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../H5C3/course/day01/code/cart/images/06-text01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../H5C3/course/day01/code/cart/images/06-text02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../H5C3/course/day01/code/cart/images/06-worker.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../H5C3/course/day01/code/cart/images/07-bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../H5C3/course/day01/code/cart/images/07-star.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../H5C3/course/day01/code/cart/images/07-text.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../H5C3/course/day01/code/cart/images/08-again.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../H5C3/course/day01/code/cart/images/08-bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../H5C3/course/day01/code/cart/images/08-btn01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../H5C3/course/day01/code/cart/images/08-btn02.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../H5C3/course/day01/code/cart/images/08-hand.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../H5C3/course/day01/code/cart/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../H5C3/course/day01/code/cart/js/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../H5C3/course/day01/code/cart/js/jquery.fullpage.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../H5C3/course/day01/code/cart/js/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../H5C3/course/day01/code/note.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HTMLAuthoritativeGuide/ch03/3.10自定义属性.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HTMLAuthoritativeGuide/ch03/3.14accesskey属性.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HTMLAuthoritativeGuide/ch03/3.8布尔属性.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HTMLAuthoritativeGuide/ch03/test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HTMLAuthoritativeGuide/test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../projectCases/pinyougou/resources/psdFiles/01-电商-主页-gai.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../projectCases/pinyougou/resources/psdFiles/01-电商-主页-gai.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../projectCases/pinyougou/resources/psdFiles/02-电商-分类列表页.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../projectCases/pinyougou/resources/psdFiles/02-电商-分类列表页.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../projectCases/pinyougou/resources/psdFiles/03-电商-产品详情页.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../projectCases/pinyougou/resources/psdFiles/03-电商-产品详情页.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../projectCases/pinyougou/resources/psdFiles/电商-提交订单.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../projectCases/pinyougou/resources/psdFiles/电商-提交订单.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../projectCases/pinyougou/resources/psdFiles/电商-注册.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../projectCases/pinyougou/resources/psdFiles/电商-注册.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../projectCases/pinyougou/resources/psdFiles/电商-登录.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../projectCases/pinyougou/resources/psdFiles/电商-登录.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../projectCases/pinyougou/resources/psdFiles/电商-购物车结算页.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../projectCases/pinyougou/resources/psdFiles/电商-购物车结算页.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../projectCases/yagnxiuqian.rar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../projectCases/学成网案例/学成网职业规划.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../projectCases/学成网案例/学成网职业规划.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../projectCases/学成网案例/学成网课程列表页.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../projectCases/学成网案例/学成网课程列表页.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../projectCases/学成网案例/学成网首页.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../projectCases/学成网案例/学成网首页.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xyHotel/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/../projectCases/xyHotel/css/base.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xyHotel/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/../projectCases/xyHotel/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xyHotel/css/list.css" beforeDir="false" afterPath="$PROJECT_DIR$/../projectCases/xyHotel/css/list.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xyHotel/css/transfer.css" beforeDir="false" afterPath="$PROJECT_DIR$/../projectCases/xyHotel/css/transfer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xyHotel/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/../projectCases/xyHotel/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xyHotel/images/arr-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/../projectCases/xyHotel/images/arr-2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xyHotel/images/arrow.png" beforeDir="false" afterPath="$PROJECT_DIR$/../projectCases/xyHotel/images/arrow.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xyHotel/images/bigImg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../projectCases/xyHotel/images/bigImg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xyHotel/images/city1.png" beforeDir="false" afterPath="$PROJECT_DIR$/../projectCases/xyHotel/images/city1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xyHotel/images/city2.png" beforeDir="false" afterPath="$PROJECT_DIR$/../projectCases/xyHotel/images/city2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xyHotel/images/city3.png" beforeDir="false" afterPath="$PROJECT_DIR$/../projectCases/xyHotel/images/city3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xyHotel/images/city4.png" beforeDir="false" afterPath="$PROJECT_DIR$/../projectCases/xyHotel/images/city4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xyHotel/images/city5.png" beforeDir="false" afterPath="$PROJECT_DIR$/../projectCases/xyHotel/images/city5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xyHotel/images/city6.png" beforeDir="false" afterPath="$PROJECT_DIR$/../projectCases/xyHotel/images/city6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xyHotel/images/dingwei.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../projectCases/xyHotel/images/dingwei.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xyHotel/images/fdj.png" beforeDir="false" afterPath="$PROJECT_DIR$/../projectCases/xyHotel/images/fdj.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xyHotel/images/hot.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../projectCases/xyHotel/images/hot.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xyHotel/images/hotel1.png" beforeDir="false" afterPath="$PROJECT_DIR$/../projectCases/xyHotel/images/hotel1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xyHotel/images/hotel2.png" beforeDir="false" afterPath="$PROJECT_DIR$/../projectCases/xyHotel/images/hotel2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xyHotel/images/hotel3.png" beforeDir="false" afterPath="$PROJECT_DIR$/../projectCases/xyHotel/images/hotel3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xyHotel/images/hotel4.png" beforeDir="false" afterPath="$PROJECT_DIR$/../projectCases/xyHotel/images/hotel4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xyHotel/images/hotel5.png" beforeDir="false" afterPath="$PROJECT_DIR$/../projectCases/xyHotel/images/hotel5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xyHotel/images/hotel6.png" beforeDir="false" afterPath="$PROJECT_DIR$/../projectCases/xyHotel/images/hotel6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xyHotel/images/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/../projectCases/xyHotel/images/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xyHotel/images/love.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../projectCases/xyHotel/images/love.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xyHotel/images/map.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../projectCases/xyHotel/images/map.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xyHotel/images/position.png" beforeDir="false" afterPath="$PROJECT_DIR$/../projectCases/xyHotel/images/position.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xyHotel/images/qr-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/../projectCases/xyHotel/images/qr-1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xyHotel/images/qr-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/../projectCases/xyHotel/images/qr-2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xyHotel/images/s-logo1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../projectCases/xyHotel/images/s-logo1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xyHotel/images/s-logo2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../projectCases/xyHotel/images/s-logo2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xyHotel/images/s1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../projectCases/xyHotel/images/s1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xyHotel/images/s2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../projectCases/xyHotel/images/s2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xyHotel/images/s3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../projectCases/xyHotel/images/s3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xyHotel/images/s4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../projectCases/xyHotel/images/s4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xyHotel/images/slide.png" beforeDir="false" afterPath="$PROJECT_DIR$/../projectCases/xyHotel/images/slide.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xyHotel/images/small.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../projectCases/xyHotel/images/small.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xyHotel/images/tel-litle.png" beforeDir="false" afterPath="$PROJECT_DIR$/../projectCases/xyHotel/images/tel-litle.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xyHotel/images/tel.png" beforeDir="false" afterPath="$PROJECT_DIR$/../projectCases/xyHotel/images/tel.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xyHotel/images/tingchewei.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../projectCases/xyHotel/images/tingchewei.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xyHotel/images/tuniu.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../projectCases/xyHotel/images/tuniu.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xyHotel/images/weixin.png" beforeDir="false" afterPath="$PROJECT_DIR$/../projectCases/xyHotel/images/weixin.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xyHotel/images/wifi_icon.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../projectCases/xyHotel/images/wifi_icon.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xyHotel/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../projectCases/xyHotel/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xyHotel/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/../projectCases/xyHotel/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xyHotel/transfer.html" beforeDir="false" afterPath="$PROJECT_DIR$/../projectCases/xyHotel/transfer.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -263,19 +161,47 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/day04/预解析.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2688">
+            <state relative-caret-position="3072">
               <caret line="96" column="43" selection-start-line="96" selection-start-column="42" selection-end-line="96" selection-end-column="43" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/day04/预解析分段的问题的局部作用域的问题.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="5" column="11" lean-forward="true" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+            <state relative-caret-position="160">
+              <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/day05/自定义构造函数创建对象.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/day05/如何创建多个对象.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="512">
+              <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/day05/判断输入的是不是数字.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="448">
+              <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/day05/test.html">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -317,10 +243,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="211" />
-    <option name="y" value="1432" />
-    <option name="width" value="1936" />
-    <option name="height" value="1096" />
+    <option name="x" value="1145" />
+    <option name="width" value="1424" />
+    <option name="height" value="1450" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -330,31 +255,17 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="JS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JS" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JS" type="462c0819:PsiDirectoryNode" />
-              <item name="day04" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../MasteringJavaScriptStepbyStep" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
@@ -407,7 +318,6 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.预解析.html" />
         <item itemvalue="JavaScript Debug.函数自调用.html" />
         <item itemvalue="JavaScript Debug.arguments对象.html" />
         <item itemvalue="JavaScript Debug.array.html" />
@@ -431,16 +341,19 @@
       <workItem from="1564309146013" duration="5507000" />
       <workItem from="1564362633737" duration="636000" />
       <workItem from="1564365327649" duration="957000" />
+      <workItem from="1565351867200" duration="861000" />
+      <workItem from="1565426909544" duration="28000" />
+      <workItem from="1565744803322" duration="53000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34691000" />
+    <option name="totallyTimeSpent" value="35633000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="211" y="1432" width="1936" height="1096" extended-state="6" />
+    <frame x="-7" y="-7" width="2080" height="1176" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14383562" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.25024778" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="Image Layers" order="3" />
@@ -612,15 +525,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/day04/预解析.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2688">
+        <state relative-caret-position="3072">
           <caret line="96" column="43" selection-start-line="96" selection-start-column="42" selection-end-line="96" selection-end-column="43" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/day04/预解析分段的问题的局部作用域的问题.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" column="11" lean-forward="true" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+        <state relative-caret-position="160">
+          <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day05/自定义构造函数创建对象.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day05/判断输入的是不是数字.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day05/test.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day05/如何创建多个对象.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="512">
+          <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
         </state>
       </provider>
     </entry>

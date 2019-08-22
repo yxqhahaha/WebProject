@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>13-兄弟节点</title>
+    <style>
+
+    </style>
+</head>
+<body>
+    <div>我是div</div>
+    <span>test span</span>
+
+    <script>
+        let div = document.querySelector('div');
+
+        // nextSibling  下一个兄弟节点 包含元素节点 文本节点  找不到返回null
+        // 、、previousSibling 上一个兄弟节点
+        console.log(div.nextSibling);   //#text
+        console.log(div.previousSibling);   //#text
+        //下一个元素节点  找不到返回 null   IE9以上  为了解决兼容性问题  可以封装一个函数
+        console.log(div.nextElementSibling);
+        let span = document.querySelector('span');
+        console.log(span.previousElementSibling);
+
+        //封装函数
+        function getNextElementSibling(element) {
+            let el = element;
+            while(el = el.nextSibling){     //真nm神奇
+                if(el.nodeType === 1){
+                    return el;
+                }
+            }
+            return null;
+        }
+
+        console.log('div的兄弟节点'+ getNextElementSibling(div));
+        console.log(getNextElementSibling(div));    //<span>test span</span>
+    </script>
+</body>
+</html>

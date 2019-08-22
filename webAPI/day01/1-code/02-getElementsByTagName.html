@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>02-getElementsByTagName</title>
+    <style>
+
+    </style>
+</head>
+<body>
+<ul>
+    <li>生而知之</li>
+    <li>生而知之</li>
+    <li>生而知之2</li>
+    <li>生而知之</li>
+    <li>生而知之</li>
+</ul>
+<ul id="ci">
+    <li>比翼连枝当日愿</li>
+    <li>比翼连枝当日愿</li>
+    <li>比翼连枝当日愿2</li>
+    <li>比翼连枝当日愿</li>
+    <li>比翼连枝当日愿</li>
+</ul>
+<script>
+    //返回的是获取过来的元素对象的集合 以伪数组的形式存储
+    let v = document.getElementsByTagName('li');
+    console.log(v); //HTMLCollection(5) [li, li, li, li, li]
+    console.log(v[2]);
+    //依次打印里面的元素对象
+    for (let i = 0; i < v.length; i++) {
+        console.log(v[i]);
+    }
+
+    console.log('------------------');
+    //element.getElementsByTagName();  可以得到这个元素里面的某些标签
+    let ci = document.getElementById('ci');
+    let ciContent = ci.getElementsByTagName('li');
+    console.log(ciContent);
+    for (let i = 0; i < ciContent; i++) {
+        console.log(ciContent[i]);
+    }
+    // for (let key in ciContent){
+    //     console.log(ciContent[key]);
+    // }
+
+</script>
+</body>
+</html>

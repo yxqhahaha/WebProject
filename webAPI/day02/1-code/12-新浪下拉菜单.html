@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>12-新浪下拉菜单</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            background-color: #e0e0e0;
+        }
+        ul {
+            list-style: none;
+        }
+        a {
+            text-decoration: none;
+            outline: none;
+            color: #222;
+        }
+        .tab-head {
+            width: 300px;
+            display: block;
+            margin: 10px auto;
+        }
+        .tab-head>li {
+            float: left;
+            width: 100px;
+            height: 30px;
+            line-height: 30px;
+            background-color: rgba(255, 61, 29, 0.22);
+            font-size: 16px;
+            text-align: center;
+        }
+        .tab-head>li:hover {
+            background-color: #ffe480;
+        }
+        .items li {
+            background-color: #fff;
+            font-size: 14px;
+        }
+        .items li:hover {
+            background-color: rgba(255, 231, 82, 0.49);
+        }
+    </style>
+</head>
+<body>
+    <ul class="tab-head">
+        <li>
+            <a href="#">微博</a>
+            <ul class="items">
+                <li>
+                    <a href="#">私信</a>
+                </li>
+                <li>
+                    <a href="#">评论</a>
+                </li>
+                <li>
+                    <a href="#">@我</a>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <a href="#">博客</a>
+            <ul class="items">
+                <li>
+                    <a href="#">我的博客</a>
+                </li>
+                <li>
+                    <a href="#">评论</a>
+                </li>
+                <li>
+                    <a href="#">@我</a>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <a href="#">邮箱</a>
+            <ul class="items">
+                <li>
+                    <a href="#">QQ邮箱</a>
+                </li>
+                <li>
+                    <a href="#">评论</a>
+                </li>
+                <li>
+                    <a href="#">@我</a>
+                </li>
+            </ul>
+        </li>
+    </ul>
+
+    <script>
+        //获取元素
+        let tab_head = document.querySelector('.tab-head');
+        let lis = tab_head.children;    //得到三个小li
+        //先隐藏
+        for (let i = 0; i < lis.length; i++) {
+            lis[i].children[1].style.display = 'none'
+        }
+        for (let i = 0; i < lis.length; i++) {
+            //设置鼠标经过事件
+            lis[i].onmouseover = function () {
+                //让li里面的ul显示
+                this.children[1].style.display = 'block';
+            }
+            //设置鼠标离开事件
+            lis[i].onmouseout = function () {
+                //让li里面的ul显示
+                this.children[1].style.display = 'none';
+            }
+        }
+    </script>
+</body>
+</html>

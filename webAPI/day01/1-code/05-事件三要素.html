@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>05-事件三要素</title>
+    <style>
+
+    </style>
+</head>
+<body>
+    <button id="btn">那个人好像条狗啊</button>
+    <script>
+        //点击按钮，弹出对话框
+        // 1.事件是有三部分组成 ： 事件源 事件类型 事件处理程序
+        // 事件源 事件被触发的对象 谁  按钮
+        let btn = document.getElementById('btn');
+        //事件类型  如何触发 什么事件 鼠标点击（onclick）还是鼠标经过  还是键盘按下
+        //事件处理程序  通过一个函数赋值的方式 完成
+        btn.onclick = function () {
+            alert('clicked btn');
+        };
+    </script>
+</body>
+</html>

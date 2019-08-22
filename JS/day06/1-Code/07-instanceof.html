@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>07-instanceof</title>
+    <style>
+
+    </style>
+</head>
+<body>
+<script>
+    var arr = [1,2,3];
+    var arr2 = new Array(1,2,3);
+    var obj = {};
+    console.log(arr instanceof Array);
+    console.log(arr2 instanceof Array);
+    console.log(obj instanceof Array);
+    console.log(obj instanceof Object);
+
+    // >ie9
+    console.log(Array.isArray(arr));
+    console.log(Array.isArray(obj));
+</script>
+</body>
+</html>

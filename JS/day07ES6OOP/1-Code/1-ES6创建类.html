@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>1-ES6创建类</title>
+    <script>
+
+        //创建类
+        class Star {
+            constructor(uname, age) {
+                this.uname = uname; //默认创建了一个成员属性
+                this.age = age;
+            }
+            sing() {
+                console.log(this.uname + 'singsong');
+            }
+        }
+
+        //实例化
+        let ldh = new Star('刘德华');
+        console.log(ldh.uname); //刘德华
+        ldh.sing();
+        console.log(ldh);   //Star {uname: "刘德华"}
+    </script>
+</head>
+<body>
+
+</body>
+</html>

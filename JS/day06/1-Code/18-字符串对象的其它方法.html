@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>18-字符串对象的其它方法</title>
+    <script>
+        let str1 = 'itcast buhaowan';
+        //替代字符 replace('被替换的字符', '要替换的字符')
+        console.log(str1.replace('buhao','aaa')); //不改变原数组 返回一个新的数组
+        console.log(str1);
+        while(str1.indexOf('a') !== -1){
+            str1 = str1.replace('a','h');
+        }
+        console.log(str1);  //itchst buhhowhn
+
+        //字符串转为数组 split('分隔符')
+        console.log(str1.split('h'));   //["itc", "st bu", "", "ow", "n"]
+
+        // toUpperCase() //转换大写
+        // toLowerCase()    //转换小写
+    </script>
+</head>
+<body>
+
+</body>
+</html>

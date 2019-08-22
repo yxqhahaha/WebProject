@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>03-H5新增获取元素方式</title>
+    <style>
+
+    </style>
+</head>
+<body>
+    <div class="box">box</div>
+    <div class="box">box</div>
+    <div id="nav">
+        <ul>
+            <li>index</li>
+            <li>production</li>
+        </ul>
+    </div>
+
+<script>
+    //getElementsByClassName 根据类名获得某些元素
+    let box = document.getElementsByClassName('box');
+    console.log(box);   //HTMLCollection(2) [div.box, div.box]
+    for (let key in box){
+        console.log(box[key]);  //<div class="box">box</div>  <div class="box">box</div>
+    }
+
+    //querySelector 返回指定选择器的第一个元素对象
+    let firstBox = document.querySelector('.box');
+    console.log(firstBox);  //<div class="box">box</div>
+
+    let nav = document.querySelector('#nav');
+    console.log(nav);
+    /* output
+        <div id="nav">
+            <ul>
+                <li>index</li>
+                <li>production</li>
+            </ul>
+        </div>
+    */
+
+    //  找到第一个li
+    let li = document.querySelector('li');
+    console.log(li);    //<li>index</li>
+
+    //根据指定的选择器返回所有的
+    let liAll = document.querySelectorAll('li');
+    console.log(liAll);
+    /* output
+        NodeList(2) [li, li]0: li1: lilength: 2__proto__: NodeList
+    */
+</script>
+</body>
+</html>

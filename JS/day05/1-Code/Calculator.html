@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+    <script>
+        //循环执行标志
+        let flag = true;
+        while (flag) {
+            //菜单显示
+            let item = prompt('欢迎使用简易计算器：\n  1.加法计算器；\n  2.减法计算器；\n  3.乘法计算器；\n  4.除法计算器；\n  5.退出；\n请输入你的选择');
+
+            //操作选项
+            switch (item) {
+                case '1':
+                    addition();
+                    break;
+                case '2':
+                    subtraction();
+                    break;
+                case '3':
+                    multiplication();
+                    break;
+                case '4':
+                    division();
+                    break;
+                case '5':
+                    flag = false;
+                    break;
+                default:
+                    alert('输入错误请重新输入');
+                    break;
+            }
+        }
+
+        /*********************
+        *       封 装
+        **********************/
+        //加法  考虑字符串拼接
+        function addition() {
+            let x = prompt('请输入加数x:');
+            let y = prompt('请输入被加数y:');
+            alert(x + ' + ' + y + ' = ' + (parseInt(x) + parseInt(y)));
+        }
+
+        //减法
+        function subtraction() {
+            let x = prompt('请输入减数x:');
+            let y = prompt('请输入被减数y:');
+            alert(x + ' - ' + y + ' = ' + (x - y));
+        }
+
+        //乘法
+        function multiplication() {
+            let x = prompt('请输入乘数x:');
+            let y = parseInt(prompt('请输入被乘数y:'));
+            alert(x + ' x ' + y + ' = ' + (x * y));
+        }
+
+        //除法
+        function division() {
+            let x = prompt('请输入除数x:');
+            let y = prompt('请输入被除数y:');
+            alert(x + ' / ' + y + ' = ' + (x / y));
+        }
+
+    </script>
+
+
+</head>
+<body>
+
+</body>
+</html>
+
+<!--
+/*  也可以用if来做  或者if..elseif
+    if(item === 1){
+        //jia
+    }
+    if(item === 2) {
+        //jian
+    }
+    if(item === 1){
+        //cheng
+    }
+    if(item === 2) {
+        //chu
+    }
+    if(item  === 5)
+        flag = false; //break;
+*/
+-->

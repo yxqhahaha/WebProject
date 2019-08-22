@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>14-查找字符串中某个字符出现的次数</title>
+    <script>
+        let str1 = "werasfdasdgasradf";
+        let index = str1.indexOf('a');  //查找到出现第一次的索引  找不到则为-1
+        let flag = 0;
+        while(index !== -1){
+            //  上面没有找到索引 那么就不会进while flag = 0
+            //找到了就说明有要查找的元素  所以flag先++
+            flag ++;
+            //继续查找  索引位置+1
+            index = str1.indexOf('a',index + 1)
+        }
+
+        console.log(flag)
+    </script>
+</head>
+<body>
+
+</body>
+</html>

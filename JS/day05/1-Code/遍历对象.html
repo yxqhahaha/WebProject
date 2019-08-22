@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>useConstructorCreateObj</title>
+    <script>
+        var hero = function (name, type, blood, attactPattern) {
+            this.hname = name;
+            this.htype = type;
+            this.hblood = blood;
+            this.attactPattern = attactPattern;
+            this.toString = function () {
+                console.log('英雄名 ：' + this.hname + '  英雄类型：' + this.htype + '  血量：' + this.hblood + '  攻击方式：' + this.attactPattern);
+            }
+        };
+
+        var lianPo = new hero('廉颇', '力量型', '500','近战');
+        var houYi = new hero('后羿', '射手型', '1000','远程');
+        lianPo.toString();
+        lianPo.prototype.laojia ='buzhidao';
+        lianPo.laojia = 'buzhidao';
+        console.log(lianPo.laojia);
+        houYi.toString();
+
+        //遍历对象
+        //对象里面的属性无序的 不能用传统的for循环来遍历对象的属性
+        // for(变量 in 对象)
+        for(var k in lianPo){
+            // console.log(k); // k 变量 输出的是属性名
+            // hhname
+            // htype
+            // hblood
+            // attactPattern
+            // toString
+            console.log(lianPo[k]); //正确的格式
+            // 廉颇
+            // 力量型
+            // 500
+            // 近战
+            // ƒ () {
+            //     console.log('英雄名 ：' + this.hname + '  英雄类型：' + this.htype + '  血量：' + this.hblood + '  攻击方式：' + this.attactPattern);
+            // }
+        }
+    </script>
+</head>
+<body>
+
+</body>
+</html>
